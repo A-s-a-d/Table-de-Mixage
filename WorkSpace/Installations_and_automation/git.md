@@ -72,7 +72,7 @@ Maintenant on peux travailler dans c'est répertoires, avec un projet que vous p
 `git commit -m "COMMENTAIRE_POUR_COMMIT" `
 
 ### push : faire un 'push' vers origin : 
-` git push origin Linux_backup `
+` git push origin BRANCH_NAME`
 
 ### branch : verifier la branche actuelle :
 `git branch`
