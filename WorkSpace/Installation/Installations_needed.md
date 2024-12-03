@@ -5,7 +5,7 @@
 > Includes gcc, g++ and cmake
 `sudo apt install build-essential`
 
-## gdb (not sure but might be usefull for debugging)
+## gdb (not sure but might be useful for debugging)
 `sudo apt install gdb`
 
 ## vscode for code editing
