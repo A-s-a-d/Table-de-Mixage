@@ -1,4 +1,7 @@
+MemberFilterActionGroup.COutlineViewer.2=true
+MemberFilterActionGroup.COutlineViewer.4=true
 eclipse.preferences.version=1
+scalability.reconciler=false
 spelling_locale=en_GB
 spelling_locale_initialized=true
 useAnnotationsPrefPage=true
