@@ -1,0 +1,82 @@
+Configuration	INITIALIZATION
+STM32CubeMX 	6.13.0
+Date	12/06/2024
+MCU	STM32L432KCUx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN5 Single-ended	ADC1_IN5	PA0
+ADC1	IN6 Single-ended	ADC1_IN6	PA1
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN (PC14)
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT (PC15)
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14 (JTCK-SWCLK)
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13 (JTMS-SWDIO)
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC14-OSC32_IN (PC14)	RCC_OSC32_IN	
+3	PC15-OSC32_OUT (PC15)	RCC_OSC32_OUT	
+6	PA0	ADC1_IN5	
+7	PA1	ADC1_IN6	
+8	PA2	USART2_TX	
+9	PA3	USART2_RX	
+23	PA13 (JTMS-SWDIO)	SYS_JTMS-SWDIO	
+24	PA14 (JTCK-SWCLK)	SYS_JTCK-SWCLK	
+26	PB3 (JTDO-TRACESWO)	GPIO_Output	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN5 Single-ended	ADC1_IN5	PA0
+ADC1	IN6 Single-ended	ADC1_IN6	PA1
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN (PC14)
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT (PC15)
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14 (JTCK-SWCLK)
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13 (JTMS-SWDIO)
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC14-OSC32_IN (PC14)	RCC_OSC32_IN	
+3	PC15-OSC32_OUT (PC15)	RCC_OSC32_OUT	
+6	PA0	ADC1_IN5	
+7	PA1	ADC1_IN6	
+8	PA2	USART2_TX	
+9	PA3	USART2_RX	
+23	PA13 (JTMS-SWDIO)	SYS_JTMS-SWDIO	
+24	PA14 (JTCK-SWCLK)	SYS_JTCK-SWCLK	
+26	PB3 (JTDO-TRACESWO)	GPIO_Output	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : INITIALIZATION
+Project Folder : C:\Users\asad1\OneDrive\Documentos\GitHub\Table-de-Mixage\INITIALIZATION
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_L4 V1.18.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

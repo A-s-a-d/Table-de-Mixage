@@ -2,11 +2,12 @@
 ADC1.Channel-0\#ChannelRegularConversion=ADC_CHANNEL_5
 ADC1.Channel-2\#ChannelRegularConversion=ADC_CHANNEL_6
 ADC1.CommonPathInternal=null|null|null|null
+ADC1.DMAContinuousRequests=ENABLE
 ADC1.EOCSelection=ADC_EOC_SINGLE_CONV
 ADC1.EnableAnalogWatchDog1=false
 ADC1.EnableInjectedConversion=DISABLE
 ADC1.ExternalTrigConv=ADC_EXTERNALTRIG_T1_TRGO
-ADC1.IPParameters=Rank-0\#ChannelRegularConversion,Channel-0\#ChannelRegularConversion,SamplingTime-0\#ChannelRegularConversion,OffsetNumber-0\#ChannelRegularConversion,NbrOfConversionFlag,NbrOfConversion,Rank-2\#ChannelRegularConversion,Channel-2\#ChannelRegularConversion,SamplingTime-2\#ChannelRegularConversion,OffsetNumber-2\#ChannelRegularConversion,Resolution,EnableInjectedConversion,EOCSelection,Overrun,EnableAnalogWatchDog1,ExternalTrigConv,master,CommonPathInternal
+ADC1.IPParameters=Rank-0\#ChannelRegularConversion,Channel-0\#ChannelRegularConversion,SamplingTime-0\#ChannelRegularConversion,OffsetNumber-0\#ChannelRegularConversion,NbrOfConversionFlag,NbrOfConversion,Rank-2\#ChannelRegularConversion,Channel-2\#ChannelRegularConversion,SamplingTime-2\#ChannelRegularConversion,OffsetNumber-2\#ChannelRegularConversion,Resolution,EnableInjectedConversion,EOCSelection,Overrun,EnableAnalogWatchDog1,ExternalTrigConv,master,DMAContinuousRequests,CommonPathInternal
 ADC1.NbrOfConversion=2
 ADC1.NbrOfConversionFlag=1
 ADC1.OffsetNumber-0\#ChannelRegularConversion=ADC_OFFSET_NONE

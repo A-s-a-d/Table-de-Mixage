@@ -48,6 +48,9 @@ TIM_HandleTypeDef htim1;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
+#define Buflen 2
+volatile uint16_t dmaBuffer[Buflen];
+
 
 /* USER CODE END PV */
 
@@ -101,7 +104,14 @@ int main(void)
   MX_TIM1_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+
   HAL_TIM_Base_Start_IT(&htim1);
+  HAL_ADC_Start_DMA(&hadc1, (uint32_t*)dmaBuffer, Buflen);
+
+  // HAL_ADC_Start_IT(&hadc1); // not use this in DMA mode
+
+
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -198,7 +208,7 @@ static void MX_ADC1_Init(void)
   hadc1.Init.DiscontinuousConvMode = DISABLE;
   hadc1.Init.ExternalTrigConv = ADC_EXTERNALTRIG_T1_TRGO;
   hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_RISING;
-  hadc1.Init.DMAContinuousRequests = DISABLE;
+  hadc1.Init.DMAContinuousRequests = ENABLE;
   hadc1.Init.Overrun = ADC_OVR_DATA_OVERWRITTEN;
   hadc1.Init.OversamplingMode = DISABLE;
   if (HAL_ADC_Init(&hadc1) != HAL_OK)
@@ -366,9 +376,22 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
 	 if (htim->Instance == TIM1)
 	 {
-		 HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_3);
+		 //HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_3);
 	 }
  }
+
+
+ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc)
+{
+  /* Prevent unused argument(s) compilation warning */
+  UNUSED(hadc);
+  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_3);
+
+  /* NOTE : This function should not be modified. When the callback is needed,
+            function HAL_ADC_ConvCpltCallback must be implemented in the user file.
+   */
+}
+
 /* USER CODE END 4 */
 
 /**
