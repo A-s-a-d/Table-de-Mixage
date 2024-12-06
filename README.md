@@ -39,20 +39,38 @@ La liste des fonctionnalités a mettre dans le programme :
 - [x] 2 ranks : 1/ channel > Sampling time > 6.5 cycles
 #### 2.2 : Timer : 
 - [x] Timer 1
-- [ ] Frequence : 44 kHz : ~22µs > 45.45 kHz : 
-    > f_input = 80MHz
-    
-
-    $
-    ( T_{\text{output}} = \frac{1}{f_{\text{output}}} \quad \Rightarrow \quad f_{\text{output}} = \frac{1}{22 \times 10^{-6}} \approx 45.45 \, \text{kHz} \)
-
-    $
-    
-- [x] ![alt text](image-2.png)
 - [x] Configuration de la fréquence d’échantillonnage.
-- [ ] Gestion des interruptions ou DMA (Direct Memory Access) (avec buffer circulaire(?)) pour un transfert rapide des données ADC.
-- [ ] Test des données pour vérifier la conversion analogique-numérique.
-    > peut-être avec potentiomètre(?)
+  - [x] Frequence : 44 kHz : ~22µs > 45.45 kHz : 
+    > f_input = 80MHz
+
+    > $`  T_{\text{output}} = \frac{1}{f_{\text{output}}} \quad \Rightarrow \quad f_{\text{output}} = \frac{1}{22 \times 10^{-6}} \approx 45.45 \, \text{kHz} `$
+    
+    > `ARR : AutoReload Register` pour **45.45 kHz**:
+    
+    > $` ARR = \frac{80 \times 10^6}{45.45 \times 10^3} - 1 `$
+    
+    > $` ARR = 1759 `$
+    > ![alt text](image-2.png)
+- [x] NVIC setting > TIM1 Update interrupt.
+
+#### 2.3. DMA :
+
+  <a href="url"><img src="image-3.png" align="center" height="50%" width="50%" ></a>
+  
+
+#### 2.4. Test pour vérifier la conversion analogique-numérique.
+  > peut-être avec potentiomètre. 
+
+  >Test Valid : 
+
+  > Sortie PB3 Toggle a chaque conversion : 22.8 kHz * 2 = 45.6 kHz 
+  
+  <a href="url"><img src="image-6.png" align="center" height="50%" width="51%" ></a>
+
+  ![alt text](image-4.png)
+
+  <a href="url"><img src="image-5.png" align="center" height="50%" width="51.5%" ></a>
+  
 
 
 ### 3. Traitement des données

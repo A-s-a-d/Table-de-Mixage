@@ -40,3 +40,10 @@ Finished building: default.size.stdout
  
 Finished building: INITIALIZATION.list
  
+12:52:58 **** Incremental Build of configuration Debug for project INITIALIZATION ****
+make -j8 all 
+arm-none-eabi-size  INITIALIZATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19700	     12	   1956	  21668	   54a4	INITIALIZATION.elf
+Finished building: default.size.stdout
+ 
