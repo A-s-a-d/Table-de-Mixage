@@ -1177,3 +1177,6 @@
 2024-12-06 12:17:38,565 [INFO] ADCParametersView:116 -                Rank 1 : true
 2024-12-06 12:17:38,565 [INFO] ADCParametersView:116 -                Rank 2 : true
 2024-12-06 12:49:54,034 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,755x557,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-12-06 13:08:40,321 [INFO] WebApp:389 - JxBrowser engine has been closed 
+2024-12-06 13:08:40,321 [INFO] WebAppUi:493 - JxBrowser engine has been closed 
+2024-12-06 13:08:40,321 [INFO] WebAppUi:530 - Close the Jxbrowser engine manually
