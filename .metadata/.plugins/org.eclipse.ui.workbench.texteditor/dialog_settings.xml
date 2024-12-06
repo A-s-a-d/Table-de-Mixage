@@ -8,6 +8,8 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="DMA1_Channel1_IRQHandler"/>
+			<item value="TIM_TRGO_UPDATE"/>
 			<item value="__HAL_RCC_TIM1_CLK"/>
 			<item value="__HAL_RCC_TIM1_CLK_ENABLE();&#x0A;"/>
 			<item value="HAL_NVIC_SetPriority"/>
