@@ -8,22 +8,48 @@ Nous avons décidé de choisir un STM32-Nucleo-L432KC qui était deja disponible
 La liste des fonctionnalités a mettre dans le programme :
 
 ### 1. Initialisation du système
-- [ ] Initialisations des pins importants (SWDIO, SWCLK ...etc) en mode défaut
-- [ ] Clock Configuration (RCC, HSE, PLL, etc.).
-- [ ] Mise en place d’un gestionnaire d’interruptions (si nécessaire, NVIC & EXTI....).
-- [ ] Initialisation du GPIO pour tous les ports utilisés : 
-  - LED3 : 
-  - 2 * ADC
-  - .... 
-- [ ] Test initial pour s’assurer que la carte est correctement alimentée et fonctionnelle 
-  - par exemple, faire clignoter LED3 sur la carte 
+- [x] Initialisations des pins importants (SWDIO, SWCLK ...etc) 
+  - [x] RCC In & Out : PC14 & PC15 
+  - [X] ADC1_IN5 : PA0
+  - [x] ADC1_IN6 : PA1
+  - [x] GPIO_OUT : PB3 : LED3  
+  - [x] SWDIO & SWCLK > Debug - Serial Wire : PA14 & PA13
+  - [x] USART2 Async: PA2; PA3
+- [x] Clock Configuration (RCC, HSE, PLL, etc.).
+  - [x] Clock config : ![alt text](image-1.png)
+- [x] Mise en place d’un gestionnaire d’interruptions (si nécessaire, NVIC & EXTI....).
+  - [x] RCC global interrupt
+  - [x] TIM1 Update Event
+
+- [x] Test initial pour s’assurer que la carte est correctement alimentée et fonctionnelle 
+  - [x] par exemple, faire clignoter LED3 sur la carte 
     > Programme blink 
 ### 2. Configuration de l'ADC (Analog-to-Digital Converter)
-- [ ] Choix de la résolution de l'ADC (8, 10, 12 bits).
-- [ ] Sélection des canaux d'entrée 
-- [ ] Mise en place d'un mode continu ou discontinu selon le besoin.
-- [ ] - [ ] Gestion de Timer pour conversion(?)
-- [ ] Configuration de la fréquence d’échantillonnage.
+#### 2.1. ADC : 
+- [x] ADC : ADC1
+- [x] CLK : Async clk / 1
+- [x] Résolution de l'ADC :  12 bits
+- [x] Canaux d'entrée : IN5 & IN6
+- [x] Mode : Scan Conversion Mode
+- [x] DMA : DMA Continuous Request
+- [x] Overrun behavior : Overrun data overwritten 
+- [x] Regular Conversion Enable
+- [x] Number of Conversion : 2 : 1 par channel
+- [x] External Trigger : TIM1 Trigger out event > on rising edge
+- [x] 2 ranks : 1/ channel > Sampling time > 6.5 cycles
+#### 2.2 : Timer : 
+- [x] Timer 1
+- [ ] Frequence : 44 kHz : ~22µs > 45.45 kHz : 
+    > f_input = 80MHz
+    
+
+    $
+    ( T_{\text{output}} = \frac{1}{f_{\text{output}}} \quad \Rightarrow \quad f_{\text{output}} = \frac{1}{22 \times 10^{-6}} \approx 45.45 \, \text{kHz} \)
+
+    $
+    
+- [x] ![alt text](image-2.png)
+- [x] Configuration de la fréquence d’échantillonnage.
 - [ ] Gestion des interruptions ou DMA (Direct Memory Access) (avec buffer circulaire(?)) pour un transfert rapide des données ADC.
 - [ ] Test des données pour vérifier la conversion analogique-numérique.
     > peut-être avec potentiomètre(?)
