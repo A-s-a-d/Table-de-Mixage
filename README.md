@@ -4,6 +4,33 @@ Pour notre Table de Mixage nous avons besoins de convertir les signal analogique
 - ADC Externe contrôlé par notre Raspberry.
 - Un microcontrôleur qui a un ADC donc on utilise ça pour traiter les données et les envoyer a notre Raspberry.
 
+
+# Conditionnement de signal
+
+## 1. Test Micro
+On fait des mesures de tension sur notre  signale de micro.
+| fentrée | Vppmicro_mV |
+| ------- | ----------- |
+| 100     | 2.5         |
+| 200     | 4           |
+| 300     | 5.5         |
+| 400     | 8           |
+| 500     | 9.5         |
+| 1000    | 11          |
+| 2000    | 26          |
+| 3000    | 40          |
+| 4000    | 77          |
+| 5000    | 230         |
+| 6000    | 55          |
+| 7000    | 20          |
+| 8000    | 14.5        |
+| 10000   | 17          |
+
+![alt text](image-7.png)
+
+[lien vers Excel](https://1drv.ms/x/c/44e5248c228d5751/ETUEaSnJRSJNqgbVf3nIVEgBYADid3KxOARgrQHJ6OK-Tg?e=khQeDF)
+
+# Conversion Analogique Numerique
 Nous avons décidé de choisir un STM32-Nucleo-L432KC qui était deja disponible.
 La liste des fonctionnalités a mettre dans le programme :
 
