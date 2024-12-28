@@ -13,7 +13,6 @@
 
 ## Presentation
 - ### Soutenance Avant Projet : [lien](PRESENTATION/Soutenance_1_Avant_projet.pptx)
-- ### Soutenance Avant Projet : [lien](PRESENTATION/Presentation_Anglais_1.pptx)
 
 
 ## Liste de Materiel 
