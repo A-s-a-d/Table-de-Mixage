@@ -10,7 +10,7 @@ Cette partie de Projet est sur le conditionnement de ces signaux pour avoir un s
 
 Deux types de signaux sont possibles : 
 - Amplifié niveau ligne $1.414 Vpk$
-![](Images\Line_levels.svg)
+![ss](Images\Line_levels.svg)
 ![alt text](Images/LineLevel.png)
 - Non Amplifié ( entre niveau micro et niveau ligne)
 
