@@ -7,17 +7,14 @@
 - ### Dossier de Planification : [lien](PLANIFICATION/DossierPlanificationV2.pdf)
 - ### GANTT : [lien](PLANIFICATION/Gantt_V2.pdf)
 
-## Schemas
-- ### Diagramme Bête à cornes : ![img](SCHEMAS/Block_Diagram_FR.drawio)
 
 ## Schemas
-- ### Diagramme Bête à cornes :
-  [Ouvrir avec Diagrams.net](https://app.diagrams.net/?url=https://github.com/<TON_REPO>/blob/main/SCHEMAS/Block_Diagram_FR.drawio)
-
-## Schemas
-- ### Diagramme Bête à cornes :
-  Le fichier peut être visualisé ou édité avec [Diagrams.net](https://app.diagrams.net/). Téléchargez-le depuis le dépôt : [Block_Diagram_FR.drawio](SCHEMAS/Block_Diagram_FR.drawio).
+  Les fichier peut être visualisés ou édités avec [Diagrams.net](https://app.diagrams.net/). Téléchargez-le depuis le dépôt : [Block_Diagram_FR.drawio](SCHEMAS/).
 
 ## Presentation
+- ### Soutenance Avant Projet : [lien](PRESENTATION/Soutenance_1_Avant_projet.pptx)
+- ### Soutenance Avant Projet : [lien](PRESENTATION/Presentation_Anglais_1.pptx)
 
-## Liste de Materiel
+
+## Liste de Materiel 
+<iframe src="https://1drv.ms/x/c/44e5248c228d5751/IQTcsU5UQ6ytS6JNGEA9P9Z7AbMvuX5bGMovtNKDWla5wyM" width="402" height="346" frameborder="0" scrolling="no"></iframe>
