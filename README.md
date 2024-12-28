@@ -8,7 +8,7 @@
 - ### GANTT : [lien](PLANIFICATION/Gantt_V2.pdf)
 
 ## Schemas
-- ### Diagramme Bête à cornes : ![img](SCHEMAS/Block_Diagram_FR.drawio)
+- ### Diagramme Bête à cornes : ![img](SCHEMAS/Block_Diagram_FR.drawio.png)
 
 ## Presentation
 
