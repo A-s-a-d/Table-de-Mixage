@@ -18,18 +18,8 @@
 
 ## Liste de Materiel 
 
-<iframe src="https://1drv.ms/x/c/44e5248c228d5751/IQTcsU5UQ6ytS6JNGEA9P9Z7AbMvuX5bGMovtNKDWla5wyM" width="402" height="346" frameborder="0" scrolling="no"></iframe>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liste de Materiel</title>
-</head>
-<body>
+<div>
     <iframe src="https://1drv.ms/x/c/44e5248c228d5751/IQTcsU5UQ6ytS6JNGEA9P9Z7AbMvuX5bGMovtNKDWla5wyM" 
             width="402" height="346" frameborder="0" scrolling="no">
     </iframe>
-</body>
-</html>
+</div>
