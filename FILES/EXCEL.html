@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liste de Matériel</title>
+    <style>
+        iframe {
+            width: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <iframe src="https://1drv.ms/x/c/44e5248c228d5751/IQTcsU5UQ6ytS6JNGEA9P9Z7AbMvuX5bGMovtNKDWla5wyM"
-            width="1200" height="800" frameborder="0" scrolling="yes">
-    </iframe>
+    <iframe id="iframe" src="https://1drv.ms/x/c/44e5248c228d5751/IQTcsU5UQ6ytS6JNGEA9P9Z7AbMvuX5bGMovtNKDWla5wyM" scrolling="yes"></iframe>
+
+    <script>
+        var iframe = document.getElementById('iframe');
+
+        // Set the iframe height manually based on the window size
+        function adjustIframeHeight() {
+            var height = window.innerHeight; // window height
+            iframe.style.height = height + 'px';
+        }
+
+        // Adjust the iframe height when the page loads and when resizing the window
+        window.onload = adjustIframeHeight;
+        window.onresize = adjustIframeHeight;
+    </script>
 </body>
 </html>
