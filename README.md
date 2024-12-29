@@ -1,3 +1,10 @@
+<style
+  type="text/css">
+h1 {color:red;}
+
+p {color:blue;}
+</style>
+
 
 <!--
 Use this for formatting the image : 
@@ -251,3 +258,4 @@ Ajuster la phase
 ........ UNDER CONSTRUCTION .........
 
 ![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
+
