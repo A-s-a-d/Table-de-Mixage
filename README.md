@@ -9,12 +9,20 @@ $${\color{white}White}$$
 $${\color{yellow}Yellow}$$	
 $${\color{orange}Orange}$$	
 
-<code style="color : green">text</code>
-<code style="color : blue">text</code>
-<code style="color : #0000FF">text</code>
-<code style="color : #FF0000">text</code>
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
 
+> [!TIP]
+> Optional information to help a user be more successful.
 
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
 
 <!--
 Use this for formatting the image : 
