@@ -9,6 +9,13 @@ $${\color{white}White}$$
 $${\color{yellow}Yellow}$$	
 $${\color{orange}Orange}$$	
 
+<code style="color : green">text</code>
+<code style="color : blue">text</code>
+<code style="color : #0000FF">text</code>
+<code style="color : #FF0000">text</code>
+
+
+
 <!--
 Use this for formatting the image : 
   <a href="url"><img src="image.png" align="center" height="50%" width="50%" ></a>
