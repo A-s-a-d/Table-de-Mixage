@@ -39,40 +39,31 @@ Deux types de signaux sont possibles :
 Mesures sur  Micro : 
 On fait des mesures de tension sur notre  signale de micro pour avoir une idée de ce qu'on peux avoir en sortie d'un micro.
 
-.center-table {
-  text-align: center;
-}
-.md-typeset .center-table :is(td,th):not([align]) {
-  text-align: initial; /* Reset alignment for table cells */
-}
-<div class="center-table" markdown>
 
-|  Method  |   Description   |
-| :------: | :-------------: |
-|  `GET`   | Fetch resource  |
-|  `PUT`   | Update resource |
-| `DELETE` | Delete resource |
 
-</div>
+<div align="center">
 
-| $f_{\text{entrée}}[Hz]$ | $Vpp_{\text{micro}}[mV]$ |
-| ----------------------- | ------------------------ |
-| 100                     | 2.5                      |
-| 200                     | 4                        |
-| 300                     | 5.5                      |
-| 400                     | 8                        |
-| 500                     | 9.5                      |
-| 1000                    | 11                       |
-| 2000                    | 26                       |
-| 3000                    | 40                       |
-| 4000                    | 77                       |
-| 5000                    | 230                      |
-| 6000                    | 55                       |
-| 7000                    | 20                       |
-| 8000                    | 14.5                     |
-| 10000                   | 17                       |
+
+   | $f_{\text{entrée}}[Hz]$ | $Vpp_{\text{micro}}[mV]$ |
+   | :---------------------: | :----------------------: |
+   |           100           |           2.5            |
+   |           200           |            4             |
+   |           300           |           5.5            |
+   |           400           |            8             |
+   |           500           |           9.5            |
+   |          1000           |            11            |
+   |          2000           |            26            |
+   |          3000           |            40            |
+   |          4000           |            77            |
+   |          5000           |           230            |
+   |          6000           |            55            |
+   |          7000           |            20            |
+   |          8000           |           14.5           |
+   |          10000          |            17            |
+
 
 ![alt text](Images/Micro_output.png)
+</div>
 
 > [lien vers Excel](https://1drv.ms/x/c/44e5248c228d5751/ETUEaSnJRSJNqgbVf3nIVEgBYADid3KxOARgrQHJ6OK-Tg?e=khQeDF)
 
