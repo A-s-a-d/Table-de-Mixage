@@ -9,6 +9,10 @@ $${\color{white}White}$$
 $${\color{yellow}Yellow}$$	
 $${\color{orange}Orange}$$	
 ```
+https://en.wikibooks.org/wiki/LaTeX/Colors#Adding_the_color_package
+
+https://en.wikibooks.org/wiki/LaTeX/Mathematics#Color
+
 $${\color{red}Red}$$
 $${\color{green}Green}$$
 $${\color{lightgreen}Light \space Green}$$	
@@ -21,6 +25,37 @@ $${\color{orange}Orange}$$
 
 <br></br>
 
+Badges
+```
+[![](https://img.shields.io/badge/github-blue?style=for-the-badge)](https://github.com/hamzamohdzubair/redant)
+[![](https://img.shields.io/badge/book-blueviolet?style=for-the-badge)](https://hamzamohdzubair.github.io/redant/)
+[![](https://img.shields.io/badge/API-yellow?style=for-the-badge)](https://docs.rs/crate/redant/latest)
+[![](https://img.shields.io/badge/Crates.io-orange?style=for-the-badge)](https://crates.io/crates/redant)
+[![](https://img.shields.io/badge/Lib.rs-lightgrey?style=for-the-badge)](https://lib.rs/crates/redant)
+```
+[![](https://img.shields.io/badge/github-blue?style=for-the-badge)](https://github.com/hamzamohdzubair/redant)
+[![](https://img.shields.io/badge/book-blueviolet?style=for-the-badge)](https://hamzamohdzubair.github.io/redant/)
+[![](https://img.shields.io/badge/API-yellow?style=for-the-badge)](https://docs.rs/crate/redant/latest)
+[![](https://img.shields.io/badge/Crates.io-orange?style=for-the-badge)](https://crates.io/crates/redant)
+[![](https://img.shields.io/badge/Lib.rs-lightgrey?style=for-the-badge)](https://lib.rs/crates/redant)
+<br></br>
+
+Using SVG 
+
+```
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125 20" fill="none">
+    <text x="0" y="15" fill="#4285f4">TABLE</text>
+    <text x="45" y="15" fill="#ea4335">DE</text>
+    <text x="65" y="15" fill="#fbbc05">MIXAGE</text>
+</svg>
+```
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125 20" fill="none">
+    <text x="0" y="15" fill="#4285f4">TABLE</text>
+    <text x="45" y="15" fill="#ea4335">DE</text>
+    <text x="65" y="15" fill="#fbbc05">MIXAGE</text>
+</svg>
+
+<br></br>
 
 ```
 > [!NOTE]
@@ -56,6 +91,12 @@ $${\color{orange}Orange}$$
 
 
 <br></br>
+
+
+
+<h3 style="color:#ff0000">Danger</h3>
+
+
 
 
 Use this for formatting the image : 
@@ -101,3 +142,5 @@ or HTML
    <a href="https://github.com/a-s-a-d/Table-de-Mixage/raw/branch/...file.html" download>Download Liste de Matériel</a>
    ```
    <a href="https://github.com/a-s-a-d/Table-de-Mixage/raw/branch/...file.html" download>Download Liste de Matériel</a>
+
+
