@@ -30,6 +30,7 @@ or HTML
 Use this for coloring the text :
    <font color="red">This text is red!</font>
 
+
 -->
 
 <!-- *********** formatting Headings *********** --> 
@@ -44,9 +45,7 @@ $${\color{black}Black}$$	$${\color{black}Black}$$
 $${\color{white}White}$$	$${\color{white}White}$$
 --> 
 
-- [x] #739
-
-
+   <font color="red">This text is red!</font>
 
 ## TOC
 - [Table-de-Mixage :  Conditionnement de signal](#table-de-mixage---conditionnement-de-signal)
@@ -57,15 +56,15 @@ $${\color{white}White}$$	$${\color{white}White}$$
     - [1. Que signifie la synchronisation ?](#1-que-signifie-la-synchronisation)
     - [2. Comment savoir si le retard est exprès ou pas?](#2-comment-savoir-si-le-retard-est-exprès-ou-pas)
     - [3. Alors comment synchroniser les signaux analogiques ou comment les signaux analogiques sont synchronisé généralement?](#3-alors-comment-synchroniser-les-signaux-analogiques-ou-comment-les-signaux-analogiques-sont-synchronisé-généralement)
-  - [4. Filtre Passe Bande](#4-filtre-passe-bande)
-- [5. Module : Detection de Niveau + Adaptation de Niveau](#5-module--detection-de-niveau--adaptation-de-niveau)
-- [6. Indicateur de niveau](#6-indicateur-de-niveau)
-- [7. Selection Voie](#7-selection-voie)
-- [8. Amplification](#8-amplification)
-- [9. Interface utilisateur et retour d’état](#9-interface-utilisateur-et-retour-détat)
-- [10. Sécurité](#10-sécurité)
-- [11. Optimisation et validation finale](#11-optimisation-et-validation-finale)
-- [12. Tests à réaliser pour validation](#12-tests-à-réaliser-pour-validation)
+  - [C. Filtre Passe Bande](#c-filtre-passe-bande)
+- [D. Module : Detection de Niveau + Adaptation de Niveau](#d-module--detection-de-niveau--adaptation-de-niveau)
+- [E. Indicateur de niveau](#e-indicateur-de-niveau)
+- [F. Selection Voie](#f-selection-voie)
+- [G. Amplification](#g-amplification)
+- [H. Interface utilisateur et retour d’état](#h-interface-utilisateur-et-retour-détat)
+- [I. Sécurité](#i-sécurité)
+- [J. Optimisation et validation finale](#j-optimisation-et-validation-finale)
+- [K. Tests à réaliser pour validation](#k-tests-à-réaliser-pour-validation)
 
 # Table-de-Mixage :  Conditionnement de signal 
 
@@ -107,7 +106,7 @@ On fait des mesures de tension sur notre  signale de micro pour avoir une idée 
    |          10000          |            17            |
 
 
-![alt text](Images/Micro_output.png)
+![Micro_output](Images/Micro_output.png)
 </div>
 
 > [lien vers Excel](https://1drv.ms/x/c/44e5248c228d5751/ETUEaSnJRSJNqgbVf3nIVEgBYADid3KxOARgrQHJ6OK-Tg?e=khQeDF)
@@ -120,7 +119,7 @@ Dans les deux cas il faudrait amplifier et mettre un offset sur le signal pour �
 ##  A. Connecteur Entree 
 
 Pour l'instant nous avons decides d'utiliser un connecteur jack 3.5mm avec 3 poles.
-![alt text](Images/Connecteur_Jack_3-5mm.png)
+![Connecteur_Jack_3-5mm](Images/Connecteur_Jack_3-5mm.png)
 
 > lien : [Connecteur Jack 3,5 mm Femelle Lumberg, Montage sur CI, 3 Pôles](https://fr.rs-online.com/web/p/connecteurs-jacks/9092238)
 
@@ -140,10 +139,10 @@ Cohérence de phase :
 Cohérence entre les appareils :
 - Lors des concerts, plusieurs instruments ou sources sonores sont souvent mixés. Ces signaux sont synchronisés pour garantir qu'ils sont joués en synchronisation avec le tempo et le rythme globaux.
 
-<p class="highlight"> 
+
 Dans notre cas :
 Si l'un des instruments commence en retard ou en avance, la musique risque de ne pas sonner comme prévu. Mais dans le cas des signaux analogiques nous n'avons pas le moyen de savoir si l'utilisateur joue délibérément avec retard ou c'est un facteur externe qui ajoute le retard sur les signaux.
-</p>
+
 
 ### 2. Comment savoir si le retard est exprès ou pas?
 > <br> </br>
@@ -188,7 +187,7 @@ Ajuster la phase
 
 
 
-## 4. Filtre Passe Bande
+## C. Filtre Passe Bande
 
 
 ........ UNDER CONSTRUCTION .........
@@ -196,7 +195,7 @@ Ajuster la phase
 ![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
 
 
-# 5. Module : Detection de Niveau + Adaptation de Niveau
+# D. Module : Detection de Niveau + Adaptation de Niveau
 
 
 ........ UNDER CONSTRUCTION .........
@@ -204,7 +203,7 @@ Ajuster la phase
 ![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
 
 
-# 6. Indicateur de niveau
+# E. Indicateur de niveau
 
 
 ........ UNDER CONSTRUCTION .........
@@ -212,7 +211,7 @@ Ajuster la phase
 ![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
 
 
-# 7. Selection Voie
+# F. Selection Voie
 
 
 ........ UNDER CONSTRUCTION .........
@@ -220,7 +219,7 @@ Ajuster la phase
 ![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
 
 
-# 8. Amplification
+# G. Amplification
 
 
 ........ UNDER CONSTRUCTION .........
@@ -228,7 +227,7 @@ Ajuster la phase
 ![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
 
 
-# 9. Interface utilisateur et retour d’état
+# H. Interface utilisateur et retour d’état
    
 
 ........ UNDER CONSTRUCTION .........
@@ -236,7 +235,7 @@ Ajuster la phase
 ![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
 
 
-# 10. Sécurité 
+# I. Sécurité 
 
 
 ........ UNDER CONSTRUCTION .........
@@ -244,7 +243,7 @@ Ajuster la phase
 ![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
 
 
-#  11. Optimisation et validation finale
+#  J. Optimisation et validation finale
 
 
 
@@ -252,7 +251,7 @@ Ajuster la phase
 
 ![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
 
-# 12. Tests à réaliser pour validation
+# K. Tests à réaliser pour validation
 
 
 ........ UNDER CONSTRUCTION .........
