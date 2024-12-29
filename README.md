@@ -39,7 +39,21 @@ Deux types de signaux sont possibles :
 Mesures sur  Micro : 
 On fait des mesures de tension sur notre  signale de micro pour avoir une idée de ce qu'on peux avoir en sortie d'un micro.
 
+.center-table {
+  text-align: center;
+}
+.md-typeset .center-table :is(td,th):not([align]) {
+  text-align: initial; /* Reset alignment for table cells */
+}
+<div class="center-table" markdown>
 
+|  Method  |   Description   |
+| :------: | :-------------: |
+|  `GET`   | Fetch resource  |
+|  `PUT`   | Update resource |
+| `DELETE` | Delete resource |
+
+</div>
 
 | $f_{\text{entrée}}[Hz]$ | $Vpp_{\text{micro}}[mV]$ |
 | ----------------------- | ------------------------ |
