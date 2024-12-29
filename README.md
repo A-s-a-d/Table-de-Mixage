@@ -94,11 +94,6 @@ Using SVG
 
 
 
-<h3 style="color:#ff0000">Danger</h3>
-
-
-
-
 Use this for formatting the image : 
   ```html
   <a href="url"><img src="Images/work-in-progress.png" align="center" height="50%" width="50%" ></a>
