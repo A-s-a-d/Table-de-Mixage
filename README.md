@@ -7,15 +7,22 @@
     - [1. Que signifie la synchronisation ?](#1-que-signifie-la-synchronisation)
     - [2. Comment savoir si le retard est exprès ou pas?](#2-comment-savoir-si-le-retard-est-exprès-ou-pas)
     - [3. Alors comment synchroniser les signaux analogiques ou comment les signaux analogiques sont synchronisé généralement?](#3-alors-comment-synchroniser-les-signaux-analogiques-ou-comment-les-signaux-analogiques-sont-synchronisé-généralement)
-  - [C. Filtre Passe Bande](#c-filtre-passe-bande)
-- [D. Module : Detection de Niveau + Adaptation de Niveau](#d-module--detection-de-niveau--adaptation-de-niveau)
-- [E. Indicateur de niveau](#e-indicateur-de-niveau)
-- [F. Selection Voie](#f-selection-voie)
-- [G. Amplification](#g-amplification)
-- [H. Interface utilisateur et retour d’état](#h-interface-utilisateur-et-retour-détat)
-- [I. Sécurité](#i-sécurité)
-- [J. Optimisation et validation finale](#j-optimisation-et-validation-finale)
-- [K. Tests à réaliser pour validation](#k-tests-à-réaliser-pour-validation)
+  - [C. Entrée haute impedance](#c-entrée-haute-impedance)
+    - [1. Pourquoi?](#1-pourquoi)
+    - [2. Solution circuit suiveur avec AOP :](#2-solution-circuit-suiveur-avec-aop-)
+      - [i. Principe du circuit suiveur avec AOP](#i-principe-du-circuit-suiveur-avec-aop)
+      - [ii. Caractéristiques d'un suiveur](#ii-caractéristiques-dun-suiveur)
+      - [iii. Pourquoi utiliser un suiveur ?](#iii-pourquoi-utiliser-un-suiveur-)
+      - [iv . Montage](#iv--montage)
+  - [D. Filtre en Entrée](#d-filtre-en-entrée)
+  - [E. Module : Detection de Niveau + Adaptation de Niveau](#e-module--detection-de-niveau--adaptation-de-niveau)
+  - [F. Indicateur de niveau](#f-indicateur-de-niveau)
+  - [G. Selection Voie](#g-selection-voie)
+  - [H. Amplification](#h-amplification)
+  - [I. Interface utilisateur et retour d’état](#i-interface-utilisateur-et-retour-détat)
+  - [J. Sécurité](#j-sécurité)
+  - [K. Optimisation et validation finale](#k-optimisation-et-validation-finale)
+  - [L. Tests à réaliser pour validation](#l-tests-à-réaliser-pour-validation)
 
 # Table-de-Mixage :  Conditionnement de signal 
 
@@ -98,9 +105,9 @@ Si l'un des instruments commence en retard ou en avance, la musique risque de ne
 ### 2. Comment savoir si le retard est exprès ou pas?
 > <br> </br>
 >  <div align="center"> 
-> ........ UNDER CONSTRUCTION .........
+> ........ InProgress .........
 > 
-> <a href="url"><img src="Images/UnderConstruction.png" align="center" height="40%" width="40%" > </a> </div>
+> <a href="url"><img src="Images/InProgress.png" align="center" height="40%" width="40%" > </a> </div>
 > <br> </br>
 > 
 
@@ -122,9 +129,9 @@ Ajuster la phase
 > 
 > <br></br>
 > <div align="center"> 
-> ........ UNDER CONSTRUCTION .........
+> ........ InProgress .........
 > 
-> <a href="url"><img src="Images/UnderConstruction.png" align="center" height="40%" width="40%" > </a> </div>
+> <a href="url"><img src="Images/InProgress.png" align="center" height="40%" width="40%" > </a> </div>
 ><br></br>
 >
 > Utilisation d'un signal de référence ou oscilloscope :
@@ -132,80 +139,124 @@ Ajuster la phase
 .
 >
 
-<!--Pour ajouter un retard sur nos signaux analogiques (pour les synchroniser) nous pouvons utiliser un filtre passe tout qui ajoute un déphasage sur notre signal
--->
+Pour ajouter un retard sur nos signaux analogiques (pour les synchroniser) nous pouvons utiliser un filtre passe tout qui ajoute un déphasage sur les signaux.
+
+## C. Entrée haute impedance
+
+Pour nos signaux, il est nécessaire d'utiliser une source ayant une impédance de sortie faible ($entre \ R = 100 \Omega \ et \ R = 600 \Omega$) afin de minimiser les pertes de signal. L'entrée, quant à elle, doit présenter une impédance élevée ($R \gt 10k \Omega$) pour éviter de charger la source et garantir un bon transfert du signal.
+
+### 1. Pourquoi? 
+- Adaptation d'impédance (Source - Charge) : 
+Impedance de source faible (basse impédance) : Une source avec une faible impédance($entre \ R = 100 \Omega \ et \ R = 600 \Omega$)  est capable de fournir plus de courant sans pertes importantes. Cela permet de compenser les pertes dues à la résistance de la source elle-même, qui pourraient autrement atténuer le signal transmis.
+Impedance d'entrée élevée : L'entrée doit avoir une impédance élevée (généralement $R \gt 10k \Omega$) pour minimiser le courant qui va passer dans l'entrée. Si l'impédance d'entrée est trop faible, elle "charge" la source, c'est-à-dire qu'elle tire trop de courant, ce qui peut déformer le signal ou réduire son amplitude.
+
+- Entrée à haute impédance
+Minimiser la charge sur la source : Si l'impédance d'entrée est trop basse, elle va "tirer" trop de courant de la source, ce qui peut perturber le signal et le déformer. Par exemple, une faible impédance d'entrée va créer une baisse de tension significative à la sortie de la source, réduisant ainsi la qualité du signal.
+Préserver l'intégrité du signal : Une haute impédance d'entrée assure que la quantité de courant demandée par l'entrée est minimale, de sorte que le signal source n'est pas trop perturbé. Cela permet à la source de conserver la qualité du signal sans trop de pertes de puissance.
+
+- Minimisation de la distorsion :
+Une adaptation d'impédance incorrecte peut également entraîner une distorsion du signal. Cela se produit car une source avec une impédance trop élevée par rapport à l'entrée pourrait avoir du mal à fournir un signal stable. À l'inverse, une entrée avec une impédance trop faible pourrait « siphonner » trop de courant de la source, ce qui entraînerait une diminution du signal et des déformations.
+
+### 2. Solution circuit suiveur avec AOP : 
+
+#### i. Principe du circuit suiveur avec AOP
+- Un suiveur de tension est un montage où la sortie de l'AOP est directement connectée à son entrée inverseuse (−).
+- L'entrée non-inverseuse (+) reçoit le signal que l'on souhaite transmettre.
+- La tension de sortie est égale à la tension d'entrée, c'est-à-dire $V_{out}=V_{in}$.
+ 
+#### ii. Caractéristiques d'un suiveur
+- Impédance d'entrée très élevée :
+    - L'entrée de l'AOP (côté non-inverseur) a une impédance extrêmement élevée, souvent de l'ordre de plusieurs mégaohms ($M\Omega$). Cela garantit que le circuit n’exerce pratiquement aucune "charge" sur la source.
+    - La source ne subit qu'une très faible demande de courant, ce qui évite d'affaiblir le signal.
+  
+- Impédance de sortie très faible :
+  - L'AOP peut fournir un courant important grâce à ses caractéristiques internes. Son impédance de sortie est très faible (souvent inférieure à  $1\Omega$). Cela garantit que la charge suivante reçoit un signal stable, même si elle a une impédance faible.
+- Gain unitaire ($G=1$) :
+  - Le suiveur ne modifie pas l'amplitude du signal. La tension en sortie est une copie conforme de la tension en entrée.
+
+#### iii. Pourquoi utiliser un suiveur ?
+- Isolation des impédances :
+  - Le suiveur permet d'isoler une source à impédance élevée (par exemple un capteur ou un diviseur de tension) d'une charge à impédance faible. Cela évite les pertes de signal.
+
+- Protection de la source :
+  - Une source fragile, comme un capteur sensible ou une antenne, n'a pas besoin de fournir beaucoup de courant. Le suiveur agit comme un intermédiaire, protégeant la source tout en transmettant le signal.
+  
+- Stabilité et fiabilité : 
+  - Le suiveur garantit un transfert de signal sans déformation ni chute de tension, même si la charge varie.
+
+#### iv . Montage
+
+## D. Filtre en Entrée
 
 
+Un filtre en entrée 
 
 
-## C. Filtre Passe Bande
+........ InProgress .........
+
+![InProgress](Images/InProgress.png)
 
 
-........ UNDER CONSTRUCTION .........
-
-![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
+## E. Module : Detection de Niveau + Adaptation de Niveau
 
 
-# D. Module : Detection de Niveau + Adaptation de Niveau
+........ InProgress .........
+
+![InProgress](Images/InProgress.png)
 
 
-........ UNDER CONSTRUCTION .........
-
-![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
+## F. Indicateur de niveau
 
 
-# E. Indicateur de niveau
+........ InProgress .........
+
+![InProgress](Images/InProgress.png)
 
 
-........ UNDER CONSTRUCTION .........
-
-![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
+## G. Selection Voie
 
 
-# F. Selection Voie
+........ InProgress .........
+
+![InProgress](Images/InProgress.png)
 
 
-........ UNDER CONSTRUCTION .........
-
-![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
+## H. Amplification
 
 
-# G. Amplification
+........ InProgress .........
+
+![InProgress](Images/InProgress.png)
 
 
-........ UNDER CONSTRUCTION .........
-
-![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
-
-
-# H. Interface utilisateur et retour d’état
+## I. Interface utilisateur et retour d’état
    
 
-........ UNDER CONSTRUCTION .........
+........ InProgress .........
 
-![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
-
-
-# I. Sécurité 
+![InProgress](Images/InProgress.png)
 
 
-........ UNDER CONSTRUCTION .........
-
-![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
+## J. Sécurité 
 
 
-#  J. Optimisation et validation finale
+........ InProgress .........
+
+![InProgress](Images/InProgress.png)
+
+
+## K. Optimisation et validation finale
 
 
 
-........ UNDER CONSTRUCTION .........
+........ InProgress .........
 
-![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
+![InProgress](Images/InProgress.png)
 
-# K. Tests à réaliser pour validation
+## L. Tests à réaliser pour validation
 
 
-........ UNDER CONSTRUCTION .........
+........ InProgress .........
 
-![UNDER_CONSTRUCTION](Images/UnderConstruction.png)
+![InProgress](Images/InProgress.png)
 
