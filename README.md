@@ -337,13 +337,15 @@ Les caractéristiques principales du filtre sont définies comme suit :
 
 
 
-
 ## F. Detection de Niveau + Adaptation de Niveau
 
 
-........ InProgress .........
 
-![InProgress](Images/InProgress.png)
+
+
+
+
+
 
 
 ## G. Indicateur de niveau
