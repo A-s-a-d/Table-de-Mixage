@@ -259,7 +259,7 @@ Une adaptation d'impédance incorrecte peut également entraîner une distorsion
 #### i. Principe du circuit suiveur avec AOP
 - Un suiveur de tension est un montage où la sortie de l'AOP est directement connectée à son entrée inverseuse (−).
 - L'entrée non-inverseuse (+) reçoit le signal que l'on souhaite transmettre.
-- La tension de sortie est égale à la tension d'entrée, c'est-à-dire $ V_{out}=V_{in} $.
+- La tension de sortie est égale à la tension d'entrée, c'est-à-dire $V_{out}=V_{in}$.
  
 #### ii. Caractéristiques d'un suiveur
 - Impédance d'entrée très élevée :
