@@ -308,7 +308,7 @@ Si aucun filtrage n'est requis, un module simple reliant directement l'entrée �
 
 Cette approche garantit la compatibilité future tout en évitant des ajouts inutiles à ce stade.
 
-Outil pour trouver différentes filtres :
+Outil pour trouver designer filtres :
 [Analog Filter Wizard](https://tools.analog.com/en/filterwizard/)
 
 #### i. Caractéristiques idéales du filtre à concevoir
