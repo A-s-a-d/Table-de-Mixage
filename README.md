@@ -2,27 +2,43 @@
 - [Table-de-Mixage :  Conditionnement de signal](#table-de-mixage---conditionnement-de-signal)
 - [I. Introduction](#i-introduction)
 - [II. Modules](#ii-modules)
-  - [A. Connecteur Entree](#a-connecteur-entree)
-  - [B. Synchronisation](#b-synchronisation)
+  - [A. Alimentation](#a-alimentation)
+    - [1. Microcontrôleur :](#1-microcontrôleur-)
+      - [i. USB :](#i-usb-)
+      - [ii. 3.3V externe](#ii-33v-externe)
+      - [iii. VIN ou +5V](#iii-vin-ou-5v)
+    - [2. Circuit](#2-circuit)
+      - [i. \[$0V;12V$\]](#i-0v12v)
+      - [ii. \[$-6V;+6V$\]](#ii--6v6v)
+    - [3. Connecteur alimentation](#3-connecteur-alimentation)
+  - [B. Connecteur entrée analogique](#b-connecteur-entrée-analogique)
+  - [C. Synchronisation](#c-synchronisation)
     - [1. Que signifie la synchronisation ?](#1-que-signifie-la-synchronisation)
     - [2. Comment savoir si le retard est exprès ou pas?](#2-comment-savoir-si-le-retard-est-exprès-ou-pas)
     - [3. Alors comment synchroniser les signaux analogiques ou comment les signaux analogiques sont synchronisé généralement?](#3-alors-comment-synchroniser-les-signaux-analogiques-ou-comment-les-signaux-analogiques-sont-synchronisé-généralement)
-  - [C. Entrée haute impedance](#c-entrée-haute-impedance)
+      - [i. Calibration:](#i-calibration)
+      - [ii. le chemin du signal](#ii-le-chemin-du-signal)
+      - [iii. Ajuster la phase](#iii-ajuster-la-phase)
+      - [iv. Utilisation d'un signal de référence ou oscilloscope :](#iv-utilisation-dun-signal-de-référence-ou-oscilloscope-)
+  - [D. Entrée haute impedance](#d-entrée-haute-impedance)
     - [1. Pourquoi?](#1-pourquoi)
     - [2. Solution circuit suiveur avec AOP :](#2-solution-circuit-suiveur-avec-aop-)
       - [i. Principe du circuit suiveur avec AOP](#i-principe-du-circuit-suiveur-avec-aop)
       - [ii. Caractéristiques d'un suiveur](#ii-caractéristiques-dun-suiveur)
       - [iii. Pourquoi utiliser un suiveur ?](#iii-pourquoi-utiliser-un-suiveur-)
       - [iv . Montage](#iv--montage)
-  - [D. Filtre en Entrée](#d-filtre-en-entrée)
-  - [E. Module : Detection de Niveau + Adaptation de Niveau](#e-module--detection-de-niveau--adaptation-de-niveau)
-  - [F. Indicateur de niveau](#f-indicateur-de-niveau)
-  - [G. Selection Voie](#g-selection-voie)
-  - [H. Amplification](#h-amplification)
-  - [I. Interface utilisateur et retour d’état](#i-interface-utilisateur-et-retour-détat)
-  - [J. Sécurité](#j-sécurité)
-  - [K. Optimisation et validation finale](#k-optimisation-et-validation-finale)
-  - [L. Tests à réaliser pour validation](#l-tests-à-réaliser-pour-validation)
+  - [E. Filtre en Entrée](#e-filtre-en-entrée)
+    - [1. Prévision d'une modularité pour le filtre](#1-prévision-dune-modularité-pour-le-filtre)
+      - [i. Caractéristiques idéales du filtre à concevoir](#i-caractéristiques-idéales-du-filtre-à-concevoir)
+      - [ii. Exemples de filtres possibles :](#ii-exemples-de-filtres-possibles-)
+  - [F. Detection de Niveau + Adaptation de Niveau](#f-detection-de-niveau--adaptation-de-niveau)
+  - [G. Indicateur de niveau](#g-indicateur-de-niveau)
+  - [H. Selection Voie](#h-selection-voie)
+  - [I. Amplification](#i-amplification)
+  - [J. Interface utilisateur et retour d’état](#j-interface-utilisateur-et-retour-détat)
+  - [K. Sécurité](#k-sécurité)
+  - [L. Optimisation et validation finale](#l-optimisation-et-validation-finale)
+  - [M. Tests à réaliser pour validation](#m-tests-à-réaliser-pour-validation)
 
 # Table-de-Mixage :  Conditionnement de signal 
 
@@ -88,7 +104,62 @@ Deux approches principales peuvent être utilisées :
 
 </div>
 
-##  A. Connecteur Entree 
+
+
+
+
+## A. Alimentation
+Pour notre circuit d'entree analogique nous avons besoins de plusieurs tension d'alimentation 
+### 1. Microcontrôleur :
+https://www.st.com/resource/en/user_manual/um1956-stm32-nucleo32-boards-mb1180-stmicroelectronics.pdf
+
+
+Le pont de soudure SB1 détermine si l'alimentation 5 V provient du ST-LINK intégré (via USB) ou d'une source externe.
+
+Data-sheet : Section 6.4.1 Table 4 :
+#### i. USB : 
+SB1(OFF)100mA ou SB1(ON) 300mA
+> [!CAUTION]
+> Si la consommation de courant maximale de la carte STM32 Nucleo-32 et de sa carte shield dépasse 300 mA, il est obligatoire d'alimenter la carte STM32 Nucleo-32, en utilisant une alimentation externe connectée au VIN, +5 V ou +3V3.
+
+> [!NOTE]
+> Dans le cas où la carte est alimentée par un chargeur USB, il n'y a pas d'énumération USB, donc la LED LD2 reste éteinte en permanence et la cible STM32 n'est pas alimentée. Dans ce cas précis, la SB1 doit être réglée sur on, pour permettre à la cible STM32 d'être alimentée quand même.
+
+
+#### ii. 3.3V externe
+> [!CAUTION] 
+> Lorsque la carte est alimentée par +3V3 (broche 14 CN4), le pont de soudure SB14 et SB9 (NRST) doit être éteint.
+
+| Nom alimentation | Connector pin | Plage tension [$V$] | Max courant [$mA$] | Limitation                                                      |
+| ---------------- | ------------- | ------------------- | ------------------ | --------------------------------------------------------------- |
+| $+3V3$           | CN4 pin 14    | $3 V \ à \ 3.6 V$   | -                  | ST-LINK n'est pas alimenté et SB14 et SB9 doivent être éteints. |
+
+#### iii. VIN ou +5V
+
+| Nom alimentation | Connector pin | Plage tension [$V$]   | Max courant [$mA$] | Limitation                                                                                                                                                                                                                                                                                          |
+| ---------------- | ------------- | --------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $V_{IN}$         | CN4 pin 1     | $7 V \ à \ 12 V$      | $800 mA$           | De $7 V$ à $12 V$ uniquement et la capacité de courant d'entrée est liée à la tension d'entrée : <br> - $I = 800 mA$ Courant d'entrée lorsque $V_{IN} = 7 V$ <br> - $I = 450 mA$ lorsque $7 V < VIN < 9 V$ <br> - $I = 300 mA$ lorsque $10 V> VIN > 9 V$ <br> - $I \lt 300 mA$ lorsque $VIN > 10 V$ |
+| $+5 V$           | CN4 pin 4     | $4.75 V \ à \ 5.25 V$ | $500 mA$           | ST-LINK non alimenté                                                                                                                                                                                                                                                                                |
+
+En cas d'alimentation par $VIN$ ou $+5V$, il est toujours possible d'utiliser ST-LINK pour la communication à des fins de programmation ou de débogage uniquement, mais il est obligatoire d'alimenter d'abord la carte, en utilisant $VIN$ ou $+5V$, puis de connecter le câble USB au PC. De cette façon, l'énumération réussira de toute façon, grâce à la source d'alimentation externe.
+
+La séquence d'alimentation suivante doit être respectée : 
+- Vérifiez que SB1 est éteint.
+- Connectez la source d'alimentation externe à $VIN$ ou $+5V$.
+- Mettez sous tension l'alimentation externe $7 V< VIN < 12 V$ à $VIN$, ou $5V$ pour $+5V$. 
+- Vérifiez que la LED rouge LD2 est allumée.
+- Connectez le PC au connecteur $USB \  CN1$
+
+> [!CAUTION] 
+>Si cet ordre n'est pas respecté, la carte peut être alimentée d'abord par $V_{BUS}$, puis par $V_{IN}$ ou $+5V$, et les risques suivants peuvent être rencontrés :
+>- Si la carte a besoin de plus de $300 mA$ de courant, le PC peut être endommagé ou le courant fourni est limité par le PC. En conséquence, la carte n'est pas alimentée correctement.
+>- $300 mA$ sont demandés à l'énumération (puisque SB1 doit être éteint) il y a donc un risque que la demande soit rejetée et que l'énumération échoue si le PC ne peut pas fournir ce courant. En conséquence, la carte n'est pas alimentée (la LED LD2 reste éteinte).
+### 2. Circuit 
+#### i. [$0V;12V$]
+#### ii. [$-6V;+6V$]
+### 3. Connecteur alimentation
+
+## B. Connecteur entrée analogique 
 
 Pour l'instant nous avons decides d'utiliser un connecteur jack 3.5mm avec 3 poles.
 
@@ -100,7 +171,10 @@ Pour l'instant nous avons decides d'utiliser un connecteur jack 3.5mm avec 3 pol
 
 
 
-## B. Synchronisation 
+
+
+
+## C. Synchronisation 
 La synchronisation des signaux audio consiste généralement à les **aligner dans le temps** afin qu'ils puissent jouer ensemble de manière harmonieuse sans retards ou décalages involontaires.
 
 ### 1. Que signifie la synchronisation ?
@@ -129,36 +203,42 @@ Si l'un des instruments commence en retard ou en avance, la musique risque de ne
 > 
 
 ### 3. Alors comment synchroniser les signaux analogiques ou comment les signaux analogiques sont synchronisé généralement?
-Calibration:
-> On peux faire une calibration au démarrage de tous les instruments pour les synchroniser sur un signal de démarrage (start pulse) et prendre ne compte le retard ou latence sur ces signaux par rapport au signal de démarrage.
+#### i. Calibration:
+On peux faire une calibration au démarrage de tous les instruments pour les synchroniser sur un signal de démarrage (start pulse) et prendre ne compte le retard ou latence sur ces signaux par rapport au signal de démarrage.
 
-le chemin du signal
-> Une des moyens c'est d'assurer que les deux signaux mettent le même temps pour se déplacer de leurs sources (instruments) au point de mixage.
-> 
-> Facteurs à prendre en compte :
-> - Longueurs de câble : les câbles longs peuvent introduire de petits retards.
-> - Traitement du signal : les effets analogiques tels que les égaliseurs ou les unités de réverbération peuvent ajouter de la latence.
-> - Utilisation des chemins de signal identiques ou correctement compensés pour les deux instruments.
+#### ii. le chemin du signal
+Une des moyens c'est d'assurer que les deux signaux mettent le même temps pour se déplacer de leurs sources (instruments) au point de mixage.
 
-Ajuster la phase
-> Si les signaux semblent mal alignés, nous pouvons utiliser un déphaseur pour les aligner correctement. Cela garantira que les pics et les creux des formes d'onde s'alignent lorsqu'ils sont mixés.
-> 
-> 
-> <br></br>
-> <div align="center"> 
-> ........ InProgress .........
-> 
-> <a href="url"><img src="Images/InProgress.png" align="center" height="40%" width="40%" > </a> </div>
-><br></br>
->
-> Utilisation d'un signal de référence ou oscilloscope :
->> Nous pouvons utiliser une référence (par exemple, [une piste de clic ](https://moises.ai/fr/blog/astuces/qu-est-ce-qu-une-piste-de-click/ "https://moises.ai/fr/blog/astuces/qu-est-ce-qu-une-piste-de-click/") ou un oscilloscope visuel) pour s'assurer que les signaux sont correctement alignés et ajuster leur synchronisation et leur phase jusqu'à ce que les formes d'onde s'alignent comme prévu.
-.
->
+Facteurs à prendre en compte :
+- Longueurs de câble : les câbles longs peuvent introduire de petits retards.
+- Traitement du signal : les effets analogiques tels que les égaliseurs ou les unités de réverbération peuvent ajouter de la latence.
+- Utilisation des chemins de signal identiques ou correctement compensés pour les deux instruments.
 
-Pour ajouter un retard sur nos signaux analogiques (pour les synchroniser) nous pouvons utiliser un filtre passe tout qui ajoute un déphasage sur les signaux.
+#### iii. Ajuster la phase
+Si les signaux semblent mal alignés, nous pouvons utiliser un déphaseur pour les aligner correctement. Cela garantira que les pics et les creux des formes d'onde s'alignent lorsqu'ils sont mixés.
+<br></br>
+<div align="center"> 
+<br></br>
+<br></br>
+........ InProgress .........
 
-## C. Entrée haute impedance
+<a href="url"><img src="Images/InProgress.png" align="center" height="40%" width="40%" > </a> </div>
+<br></br>
+
+
+#### iv. Utilisation d'un signal de référence ou oscilloscope :
+Nous pouvons utiliser une référence (par exemple, [une piste de clic ](https://moises.ai/fr/blog/astuces/qu-est-ce-qu-une-piste-de-click/ "https://moises.ai/fr/blog/astuces/qu-est-ce-qu-une-piste-de-click/") ou un oscilloscope visuel) pour s'assurer que les signaux sont correctement alignés et ajuster leur synchronisation et leur phase jusqu'à ce que les formes d'onde s'alignent comme prévu.
+
+>[!NOTE]
+> Pour ajouter un retard sur nos signaux analogiques (pour les synchroniser) nous pouvons utiliser un filtre passe tout qui ajoute un déphasage sur les signaux.
+
+
+
+
+
+
+
+## D. Entrée haute impedance
 
 Pour nos signaux, il est nécessaire d'utiliser une source ayant une impédance de sortie faible ($entre \ R = 100 \Omega \ et \ R = 600 \Omega$) afin de minimiser les pertes de signal. L'entrée, quant à elle, doit présenter une impédance élevée ($R \gt 10k \Omega$) pour éviter de charger la source et garantir un bon transfert du signal.
 
@@ -203,10 +283,62 @@ Une adaptation d'impédance incorrecte peut également entraîner une distorsion
 
 #### iv . Montage
 
-## D. Filtre en Entrée
+<div align="center">
+<a href="url"><img src="Images/suiveur.png" align="center" height="40%" width="40%" > </a> </div>
 
 
-Un filtre en entrée 
+
+
+
+## E. Filtre en Entrée
+
+
+
+Un filtre en entrée n'est pas nécessaire dans l'état actuel du projet pour les raisons suivantes :
+
+- **Plage audible non affectée :** Dans la plage des sons audibles (20 Hz à 20 kHz), l'ajout ou l'absence d'un filtre passe-bande n'entraîne aucune différence perceptible. En dehors de cette plage, le signal n'est pas audible, ce qui rend le filtre superflu pour cette application.
+- **Effet négatif du filtre :** Les filtres peuvent introduire une phase qui n'est ni constante ni linéaire, ce qui peut provoquer des distorsions ou des décalages dans le signal.
+
+### 1. Prévision d'une modularité pour le filtre
+Bien que le filtre ne soit pas indispensable pour le moment, nous incluons une **place modulaire** sur la carte pour permettre l'ajout d'un filtre à l'avenir si nécessaire. Cette flexibilité sera utile dans les cas suivants :
+- Si le signal d'entrée qui vient d'un DAC (convertisseur numérique-analogique) nécessite un filtrage supplémentaire, par exemple, pour supprimer la fréquence d'échantillonnage.
+- Selon les besoins, un **filtre passe-bas** ou **passe-bande** pourra être inséré.
+
+Si aucun filtrage n'est requis, un module simple reliant directement l'entrée à la sortie via un fil pourra être utilisé.
+
+Cette approche garantit la compatibilité future tout en évitant des ajouts inutiles à ce stade.
+
+Outil pour trouver différentes filtres :
+[Analog Filter Wizard](https://tools.analog.com/en/filterwizard/)
+
+#### i. Caractéristiques idéales du filtre à concevoir
+
+Les caractéristiques principales du filtre sont définies comme suit :
+
+- Gain : 1  
+- Phase : 0°  
+- Fréquence maximale ($f_{max}$) :  
+  - $f_{max} \leq 20 \, \text{kHz}$  
+  - Il est possible de dépasser cette fréquence tant que cela reste inférieur aux fréquences parasites, n’atténue pas le son, et respecte les conditions précédentes.  
+- Fréquence minimale ($f_{min}$) :  
+  - $f_{min} \geq 0 \, \text{Hz}$  
+  - Il est possible de dépasser cette fréquence tant que cela reste supérieur aux fréquences parasites, n’atténue pas le son, et respecte les conditions précédentes.
+
+#### ii. Exemples de filtres possibles :
+  - Passe-bas :
+    - $f_{max} \leq 15 \, \text{kHz}$  
+
+  - Passe-bande :  
+    - $f_{max} \leq 15 \, \text{kHz}$  
+    - $f_{min} \geq 50 \, \text{Hz}$
+
+
+
+
+
+
+
+## F. Detection de Niveau + Adaptation de Niveau
 
 
 ........ InProgress .........
@@ -214,7 +346,7 @@ Un filtre en entrée
 ![InProgress](Images/InProgress.png)
 
 
-## E. Module : Detection de Niveau + Adaptation de Niveau
+## G. Indicateur de niveau
 
 
 ........ InProgress .........
@@ -222,7 +354,7 @@ Un filtre en entrée
 ![InProgress](Images/InProgress.png)
 
 
-## F. Indicateur de niveau
+## H. Selection Voie
 
 
 ........ InProgress .........
@@ -230,7 +362,7 @@ Un filtre en entrée
 ![InProgress](Images/InProgress.png)
 
 
-## G. Selection Voie
+## I. Amplification
 
 
 ........ InProgress .........
@@ -238,15 +370,7 @@ Un filtre en entrée
 ![InProgress](Images/InProgress.png)
 
 
-## H. Amplification
-
-
-........ InProgress .........
-
-![InProgress](Images/InProgress.png)
-
-
-## I. Interface utilisateur et retour d’état
+## J. Interface utilisateur et retour d’état
    
 
 ........ InProgress .........
@@ -254,7 +378,7 @@ Un filtre en entrée
 ![InProgress](Images/InProgress.png)
 
 
-## J. Sécurité 
+## K. Sécurité 
 
 
 ........ InProgress .........
@@ -262,7 +386,7 @@ Un filtre en entrée
 ![InProgress](Images/InProgress.png)
 
 
-## K. Optimisation et validation finale
+## L. Optimisation et validation finale
 
 
 
@@ -270,7 +394,7 @@ Un filtre en entrée
 
 ![InProgress](Images/InProgress.png)
 
-## L. Tests à réaliser pour validation
+## M. Tests à réaliser pour validation
 
 
 ........ InProgress .........
