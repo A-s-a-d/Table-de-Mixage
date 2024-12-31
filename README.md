@@ -8,8 +8,8 @@
       - [ii. 3.3V externe](#ii-33v-externe)
       - [iii. VIN ou +5V](#iii-vin-ou-5v)
     - [2. Circuit](#2-circuit)
-      - [i. \[$0V;12V$\]](#i-0v12v)
-      - [ii. \[$-6V;+6V$\]](#ii--6v6v)
+      - [i. $0V;12V$](#i-0v12v)
+      - [ii. $-6V;+6V$](#ii--6v6v)
     - [3. Connecteur alimentation](#3-connecteur-alimentation)
   - [B. Connecteur entrée analogique](#b-connecteur-entrée-analogique)
   - [C. Synchronisation](#c-synchronisation)
@@ -155,8 +155,8 @@ La séquence d'alimentation suivante doit être respectée :
 >- Si la carte a besoin de plus de $300 mA$ de courant, le PC peut être endommagé ou le courant fourni est limité par le PC. En conséquence, la carte n'est pas alimentée correctement.
 >- $300 mA$ sont demandés à l'énumération (puisque SB1 doit être éteint) il y a donc un risque que la demande soit rejetée et que l'énumération échoue si le PC ne peut pas fournir ce courant. En conséquence, la carte n'est pas alimentée (la LED LD2 reste éteinte).
 ### 2. Circuit 
-#### i. [$0V;12V$]
-#### ii. [$-6V;+6V$]
+#### i. $0V;12V$
+#### ii. $-6V;+6V$
 ### 3. Connecteur alimentation
 
 ## B. Connecteur entrée analogique 
