@@ -78,22 +78,23 @@ Pour la conception de notre sous-système, nous adoptons une approche modulaire.
 Deux approches principales peuvent être utilisées :
 - Approche verticale
 <div align="center">
+   <a href="url"><img src="Images/Vertical_module.png" align="center" height="50%" width="50%" ></a>
 
-![Vertical Design](Images/Vertical_module.png)
 </div>
 
 - Approche horizontale
 <div align="center">
-   <a href="url"><img src="Images/Horizontal_modules.png.png" align="center" height="50%" width="50%" ></a>
-
-
+   <a href="url"><img src="Images/Horizontal_modules.png" align="center" height="50%" width="50%" ></a>
 
 </div>
 
 ##  A. Connecteur Entree 
 
 Pour l'instant nous avons decides d'utiliser un connecteur jack 3.5mm avec 3 poles.
-![Connecteur_Jack_3-5mm](Images/Connecteur_Jack_3-5mm.png)
+
+<div align="center">
+   <a href="url"><img src="Images/Connecteur_Jack_3-5mm.png" align="center" height="50%" width="50%" ></a>
+</div>
 
 > lien : [Connecteur Jack 3,5 mm Femelle Lumberg, Montage sur CI, 3 Pôles](https://fr.rs-online.com/web/p/connecteurs-jacks/9092238)
 
