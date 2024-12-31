@@ -73,6 +73,22 @@ Dans les deux cas il faudrait amplifier et mettre un offset sur le signal pour �
 
 
 #  II. Modules 
+Pour la conception de notre sous-système, nous adoptons une approche modulaire. Cette méthodologie facilite le développement, la maintenance et l'évolution du système.
+
+Deux approches principales peuvent être utilisées :
+- Approche verticale
+<div align="center">
+
+![Vertical Design](Images/Vertical_module.png)
+</div>
+
+- Approche horizontale
+<div align="center">
+   <a href="url"><img src="Images/Horizontal_modules.png.png" align="center" height="50%" width="50%" ></a>
+
+
+
+</div>
 
 ##  A. Connecteur Entree 
 
