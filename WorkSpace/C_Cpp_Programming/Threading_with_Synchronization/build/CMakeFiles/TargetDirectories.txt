@@ -1,0 +1,3 @@
+/home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles/Project_name.dir
+/home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles/edit_cache.dir
+/home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles/rebuild_cache.dir
