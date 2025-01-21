@@ -76,3 +76,7 @@ Maintenant on peux travailler dans c'est répertoires, avec un projet que vous p
 
 ### branch : verifier la branche actuelle :
 `git branch`
+
+### pull : mettre a jour la branche en local depuis github ou gitlab
+`git pull`
+`git pull origin your-branch`
