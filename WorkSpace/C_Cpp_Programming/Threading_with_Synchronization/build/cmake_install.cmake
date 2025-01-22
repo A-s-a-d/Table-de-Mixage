@@ -1,4 +1,4 @@
-# Install script for directory: /home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization
+# Install script for directory: /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

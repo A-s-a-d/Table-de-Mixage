@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization
+CMAKE_SOURCE_DIR = /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build
+CMAKE_BINARY_DIR = /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Project_name.dir/all
+all: CMakeFiles/Threading_with_Synchronization.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Project_name.dir/clean
+clean: CMakeFiles/Threading_with_Synchronization.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Project_name.dir
+# Target rules for target CMakeFiles/Threading_with_Synchronization.dir
 
 # All Build rule for target.
-CMakeFiles/Project_name.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_name.dir/build.make CMakeFiles/Project_name.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_name.dir/build.make CMakeFiles/Project_name.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles --progress-num=1,2 "Built target Project_name"
-.PHONY : CMakeFiles/Project_name.dir/all
+CMakeFiles/Threading_with_Synchronization.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threading_with_Synchronization.dir/build.make CMakeFiles/Threading_with_Synchronization.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threading_with_Synchronization.dir/build.make CMakeFiles/Threading_with_Synchronization.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles --progress-num=1,2 "Built target Threading_with_Synchronization"
+.PHONY : CMakeFiles/Threading_with_Synchronization.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Project_name.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Project_name.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles 0
-.PHONY : CMakeFiles/Project_name.dir/rule
+CMakeFiles/Threading_with_Synchronization.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Threading_with_Synchronization.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles 0
+.PHONY : CMakeFiles/Threading_with_Synchronization.dir/rule
 
 # Convenience name for target.
-Project_name: CMakeFiles/Project_name.dir/rule
-.PHONY : Project_name
+Threading_with_Synchronization: CMakeFiles/Threading_with_Synchronization.dir/rule
+.PHONY : Threading_with_Synchronization
 
 # clean rule for target.
-CMakeFiles/Project_name.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_name.dir/build.make CMakeFiles/Project_name.dir/clean
-.PHONY : CMakeFiles/Project_name.dir/clean
+CMakeFiles/Threading_with_Synchronization.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threading_with_Synchronization.dir/build.make CMakeFiles/Threading_with_Synchronization.dir/clean
+.PHONY : CMakeFiles/Threading_with_Synchronization.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization
+CMAKE_SOURCE_DIR = /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build
+CMAKE_BINARY_DIR = /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles /home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Project_name
+# Target rules for targets named Threading_with_Synchronization
 
 # Build rule for target.
-Project_name: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Project_name
-.PHONY : Project_name
+Threading_with_Synchronization: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Threading_with_Synchronization
+.PHONY : Threading_with_Synchronization
 
 # fast build rule for target.
-Project_name/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_name.dir/build.make CMakeFiles/Project_name.dir/build
-.PHONY : Project_name/fast
+Threading_with_Synchronization/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threading_with_Synchronization.dir/build.make CMakeFiles/Threading_with_Synchronization.dir/build
+.PHONY : Threading_with_Synchronization/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_name.dir/build.make CMakeFiles/Project_name.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threading_with_Synchronization.dir/build.make CMakeFiles/Threading_with_Synchronization.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -142,7 +142,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_name.dir/build.make CMakeFiles/Project_name.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threading_with_Synchronization.dir/build.make CMakeFiles/Threading_with_Synchronization.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,7 +150,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_name.dir/build.make CMakeFiles/Project_name.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threading_with_Synchronization.dir/build.make CMakeFiles/Threading_with_Synchronization.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Project_name"
+	@echo "... Threading_with_Synchronization"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

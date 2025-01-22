@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/kryptos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Use_Threads/CMakeLists.txt"
+  "/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Use_Threads/CMakeLists.txt"
   "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
@@ -123,5 +123,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Project_name.dir/DependInfo.cmake"
+  "CMakeFiles/Use_Threads.dir/DependInfo.cmake"
   )
