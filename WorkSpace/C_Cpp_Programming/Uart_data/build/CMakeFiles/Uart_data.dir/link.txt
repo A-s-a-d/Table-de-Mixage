@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Uart_data.dir/src/main.cpp.o -o Uart_data  /usr/lib/libwiringPi.so 
