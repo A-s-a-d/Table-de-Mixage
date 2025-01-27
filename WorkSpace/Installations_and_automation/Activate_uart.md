@@ -43,3 +43,6 @@ Pour utiliser le mini UART, vous devez configurer le Raspberry Pi pour utiliser 
 
 
 `disable-bt` désactive le périphérique Bluetooth et fait du premier PL011 (UART0) l'UART principal. Vous devez également désactiver le service système qui initialise le modem, afin qu'il ne se connecte pas à l'UART, en utilisant `sudo systemctl disable hciuart`.
+
+Il faut aussi donner les bonnes permissions aux ports series. Pour cela en terminal nous pouvons utiliser la commande : `ls -l /dev/ttyA* && ls /dev/ttyS*` pour connaitre les permission actuelle.
+Pour changer les permissions nous pouvons utiliser la commande `chmod a+rw /dev/ttyAMA0` ou `ttyAMA0` doit etre remplacé par le port pour lequelle on veut changer les permissions.
