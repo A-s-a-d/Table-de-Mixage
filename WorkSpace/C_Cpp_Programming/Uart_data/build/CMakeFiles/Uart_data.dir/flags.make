@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Uart_data/docs -I/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Uart_data/exemples -I/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Uart_data/external -I/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Uart_data/include -I/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Uart_data/lib -I/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Uart_data/src -I/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Uart_data/tests -I/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Uart_data/tools
+CXX_INCLUDES = -I/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Uart_data/docs -I/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Uart_data/exemples -I/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Uart_data/external -I/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Uart_data/lib -I/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Uart_data/src
 
 CXX_FLAGS = -std=gnu++17
 

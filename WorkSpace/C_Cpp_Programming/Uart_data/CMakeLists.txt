@@ -10,17 +10,6 @@ project(${PROJECT_NAME} VERSION 1.0)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-
-# Add include directories
-include_directories(${CMAKE_SOURCE_DIR}/docs)
-include_directories(${CMAKE_SOURCE_DIR}/exemples)
-include_directories(${CMAKE_SOURCE_DIR}/external)
-include_directories(${CMAKE_SOURCE_DIR}/lib)
-include_directories(${CMAKE_SOURCE_DIR}/src)
-
-# Include directories for header files
-include_directories("${CMAKE_SOURCE_DIR}/lib")
-
 # Find wiringPi
 find_library(WIRINGPI_LIB wiringPi)
 
@@ -31,6 +20,17 @@ endif()
 if(NOT WIRINGPI_LIB)
     message(FATAL_ERROR "wiringPi library not found. Please install wiringPi.")
 endif()
+
+
+# Add include directories
+include_directories(${CMAKE_SOURCE_DIR}/docs)
+include_directories(${CMAKE_SOURCE_DIR}/exemples)
+include_directories(${CMAKE_SOURCE_DIR}/external)
+include_directories(${CMAKE_SOURCE_DIR}/lib)
+include_directories(${CMAKE_SOURCE_DIR}/src)
+
+# Include directories for header files
+include_directories("${CMAKE_SOURCE_DIR}/lib")
 
 
 # Find all .cpp files in the src and lib directories (including subdirectories)
@@ -45,7 +45,7 @@ file(GLOB_RECURSE HEADERS
 )
 
 # Add executable target, passing in all the .cpp files found
-add_executable(Template_Test ${SOURCES} ${HEADERS})
+add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
 
 
 # Link wiringPi to the executable

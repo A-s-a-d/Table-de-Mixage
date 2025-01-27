@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Uart_data/lib/Serial_port/Serial_port.cpp" "CMakeFiles/Uart_data.dir/lib/Serial_port/Serial_port.cpp.o" "gcc" "CMakeFiles/Uart_data.dir/lib/Serial_port/Serial_port.cpp.o.d"
   "/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Uart_data/src/main.cpp" "CMakeFiles/Uart_data.dir/src/main.cpp.o" "gcc" "CMakeFiles/Uart_data.dir/src/main.cpp.o.d"
   )
 

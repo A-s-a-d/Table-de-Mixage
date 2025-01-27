@@ -36,5 +36,5 @@ file(GLOB_RECURSE HEADERS
 
 
 # Add executable target, passing in all the .cpp files found
-add_executable(Template_Test ${SOURCES} ${HEADERS})
+add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
 

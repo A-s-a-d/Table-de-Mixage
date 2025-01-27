@@ -129,6 +129,30 @@ Uart_data/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uart_data.dir/build.make CMakeFiles/Uart_data.dir/build
 .PHONY : Uart_data/fast
 
+lib/Serial_port/Serial_port.o: lib/Serial_port/Serial_port.cpp.o
+.PHONY : lib/Serial_port/Serial_port.o
+
+# target to build an object file
+lib/Serial_port/Serial_port.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uart_data.dir/build.make CMakeFiles/Uart_data.dir/lib/Serial_port/Serial_port.cpp.o
+.PHONY : lib/Serial_port/Serial_port.cpp.o
+
+lib/Serial_port/Serial_port.i: lib/Serial_port/Serial_port.cpp.i
+.PHONY : lib/Serial_port/Serial_port.i
+
+# target to preprocess a source file
+lib/Serial_port/Serial_port.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uart_data.dir/build.make CMakeFiles/Uart_data.dir/lib/Serial_port/Serial_port.cpp.i
+.PHONY : lib/Serial_port/Serial_port.cpp.i
+
+lib/Serial_port/Serial_port.s: lib/Serial_port/Serial_port.cpp.s
+.PHONY : lib/Serial_port/Serial_port.s
+
+# target to generate assembly for a file
+lib/Serial_port/Serial_port.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uart_data.dir/build.make CMakeFiles/Uart_data.dir/lib/Serial_port/Serial_port.cpp.s
+.PHONY : lib/Serial_port/Serial_port.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Uart_data"
+	@echo "... lib/Serial_port/Serial_port.o"
+	@echo "... lib/Serial_port/Serial_port.i"
+	@echo "... lib/Serial_port/Serial_port.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

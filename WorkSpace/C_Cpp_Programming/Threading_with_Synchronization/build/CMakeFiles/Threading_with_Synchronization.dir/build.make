@@ -69,10 +69,38 @@ include CMakeFiles/Threading_with_Synchronization.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Threading_with_Synchronization.dir/flags.make
 
+CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.o: CMakeFiles/Threading_with_Synchronization.dir/flags.make
+CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.o: /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/lib/Module_1/Module_1.cpp
+CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.o: CMakeFiles/Threading_with_Synchronization.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.o -MF CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.o.d -o CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.o -c /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/lib/Module_1/Module_1.cpp
+
+CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/lib/Module_1/Module_1.cpp > CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.i
+
+CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/lib/Module_1/Module_1.cpp -o CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.s
+
+CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.o: CMakeFiles/Threading_with_Synchronization.dir/flags.make
+CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.o: /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/lib/Module_2/Module_2.cpp
+CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.o: CMakeFiles/Threading_with_Synchronization.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.o -MF CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.o.d -o CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.o -c /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/lib/Module_2/Module_2.cpp
+
+CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/lib/Module_2/Module_2.cpp > CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.i
+
+CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/lib/Module_2/Module_2.cpp -o CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.s
+
 CMakeFiles/Threading_with_Synchronization.dir/src/main.cpp.o: CMakeFiles/Threading_with_Synchronization.dir/flags.make
 CMakeFiles/Threading_with_Synchronization.dir/src/main.cpp.o: /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/src/main.cpp
 CMakeFiles/Threading_with_Synchronization.dir/src/main.cpp.o: CMakeFiles/Threading_with_Synchronization.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Threading_with_Synchronization.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Threading_with_Synchronization.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Threading_with_Synchronization.dir/src/main.cpp.o -MF CMakeFiles/Threading_with_Synchronization.dir/src/main.cpp.o.d -o CMakeFiles/Threading_with_Synchronization.dir/src/main.cpp.o -c /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/src/main.cpp
 
 CMakeFiles/Threading_with_Synchronization.dir/src/main.cpp.i: cmake_force
@@ -85,15 +113,19 @@ CMakeFiles/Threading_with_Synchronization.dir/src/main.cpp.s: cmake_force
 
 # Object files for target Threading_with_Synchronization
 Threading_with_Synchronization_OBJECTS = \
+"CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.o" \
+"CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.o" \
 "CMakeFiles/Threading_with_Synchronization.dir/src/main.cpp.o"
 
 # External object files for target Threading_with_Synchronization
 Threading_with_Synchronization_EXTERNAL_OBJECTS =
 
+Threading_with_Synchronization: CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.o
+Threading_with_Synchronization: CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.o
 Threading_with_Synchronization: CMakeFiles/Threading_with_Synchronization.dir/src/main.cpp.o
 Threading_with_Synchronization: CMakeFiles/Threading_with_Synchronization.dir/build.make
 Threading_with_Synchronization: CMakeFiles/Threading_with_Synchronization.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Threading_with_Synchronization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Threading_with_Synchronization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Threading_with_Synchronization"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Threading_with_Synchronization.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

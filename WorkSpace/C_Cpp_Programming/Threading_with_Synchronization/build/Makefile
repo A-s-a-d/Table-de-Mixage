@@ -129,6 +129,54 @@ Threading_with_Synchronization/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threading_with_Synchronization.dir/build.make CMakeFiles/Threading_with_Synchronization.dir/build
 .PHONY : Threading_with_Synchronization/fast
 
+lib/Module_1/Module_1.o: lib/Module_1/Module_1.cpp.o
+.PHONY : lib/Module_1/Module_1.o
+
+# target to build an object file
+lib/Module_1/Module_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threading_with_Synchronization.dir/build.make CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.o
+.PHONY : lib/Module_1/Module_1.cpp.o
+
+lib/Module_1/Module_1.i: lib/Module_1/Module_1.cpp.i
+.PHONY : lib/Module_1/Module_1.i
+
+# target to preprocess a source file
+lib/Module_1/Module_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threading_with_Synchronization.dir/build.make CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.i
+.PHONY : lib/Module_1/Module_1.cpp.i
+
+lib/Module_1/Module_1.s: lib/Module_1/Module_1.cpp.s
+.PHONY : lib/Module_1/Module_1.s
+
+# target to generate assembly for a file
+lib/Module_1/Module_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threading_with_Synchronization.dir/build.make CMakeFiles/Threading_with_Synchronization.dir/lib/Module_1/Module_1.cpp.s
+.PHONY : lib/Module_1/Module_1.cpp.s
+
+lib/Module_2/Module_2.o: lib/Module_2/Module_2.cpp.o
+.PHONY : lib/Module_2/Module_2.o
+
+# target to build an object file
+lib/Module_2/Module_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threading_with_Synchronization.dir/build.make CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.o
+.PHONY : lib/Module_2/Module_2.cpp.o
+
+lib/Module_2/Module_2.i: lib/Module_2/Module_2.cpp.i
+.PHONY : lib/Module_2/Module_2.i
+
+# target to preprocess a source file
+lib/Module_2/Module_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threading_with_Synchronization.dir/build.make CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.i
+.PHONY : lib/Module_2/Module_2.cpp.i
+
+lib/Module_2/Module_2.s: lib/Module_2/Module_2.cpp.s
+.PHONY : lib/Module_2/Module_2.s
+
+# target to generate assembly for a file
+lib/Module_2/Module_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threading_with_Synchronization.dir/build.make CMakeFiles/Threading_with_Synchronization.dir/lib/Module_2/Module_2.cpp.s
+.PHONY : lib/Module_2/Module_2.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Threading_with_Synchronization"
+	@echo "... lib/Module_1/Module_1.o"
+	@echo "... lib/Module_1/Module_1.i"
+	@echo "... lib/Module_1/Module_1.s"
+	@echo "... lib/Module_2/Module_2.o"
+	@echo "... lib/Module_2/Module_2.i"
+	@echo "... lib/Module_2/Module_2.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
