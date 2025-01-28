@@ -80,3 +80,5 @@ Maintenant on peux travailler dans c'est répertoires, avec un projet que vous p
 ### pull : mettre a jour la branche en local depuis github ou gitlab
 `git pull`
 `git pull origin your-branch`
+
+### supprimer le repo local : ` rm -rf repo/`
