@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/Pi_Digital_write.dir/src/main.cpp.o -o Pi_Digital_write  /usr/lib/libwiringPi.so 

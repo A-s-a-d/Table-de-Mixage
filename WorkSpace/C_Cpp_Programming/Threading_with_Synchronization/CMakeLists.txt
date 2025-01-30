@@ -10,15 +10,31 @@ project(${PROJECT_NAME} VERSION 1.0)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Add the lib directory to the include directories
+# Add include directories
 include_directories(${CMAKE_SOURCE_DIR}/docs)
 include_directories(${CMAKE_SOURCE_DIR}/exemples)
 include_directories(${CMAKE_SOURCE_DIR}/external)
-include_directories(${CMAKE_SOURCE_DIR}/include)
 include_directories(${CMAKE_SOURCE_DIR}/lib)
 include_directories(${CMAKE_SOURCE_DIR}/src)
-include_directories(${CMAKE_SOURCE_DIR}/tests)
-include_directories(${CMAKE_SOURCE_DIR}/tools)
 
-# Add an executable
-add_executable(${PROJECT_NAME} src/main.cpp)
+
+# Include directories for header files
+include_directories("${CMAKE_SOURCE_DIR}/lib")
+
+
+# Find all .cpp files in the src and lib directories (including subdirectories)
+file(GLOB_RECURSE SOURCES
+    "${CMAKE_SOURCE_DIR}/src/*.cpp"
+    "${CMAKE_SOURCE_DIR}/lib/*/*.cpp"
+)
+
+# Find all header files in the lib directory (including subdirectories)
+file(GLOB_RECURSE HEADERS
+    "${CMAKE_SOURCE_DIR}/lib/*/*.h"
+)
+
+
+
+# Add executable target, passing in all the .cpp files found
+add_executable(Template_Test ${SOURCES} ${HEADERS})
+

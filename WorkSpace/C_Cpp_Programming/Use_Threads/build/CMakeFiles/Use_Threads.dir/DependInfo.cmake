@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Use_Threads/src/main.cpp" "CMakeFiles/Use_Threads.dir/src/main.cpp.o" "gcc" "CMakeFiles/Use_Threads.dir/src/main.cpp.o.d"
+  "/home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Use_Threads/src/main.cpp" "CMakeFiles/Use_Threads.dir/src/main.cpp.o" "gcc" "CMakeFiles/Use_Threads.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

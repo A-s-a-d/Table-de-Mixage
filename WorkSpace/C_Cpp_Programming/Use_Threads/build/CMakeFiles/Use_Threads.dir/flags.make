@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Use_Threads/docs -I/home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Use_Threads/exemples -I/home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Use_Threads/external -I/home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Use_Threads/include -I/home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Use_Threads/lib -I/home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Use_Threads/src -I/home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Use_Threads/tests -I/home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Use_Threads/tools -I/home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Use_Threads/lib/Half_sec -I/home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Use_Threads/lib/Sec
 
 CXX_FLAGS = -std=gnu++17
 

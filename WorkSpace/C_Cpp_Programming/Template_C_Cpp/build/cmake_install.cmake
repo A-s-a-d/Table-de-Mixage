@@ -1,4 +1,4 @@
-# Install script for directory: /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Template_C_Cpp
+# Install script for directory: /home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Template_C_Cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Template_C_Cpp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Template_C_Cpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

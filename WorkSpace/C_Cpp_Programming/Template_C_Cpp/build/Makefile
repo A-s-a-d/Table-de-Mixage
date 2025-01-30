@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Template_C_Cpp
+CMAKE_SOURCE_DIR = /home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Template_C_Cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Template_C_Cpp/build
+CMAKE_BINARY_DIR = /home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Template_C_Cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Template_C_Cpp/build/CMakeFiles /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Template_C_Cpp/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Template_C_Cpp/build/CMakeFiles /home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Template_C_Cpp/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin/Desktop/Table_de_Mixage_Git/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Template_C_Cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aetherlinx/Workspace/Git_repos/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Template_C_Cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,72 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Template_C_Cpp
+# Target rules for targets named Template_Test
 
 # Build rule for target.
-Template_C_Cpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Template_C_Cpp
-.PHONY : Template_C_Cpp
+Template_Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Template_Test
+.PHONY : Template_Test
 
 # fast build rule for target.
-Template_C_Cpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template_C_Cpp.dir/build.make CMakeFiles/Template_C_Cpp.dir/build
-.PHONY : Template_C_Cpp/fast
+Template_Test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template_Test.dir/build.make CMakeFiles/Template_Test.dir/build
+.PHONY : Template_Test/fast
+
+lib/Module_1/Module_1.o: lib/Module_1/Module_1.cpp.o
+.PHONY : lib/Module_1/Module_1.o
+
+# target to build an object file
+lib/Module_1/Module_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template_Test.dir/build.make CMakeFiles/Template_Test.dir/lib/Module_1/Module_1.cpp.o
+.PHONY : lib/Module_1/Module_1.cpp.o
+
+lib/Module_1/Module_1.i: lib/Module_1/Module_1.cpp.i
+.PHONY : lib/Module_1/Module_1.i
+
+# target to preprocess a source file
+lib/Module_1/Module_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template_Test.dir/build.make CMakeFiles/Template_Test.dir/lib/Module_1/Module_1.cpp.i
+.PHONY : lib/Module_1/Module_1.cpp.i
+
+lib/Module_1/Module_1.s: lib/Module_1/Module_1.cpp.s
+.PHONY : lib/Module_1/Module_1.s
+
+# target to generate assembly for a file
+lib/Module_1/Module_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template_Test.dir/build.make CMakeFiles/Template_Test.dir/lib/Module_1/Module_1.cpp.s
+.PHONY : lib/Module_1/Module_1.cpp.s
+
+lib/Module_2/Module_2.o: lib/Module_2/Module_2.cpp.o
+.PHONY : lib/Module_2/Module_2.o
+
+# target to build an object file
+lib/Module_2/Module_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template_Test.dir/build.make CMakeFiles/Template_Test.dir/lib/Module_2/Module_2.cpp.o
+.PHONY : lib/Module_2/Module_2.cpp.o
+
+lib/Module_2/Module_2.i: lib/Module_2/Module_2.cpp.i
+.PHONY : lib/Module_2/Module_2.i
+
+# target to preprocess a source file
+lib/Module_2/Module_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template_Test.dir/build.make CMakeFiles/Template_Test.dir/lib/Module_2/Module_2.cpp.i
+.PHONY : lib/Module_2/Module_2.cpp.i
+
+lib/Module_2/Module_2.s: lib/Module_2/Module_2.cpp.s
+.PHONY : lib/Module_2/Module_2.s
+
+# target to generate assembly for a file
+lib/Module_2/Module_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template_Test.dir/build.make CMakeFiles/Template_Test.dir/lib/Module_2/Module_2.cpp.s
+.PHONY : lib/Module_2/Module_2.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template_C_Cpp.dir/build.make CMakeFiles/Template_C_Cpp.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template_Test.dir/build.make CMakeFiles/Template_Test.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -142,7 +190,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template_C_Cpp.dir/build.make CMakeFiles/Template_C_Cpp.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template_Test.dir/build.make CMakeFiles/Template_Test.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,7 +198,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template_C_Cpp.dir/build.make CMakeFiles/Template_C_Cpp.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template_Test.dir/build.make CMakeFiles/Template_Test.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -161,7 +209,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Template_C_Cpp"
+	@echo "... Template_Test"
+	@echo "... lib/Module_1/Module_1.o"
+	@echo "... lib/Module_1/Module_1.i"
+	@echo "... lib/Module_1/Module_1.s"
+	@echo "... lib/Module_2/Module_2.o"
+	@echo "... lib/Module_2/Module_2.i"
+	@echo "... lib/Module_2/Module_2.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

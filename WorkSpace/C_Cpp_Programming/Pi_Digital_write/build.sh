@@ -18,3 +18,5 @@ echo "Building the project..."
 cmake --build "$BUILD_DIR"
 
 echo "Build complete!"
+
+echo "built program stored in /build"
