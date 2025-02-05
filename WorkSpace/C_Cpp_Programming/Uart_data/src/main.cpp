@@ -24,7 +24,6 @@
  */
 
 #include "Proj_external_lib.h"
-
 int main()
 {
     int fd;
@@ -47,10 +46,24 @@ int main()
 
     for (count = 0; count < 256;)
     {
-        serialPuts(fd, "hi "); // write string to /dev/ttyAMA0
-        delay(1);
-    }
+        if (millis() > nextTime)
+        {
+            printf("\nOut: %3d: ", count);
+            fflush(stdout);
+            serialPutchar(fd, count);
+            nextTime += 300;
+            ++count;
+        }
 
+        delay(3);
+
+        while (serialDataAvail(fd))
+        {
+            printf(" -> %3d", serialGetchar(fd));
+            fflush(stdout);
+        }
+    }
+    serialClose(fd);
     printf("\n");
     return 0;
 }
