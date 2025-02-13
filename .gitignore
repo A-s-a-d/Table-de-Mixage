@@ -1,3 +1,6 @@
 # Ignore all History directories
 **/History/
+**/Project Outputs/
+**/Project\ Outputs/
 /01-Suiveur/History
+*.drc
