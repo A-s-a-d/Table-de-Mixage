@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.0" viewBox="0 0 530 332" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<defs>
+<marker id="c" overflow="visible" orient="auto">
+<path transform="matrix(-.4 0 0 -.4 -4 0)" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+</marker>
+<marker id="b" overflow="visible" orient="auto">
+<path transform="matrix(.4 0 0 .4 4 0)" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+</marker>
+</defs>
+<path id="d" d="m52 13h450" fill="none" stroke="#000" stroke-width="1px"/>
+<use transform="translate(1.748e-8 136)" width="600" height="400" xlink:href="#d"/>
+<use transform="matrix(1.0013 0 0 1 -.068408 272)" width="600" height="400" stroke-width=".98616" xlink:href="#d"/>
+<path d="m60.489 13.074v279.66" fill="none" stroke="#000" stroke-width="1px"/>
+<path d="m49.281 52.804h459.92" fill="none" stroke="#000" stroke-dasharray="1.415,8.49" stroke-dashoffset="14.15" stroke-width="1.415"/>
+<text x="49.153561" y="18.730881" fill="#000000" font-family="Arial" font-size="16px" text-align="end" text-anchor="end" style="line-height:125%" xml:space="preserve"><tspan x="49.153561" y="18.730881">+1.736</tspan></text>
+<text x="48.856686" y="54.538757" fill="#000000" font-family="Arial" font-size="16px" text-align="end" text-anchor="end" style="line-height:125%" xml:space="preserve"><tspan x="48.856686" y="54.538757">+1.228</tspan></text>
+<text x="46.981686" y="154.44431" fill="#000000" font-family="Arial" font-size="16px" text-align="end" text-anchor="end" style="line-height:125%" xml:space="preserve"><tspan x="46.981686" y="154.44431">0</tspan></text>
+<text x="49.153561" y="290.35303" fill="#000000" font-family="Arial" font-size="16px" text-align="end" text-anchor="end" style="line-height:125%" xml:space="preserve"><tspan x="49.153561" y="290.35303">−1.736<tspan/></tspan></text>
+<text x="170.62436" y="309.40802" fill="#000000" font-family="Arial" font-size="16px" text-align="center" text-anchor="middle" style="line-height:125%" xml:space="preserve"><tspan x="170.62436" y="309.40802">90</tspan></text>
+<text x="60.168224" y="309.40802" fill="#000000" font-family="Arial" font-size="16px" text-align="center" text-anchor="middle" style="line-height:125%" xml:space="preserve"><tspan x="60.168224" y="309.40802">0</tspan></text>
+<text x="280.54144" y="309.40802" fill="#000000" font-family="Arial" font-size="16px" text-align="center" text-anchor="middle" style="line-height:125%" xml:space="preserve"><tspan x="280.54144" y="309.40802">180</tspan></text>
+<text x="391.63431" y="309.40802" fill="#000000" font-family="Arial" font-size="16px" text-align="center" text-anchor="middle" style="line-height:125%" xml:space="preserve"><tspan x="391.63431" y="309.40802">270</tspan></text>
+<text x="501.98889" y="309.40802" fill="#000000" font-family="Arial" font-size="16px" text-align="center" text-anchor="middle" style="line-height:125%" xml:space="preserve"><tspan x="501.98889" y="309.40802">360</tspan></text>
+<path id="a" d="m170.44 284.6v8.8388" fill="none" stroke="#000" stroke-width="1px"/>
+<use transform="translate(110.93)" width="600" height="400" xlink:href="#a"/>
+<use transform="translate(221.77)" width="600" height="400" xlink:href="#a"/>
+<use transform="translate(331.67)" width="600" height="400" xlink:href="#a"/>
+<path d="m60.368 148.84c50.205-99.702 82.146-135.76 109.02-135.76 26.87 0 55.861 25.456 111.72 135.76 55.861 110.31 82.731 135.76 111.02 135.76s60.104-31.82 110.31-135.76" fill="none" stroke="#000" stroke-width="1.875"/>
+<path d="m286.75 54.867v92.266" fill="none" marker-end="url(#c)" marker-start="url(#b)" stroke="#000" stroke-dasharray="1, 4"/>
+<text x="333.06805" y="103.85352" fill="#000000" font-family="Arial" font-size="16px" text-align="end" text-anchor="end" style="line-height:125%" xml:space="preserve"><tspan x="333.06805" y="103.85352"><tspan font-size="24px">V</tspan><tspan font-size="12px">RMS</tspan></tspan></text>
+<text x="378.94135" y="104" fill="#000000" font-family="Arial" font-size="16px" text-align="end" text-anchor="end" style="line-height:125%" xml:space="preserve"><tspan x="378.94135" y="104"><tspan font-size="24px">V</tspan><tspan font-size="12px">PK</tspan></tspan></text>
+<path d="m342 15.305v131.39" fill="none" marker-end="url(#c)" marker-start="url(#b)" stroke="#000" stroke-dasharray="1, 4"/>
+<path d="m392.25 15.661v266.68" fill="none" marker-end="url(#c)" marker-start="url(#b)" stroke="#000" stroke-dasharray="1, 4"/>
+<text x="431.91571" y="104" fill="#000000" font-family="Arial" font-size="16px" text-align="end" text-anchor="end" style="line-height:125%" xml:space="preserve"><tspan x="431.91571" y="104"><tspan font-size="24px">V</tspan><tspan font-size="12px">PP</tspan></tspan></text>
+<text x="319.22028" y="328.04373" fill="#000000" font-family="Sans" font-size="40px" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="319.22028" y="328.04373" font-size="24px" font-style="oblique">t°</tspan></text>
+<text x="21.669912" y="157.27281" fill="#000000" font-family="Arial" font-size="16px" text-align="end" text-anchor="end" style="line-height:125%" xml:space="preserve"><tspan x="21.669912" y="157.27281" font-size="24px">V</tspan></text>
+<path d="m60.174 148.84c50.248-62.801 82.217-85.516 109.11-85.516 26.894 0 55.91 16.034 111.82 85.516 55.91 69.481 82.804 85.516 111.11 85.516 28.309 0 60.157-20.043 110.41-85.516" fill="none" stroke="#00f" stroke-width="1.4887"/>
+<path d="m49.281 62.993h459.92" fill="none" stroke="#00f" stroke-dasharray="8.48801279999999990, 8.48801279999999990" stroke-dashoffset="14.147" stroke-width="1.4147"/>
+<text x="49.019627" y="71.958687" fill="#0000ff" font-family="Arial" font-size="16px" text-align="end" text-anchor="end" style="line-height:125%" xml:space="preserve"><tspan x="49.019627" y="71.958687" fill="#0000ff">+1.095</tspan></text>
+<text x="68.109383" y="211.8125" fill="#000000" font-family="Arial" font-size="16px" style="line-height:125%" xml:space="preserve"><tspan x="68.109383" y="211.8125">+4 dBu Line level (pro)</tspan></text>
+<text x="68.335938" y="231.80469" fill="#0000ff" font-family="Arial" font-size="16px" style="line-height:125%" xml:space="preserve"><tspan x="68.335938" y="231.80469">0 dBu Ref level (pro)</tspan></text>
+<text x="68.335938" y="251.80469" fill="#ff0000" font-family="Arial" font-size="16px" style="line-height:125%" xml:space="preserve"><tspan x="68.335938" y="251.80469">0 dBV Ref level (consumer)</tspan></text>
+<path d="m49.281 38.043h459.92" fill="none" stroke="#f00" stroke-dasharray="8.48801279999999990, 8.48801279999999990" stroke-dashoffset="14.147" stroke-width="1.4147"/>
+<text x="48.855625" y="38.428322" fill="#ff0000" font-family="Arial" font-size="16px" text-align="end" text-anchor="end" style="line-height:125%" xml:space="preserve"><tspan x="48.855625" y="38.428322" fill="#ff0000">+1.414</tspan></text>
+<path d="m60.276 148.84c50.226-81.133 82.18-110.48 109.06-110.48 26.881 0 55.885 20.715 111.77 110.48 55.885 89.764 82.766 110.48 111.06 110.48 28.296 0 60.129-25.894 110.35-110.48" fill="none" stroke="#f00" stroke-width="1.6918"/>
+<path d="m59.905 148.84c50.31-25.501 82.318-34.725 109.24-34.725 26.926 0 55.978 6.511 111.96 34.725 55.978 28.214 82.905 34.725 111.25 34.725s60.23-8.1388 110.54-34.725" fill="none" stroke="#00a0a0" stroke-width="1.4887"/>
+<text x="68.109383" y="271.80469" fill="#00a0a0" font-family="Arial" font-size="16px" style="line-height:125%" xml:space="preserve"><tspan x="68.109383" y="271.80469">−10 dBV Line level (consumer)</tspan></text>
+<path d="m49.538 113.5h459.92" fill="none" stroke="#00b0b0" stroke-dasharray="8.48801279999999990, 8.48801279999999990" stroke-dashoffset="14.147" stroke-width="1.4147"/>
+<text x="48.855625" y="118.25" fill="#00a0a0" font-family="Arial" font-size="16px" text-align="end" text-anchor="end" style="line-height:125%" xml:space="preserve"><tspan x="48.855625" y="118.25" fill="#00a0a0">+0.447</tspan></text>
+<text x="146.10938" y="191.81281" fill="#008000" font-family="Arial" font-size="16px" style="line-height:125%" xml:space="preserve"><tspan x="146.10938" y="191.81281">Key</tspan></text>
+</svg>
