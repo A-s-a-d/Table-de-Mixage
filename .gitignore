@@ -1,0 +1,3 @@
+# Ignore all History directories
+**/History/
+/01-Suiveur/History
