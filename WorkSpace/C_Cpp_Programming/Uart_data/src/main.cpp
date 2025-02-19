@@ -43,24 +43,28 @@ int main()
     }
 
     nextTime = millis() + 300;
-
-    for (count = 0; count < 256;)
+    while (1)
     {
-        if (millis() > nextTime)
-        {
-            printf("\nOut: %3d: ", count);
-            fflush(stdout);
-            serialPutchar(fd, count);
-            nextTime += 300;
-            ++count;
-        }
+        /* code */
 
-        delay(3);
-
-        while (serialDataAvail(fd))
+        for (count = 0; count < 256;)
         {
-            printf(" -> %3d", serialGetchar(fd));
-            fflush(stdout);
+            if (millis() > nextTime)
+            {
+                printf("\nOut: %3d: ", count);
+                fflush(stdout);
+                serialPutchar(fd, count);
+                nextTime += 300;
+                ++count;
+            }
+
+            delay(1);
+
+            /*    while (serialDataAvail(fd))
+               {
+                   printf(" -> %3d", serialGetchar(fd));
+                   fflush(stdout);
+               } */
         }
     }
     serialClose(fd);
