@@ -1,0 +1,8 @@
+Record=DiagramHierarchy|SourceDocument=Schematic.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\01-Suiveur\01-Suiveur.PrjPcb
+Record=SubProject|SourceDocument=Schematic.MbsDoc|ProjectPath=..\01-Suiveur\01-Suiveur.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Schematic.MbsDoc|Kind=Multi-board Schematic Module|Designator=3|Source=..\02-Detection_et_Ampli\02-Ampli.PrjPcb
+Record=SubProject|SourceDocument=Schematic.MbsDoc|ProjectPath=..\02-Detection_et_Ampli\02-Ampli.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Schematic.MbsDoc|Kind=Multi-board Schematic Module|Designator=4|Source=..\03-Offset_et_PBF\03-Offset_et_PBF.PrjPcb
+Record=SubProject|SourceDocument=Schematic.MbsDoc|ProjectPath=..\03-Offset_et_PBF\03-Offset_et_PBF.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Schematic.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\Carte_Mere\Carte_Mere.PrjPcb
+Record=SubProject|SourceDocument=Schematic.MbsDoc|ProjectPath=..\Carte_Mere\Carte_Mere.PrjPcb

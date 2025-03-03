@@ -51,7 +51,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=03-Offset_et_PBF.SchDoc
+DocumentPath=Sheet1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -119,7 +119,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=03-Offset_et_PBF.PcbDoc
+DocumentPath=PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -152,219 +152,164 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
-DocumentPath=..\Library\PCB.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document8]
-DocumentPath=..\Library\Schema.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document9]
-DocumentPath=Project Outputs\CAMtastic1.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [GeneratedDocument1]
-DocumentPath=Project Outputs\03-Offset_et_PBF.EXTREP
+DocumentPath=Project Outputs\Design Rule Check - PCB1.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs\03-Offset_et_PBF.nsx
+DocumentPath=Project Outputs\PCB1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs\03-Offset_et_PBF.REP
+DocumentPath=Project Outputs\PCB1.REP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Assembly_Notes.gbr
+DocumentPath=Project Outputs\PCB1_Assembly_Notes.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Board.gbr
+DocumentPath=Project Outputs\PCB1_Board.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Bottom_3D_Body.gbr
+DocumentPath=Project Outputs\PCB1_Bottom_3D_Body.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Bottom_Assembly.gbr
+DocumentPath=Project Outputs\PCB1_Bottom_Assembly.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Bottom_Coating.gbr
+DocumentPath=Project Outputs\PCB1_Bottom_Coating.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Bottom_Component_Center.gbr
+DocumentPath=Project Outputs\PCB1_Bottom_Component_Center.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Bottom_Component_Outline.gbr
+DocumentPath=Project Outputs\PCB1_Bottom_Component_Outline.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Bottom_Courtyard.gbr
+DocumentPath=Project Outputs\PCB1_Bottom_Courtyard.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Bottom_Designator.gbr
+DocumentPath=Project Outputs\PCB1_Bottom_Designator.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Bottom_Glue_Points.gbr
+DocumentPath=Project Outputs\PCB1_Bottom_Glue_Points.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs\PCB1_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Copper_Signal_Top.gbr
+DocumentPath=Project Outputs\PCB1_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Dimensions.gbr
+DocumentPath=Project Outputs\PCB1_Dimensions.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Drawing_1.gbr
+DocumentPath=Project Outputs\PCB1_Drawing_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Drillmap_1.gbr
+DocumentPath=Project Outputs\PCB1_Drillmap_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Fab_Notes.gbr
+DocumentPath=Project Outputs\PCB1_Fab_Notes.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Keep-out.gbr
+DocumentPath=Project Outputs\PCB1_Keep-out.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Legend_Bot.gbr
+DocumentPath=Project Outputs\PCB1_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Legend_Top.gbr
+DocumentPath=Project Outputs\PCB1_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs\03-Offset_et_PBF_NPTH_Drill.gbr
+DocumentPath=Project Outputs\PCB1_NPTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Pads_Bot.gbr
+DocumentPath=Project Outputs\PCB1_Pads_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Pads_Top.gbr
+DocumentPath=Project Outputs\PCB1_Pads_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Paste_Bot.gbr
+DocumentPath=Project Outputs\PCB1_Paste_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Paste_Top.gbr
+DocumentPath=Project Outputs\PCB1_Paste_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Profile.gbr
+DocumentPath=Project Outputs\PCB1_Profile.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs\03-Offset_et_PBF_PTH_Drill.gbr
+DocumentPath=Project Outputs\PCB1_PTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Route_Tool_Path.gbr
+DocumentPath=Project Outputs\PCB1_Route_Tool_Path.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Soldermask_Bot.gbr
+DocumentPath=Project Outputs\PCB1_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Soldermask_Top.gbr
+DocumentPath=Project Outputs\PCB1_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Top_3D_Body.gbr
+DocumentPath=Project Outputs\PCB1_Top_3D_Body.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Top_Assembly.gbr
+DocumentPath=Project Outputs\PCB1_Top_Assembly.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Top_Coating.gbr
+DocumentPath=Project Outputs\PCB1_Top_Coating.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Top_Component_Center.gbr
+DocumentPath=Project Outputs\PCB1_Top_Component_Center.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Top_Component_Outline.gbr
+DocumentPath=Project Outputs\PCB1_Top_Component_Outline.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Top_Courtyard.gbr
+DocumentPath=Project Outputs\PCB1_Top_Courtyard.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Top_Designator.gbr
+DocumentPath=Project Outputs\PCB1_Top_Designator.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs\03-Offset_et_PBF_Top_Glue_Points.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs\Design Rule Check - 03-Offset_et_PBF.html
+DocumentPath=Project Outputs\PCB1_Top_Glue_Points.gbr
 DItemRevisionGUID=
 
 [Parameter1]
@@ -496,13 +441,6 @@ ConfigurationType=Assembly
 [Generic_EDE]
 OutputDir=Project Outputs
 
-[Generic_SimulationProfiles]
-ActiveProfile=TJTLMLMQ
-ProfileId0=TJTLMLMQ
-ProfileName0=Mixed Sim Configuration
-OutputType0=AdvSimNetlist
-ConfigParameters0=OP_Analysis=True|TRAN_Analysis=True|DC_Analysis=True|AC_Analysis=True|TF_Analysis=False|PZ_Analysis=False|Noise_Analysis=False|SP_Analysis=False|TRAN_FourierAnalysis=False|TRAN_StressAnalysis=False|TempSweep_Analysis=False|ParamSweep_Analysis=False|MonteCarlo_Analysis=False|TF_Enabled=False|TF_Source=|TF_Reference=0|PZ_Enabled=False|PZ_Node1=|PZ_Node2=0|PZ_Node3=|PZ_Node4=0|PZ_AnalType=PZ|PZ_TfType=VOL|AnalysesDataSavedIndex=4|DC_ShowMeasTableChart=False|DC_PrimarySource=Temp|DC_PrimaryStart=1n|DC_PrimaryStop=1u|DC_PrimaryStep=100n|DC_EnableSecondary=False|DC_SecondarySource=|DC_SecondaryStart=|DC_SecondaryStop=|DC_SecondaryStep=|Noise_Enabled=False|Noise_Source=|Noise_Output=|Noise_Reference=0|Noise_Start_UserValue=|Noise_Start=1K|Noise_Stop_UserValue=|Noise_Stop=1G|Noise_TestPoints_UserValue=|Noise_TestPoints=10|Noise_PointsPerSummary=0|Noise_SweepType=DEC|SP_Enabled=False|AC_StartFrequency_UserValue=|AC_StartFrequency=1K|AC_StopFrequency_UserValue=|AC_StopFrequency=1G|AC_TestPoints_UserValue=|AC_TestPoints=10|AC_SweepType=DEC|AC_ShowMeasTableChart=False|SP_Impedance0_UserValue=|SP_Impedance1_UserValue=|TRAN_StartTime_UserValue=|TRAN_StartTime=0|TRAN_StopTime_UserValue=|TRAN_StopTime=5u|TRAN_StepTime_UserValue=|TRAN_StepTime=0.1u|TRAN_MaxStepTime_UserValue=|TRAN_MaxStepTime=0.1u|TRAN_AlwaysSetDefaults=False|TRAN_DefaultCycles_UserValue=|TRAN_DefaultCycles=5|TRAN_DefaultPointsPerCycle_UserValue=|TRAN_DefaultPointsPerCycle=25|TRAN_UseInitialConditions=False|TRAN_FourierEnabled=False|TRAN_FourierFundFreq_UserValue=|TRAN_FourierFundFreq=1Meg|TRAN_FourierNumHarmonics_UserValue=|TRAN_FourierNumHarmonics=10|TRAN_StressEnabled=False|TRAN_ShowMeasTableChart=False|TempSweep_Start_UserValue=|TempSweep_Start=-10|TempSweep_Stop_UserValue=|TempSweep_Stop=60|TempSweep_Step_UserValue=|TempSweep_Step=10|ParamSweep_Parameter1=R1|ParamSweep_Type1=LIN|ParamSweep_Start1=235.0|ParamSweep_Stop1=705.0|ParamSweep_Step1=47.00|ParamSweep_SweepType1=False|ParamSweep_SecondaryEnabled=False|ParamSweep_Parameter2=|ParamSweep_Type2=LIN|ParamSweep_Start2=|ParamSweep_Stop2=|ParamSweep_Step2=|ParamSweep_SweepType2=False|MonteCarlo_NumberOfRuns=10|MonteCarlo_DistributionType=GAUSS|MonteCarlo_Seed=-1|MonteCarlo_ResistorTolerance=10%|MonteCarlo_ResistorTolerance_UserValue=10%|MonteCarlo_CapacitorTolerance=10%|MonteCarlo_CapacitorTolerance_UserValue=10%|MonteCarlo_InductorTolerance=10%|MonteCarlo_InductorTolerance_UserValue=10%|MonteCarlo_TransistorTolerance=10%|MonteCarlo_TransistorTolerance_UserValue=10%|MonteCarlo_DCSourceTolerance=10%|MonteCarlo_DCSourceTolerance_UserValue=10%|MonteCarlo_DigitalTpTolerance=10%|MonteCarlo_DigitalTpTolerance_UserValue=10%|Sensitivity_Analysis=False|Sensitivity_GroupDeviationsEnabled=False|Sensitivity_GroupResistorEnabled=True|Sensitivity_GroupResistorDeviation_UserValue=|Sensitivity_GroupResistorDeviation=1m|Sensitivity_GroupCapacitorEnabled=False|Sensitivity_GroupCapacitorDeviation_UserValue=|Sensitivity_GroupCapacitorDeviation=1m|Sensitivity_GroupInductorEnabled=False|Sensitivity_GroupInductorDeviation_UserValue=|Sensitivity_GroupInductorDeviation=1m|Sensitivity_GroupTransistorEnabled=False|Sensitivity_GroupTransistorDeviation_UserValue=|Sensitivity_GroupTransistorDeviation=1m|Sensitivity_GroupDcSourceEnabled=False|Sensitivity_GroupDcSourceDeviation_UserValue=|Sensitivity_GroupDcSourceDeviation=1m|Sensitivity_GroupGlobalParameterEnabled=False|Sensitivity_GroupGlobalParameterDeviation_UserValue=|Sensitivity_GroupGlobalParameterDeviation=1m|Sensitivity_CustomDeviationsEnabled=True|OldCfgLoaded=True|SimViewSetup=ShowActiveSignalsProbes|OPTION_Method=Trapezoidal|OPTION_SpiceRefNode_UserValue=|OPTION_SpiceRefNode=GND|OPTION_DVCC_UserValue=|OPTION_DVCC=5|OPTION_DVDD_UserValue=|OPTION_DVDD=15|InteractiveProbeMode=False|SheetsToNetlist=0|ParamSweep_CustomStart0_UserValue=|ParamSweep_CustomStop0_UserValue=|ParamSweep_CustomStep0_UserValue=|ParamSweep_Start1_UserValue=|ParamSweep_Stop1_UserValue=|ParamSweep_Step1_UserValue=|Sensitivity_ParameterDeviation0_UserValue=|LaunchDate=2025-01-16 10:58:33Z|DC_CustomStart0_UserValue=|DC_CustomStop0_UserValue=|DC_CustomStep0_UserValue=|DC_PrimaryStart_UserValue=|DC_PrimaryStop_UserValue=|DC_PrimaryStep_UserValue=|DC_CustomEnabled0=True|DC_CustomSource0=Temp|DC_CustomStart0=1n|DC_CustomStop0=1u|DC_CustomStep0=100n|SP_Port0=V1|SP_Impedance0=50|SP_Port1=V1|SP_Impedance1=50|ParamSweep_CustomEnabled0=True|ParamSweep_CustomParameter0=R1|ParamSweep_CustomType0=LIN|ParamSweep_CustomStart0=235.0|ParamSweep_CustomStop0=705.0|ParamSweep_CustomStep0=47.00|Sensitivity_ParameterEnabled0=True|Sensitivity_Parameter0=R1|Sensitivity_ParameterDeviation0=1m
-
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
@@ -624,10 +562,6 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-Configuration1_Name1=ForceUpdateSettings
-Configuration1_Item1=False
-Configuration1_Name2=OutputConfigurationParameter1
-Configuration1_Item2=OP_Analysis=True|TRAN_Analysis=True|DC_Analysis=True|AC_Analysis=True|TF_Analysis=False|PZ_Analysis=False|Noise_Analysis=False|SP_Analysis=False|TRAN_FourierAnalysis=False|TRAN_StressAnalysis=False|TempSweep_Analysis=False|ParamSweep_Analysis=False|MonteCarlo_Analysis=False|TF_Enabled=False|TF_Source= |TF_Reference=0|PZ_Enabled=False|PZ_Node1= |PZ_Node2=0|PZ_Node3= |PZ_Node4=0|PZ_AnalType=PZ|PZ_TfType=VOL|AnalysesDataSavedIndex=4|DC_ShowMeasTableChart=False|DC_PrimarySource=Temp|DC_PrimaryStart=1n|DC_PrimaryStop=1u|DC_PrimaryStep=100n|DC_EnableSecondary=False|DC_SecondarySource= |DC_SecondaryStart= |DC_SecondaryStop= |DC_SecondaryStep= |Noise_Enabled=False|Noise_Source= |Noise_Output= |Noise_Reference=0|Noise_Start_UserValue= |Noise_Start=1K|Noise_Stop_UserValue= |Noise_Stop=1G|Noise_TestPoints_UserValue= |Noise_TestPoints=10|Noise_PointsPerSummary=0|Noise_SweepType=DEC|SP_Enabled=False|AC_StartFrequency_UserValue= |AC_StartFrequency=1K|AC_StopFrequency_UserValue= |AC_StopFrequency=1G|AC_TestPoints_UserValue= |AC_TestPoints=10|AC_SweepType=DEC|AC_ShowMeasTableChart=False|SP_Impedance0_UserValue= |SP_Impedance1_UserValue= |TRAN_StartTime_UserValue= |TRAN_StartTime=0|TRAN_StopTime_UserValue= |TRAN_StopTime=5u|TRAN_StepTime_UserValue= |TRAN_StepTime=0.1u|TRAN_MaxStepTime_UserValue= |TRAN_MaxStepTime=0.1u|TRAN_AlwaysSetDefaults=False|TRAN_DefaultCycles_UserValue= |TRAN_DefaultCycles=5|TRAN_DefaultPointsPerCycle_UserValue= |TRAN_DefaultPointsPerCycle=25|TRAN_UseInitialConditions=False|TRAN_FourierEnabled=False|TRAN_FourierFundFreq_UserValue= |TRAN_FourierFundFreq=1Meg|TRAN_FourierNumHarmonics_UserValue= |TRAN_FourierNumHarmonics=10|TRAN_StressEnabled=False|TRAN_ShowMeasTableChart=False|TempSweep_Start_UserValue= |TempSweep_Start=-10|TempSweep_Stop_UserValue= |TempSweep_Stop=60|TempSweep_Step_UserValue= |TempSweep_Step=10|ParamSweep_Parameter1=R1|ParamSweep_Type1=LIN|ParamSweep_Start1=235.0|ParamSweep_Stop1=705.0|ParamSweep_Step1=47.00|ParamSweep_SweepType1=False|ParamSweep_SecondaryEnabled=False|ParamSweep_Parameter2= |ParamSweep_Type2=LIN|ParamSweep_Start2= |ParamSweep_Stop2= |ParamSweep_Step2= |ParamSweep_SweepType2=False|MonteCarlo_NumberOfRuns=10|MonteCarlo_DistributionType=GAUSS|MonteCarlo_Seed=-1|MonteCarlo_ResistorTolerance=10%|MonteCarlo_ResistorTolerance_UserValue=10%|MonteCarlo_CapacitorTolerance=10%|MonteCarlo_CapacitorTolerance_UserValue=10%|MonteCarlo_InductorTolerance=10%|MonteCarlo_InductorTolerance_UserValue=10%|MonteCarlo_TransistorTolerance=10%|MonteCarlo_TransistorTolerance_UserValue=10%|MonteCarlo_DCSourceTolerance=10%|MonteCarlo_DCSourceTolerance_UserValue=10%|MonteCarlo_DigitalTpTolerance=10%|MonteCarlo_DigitalTpTolerance_UserValue=10%|Sensitivity_Analysis=False|Sensitivity_GroupDeviationsEnabled=False|Sensitivity_GroupResistorEnabled=True|Sensitivity_GroupResistorDeviation_UserValue= |Sensitivity_GroupResistorDeviation=1m|Sensitivity_GroupCapacitorEnabled=False|Sensitivity_GroupCapacitorDeviation_UserValue= |Sensitivity_GroupCapacitorDeviation=1m|Sensitivity_GroupInductorEnabled=False|Sensitivity_GroupInductorDeviation_UserValue= |Sensitivity_GroupInductorDeviation=1m|Sensitivity_GroupTransistorEnabled=False|Sensitivity_GroupTransistorDeviation_UserValue= |Sensitivity_GroupTransistorDeviation=1m|Sensitivity_GroupDcSourceEnabled=False|Sensitivity_GroupDcSourceDeviation_UserValue= |Sensitivity_GroupDcSourceDeviation=1m|Sensitivity_GroupGlobalParameterEnabled=False|Sensitivity_GroupGlobalParameterDeviation_UserValue= |Sensitivity_GroupGlobalParameterDeviation=1m|Sensitivity_CustomDeviationsEnabled=True|OldCfgLoaded=True|SimViewSetup=ShowActiveSignalsProbes|OPTION_Method=Trapezoidal|OPTION_SpiceRefNode_UserValue= |OPTION_SpiceRefNode=GND|OPTION_DVCC_UserValue= |OPTION_DVCC=5|OPTION_DVDD_UserValue= |OPTION_DVDD=15|InteractiveProbeMode=False|SheetsToNetlist=0|ParamSweep_CustomStart0_UserValue= |ParamSweep_CustomStop0_UserValue= |ParamSweep_CustomStep0_UserValue= |ParamSweep_Start1_UserValue= |ParamSweep_Stop1_UserValue= |ParamSweep_Step1_UserValue= |Sensitivity_ParameterDeviation0_UserValue= |LaunchDate=2025-01-16 10:58:33Z|DC_CustomStart0_UserValue= |DC_CustomStop0_UserValue= |DC_CustomStep0_UserValue= |DC_PrimaryStart_UserValue= |DC_PrimaryStop_UserValue= |DC_PrimaryStep_UserValue= |DC_CustomEnabled0=True|DC_CustomSource0=Temp|DC_CustomStart0=1n|DC_CustomStop0=1u|DC_CustomStep0=100n|SP_Port0=V1|SP_Impedance0=50|SP_Port1=V1|SP_Impedance1=50|ParamSweep_CustomEnabled0=True|ParamSweep_CustomParameter0=R1|ParamSweep_CustomType0=LIN|ParamSweep_CustomStart0=235.0|ParamSweep_CustomStop0=705.0|ParamSweep_CustomStep0=47.00|Sensitivity_ParameterEnabled0=True|Sensitivity_Parameter0=R1|Sensitivity_ParameterDeviation0=1m|Record=AdvSimNetlistView|SimulationName=Mixed Sim Configuration|ProfileId=TJTLMLMQ
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -745,71 +679,71 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=CompositeDrill
-OutputName1=Composite Drill Drawing
+OutputType1=Board Stack Report
+OutputName1=Report Board Stack
 OutputDocumentPath1=
-OutputVariantName1=[No Variations]
+OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=Drill
-OutputName2=Drill Drawing/Guides
+OutputType2=ODB
+OutputName2=ODB++ Files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=Mask
-OutputName3=Solder/Paste Mask Prints
+OutputType3=Plane
+OutputName3=Power-Plane Prints
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType4=Final
-OutputName4=Final Artwork Prints
+OutputType4=IPC2581
+OutputName4=IPC-2581 Files
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=Test Points
-OutputName5=Test Point Report
+OutputType5=Gerber X2
+OutputName5=Gerber X2 Files
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
+Configuration5_Name1=ForceUpdateSettings
+Configuration5_Item1=False
+Configuration5_Name2=OutputConfigurationParameter1
+Configuration5_Item2=BoardID=RJHOKYIJ|FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=False|GenerateReports=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=50|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OutputFormat=Single|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotCounterHolesPairs=False|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_Checked=True|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_FileName= |PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_Checked=True|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_FileName= |PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_Checked=True|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_FileName= |PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_Checked=True|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_FileName= |PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16908289~1,16908309~1,16908290~1,16908291~1,16908292~1,16908293~1,16908294~1,16908295~1,16908296~1,16908297~1,16908298~1,16908299~1,16908300~1,16908301~1,16908302~1,16908303~1,16908304~1,16908305~1,16908306~1,16908307~1,16908308~1,16973837~1,16973848~1,16973849~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage-Docs\Table-de-Mixage\TSPO20_breakout\TSOP20_breakout\PCB1.PcbDoc
 OutputType6=NC Drill
 OutputName6=NC Drill Files
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=ODB
-OutputName7=ODB++ Files
+OutputType7=Drill
+OutputName7=Drill Drawing/Guides
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-OutputType8=Board Stack Report
-OutputName8=Report Board Stack
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType8=CompositeDrill
+OutputName8=Composite Drill Drawing
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=Plane
-OutputName9=Power-Plane Prints
+OutputType9=Mask
+OutputName9=Solder/Paste Mask Prints
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType10=Gerber X2
-OutputName10=Gerber X2 Files
+OutputType10=Test Points
+OutputName10=Test Point Report
 OutputDocumentPath10=
-OutputVariantName10=[No Variations]
+OutputVariantName10=
 OutputDefault10=0
-Configuration10_Name1=ForceUpdateSettings
-Configuration10_Item1=False
-Configuration10_Name2=OutputConfigurationParameter1
-Configuration10_Item2=BoardID=RJHOKYIJ|FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=False|GenerateReports=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=50|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OutputFormat=Single|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotCounterHolesPairs=False|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_Checked=True|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_FileName= |PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_Checked=True|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_FileName= |PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_Checked=True|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_FileName= |PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_Checked=True|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_FileName= |PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16908289~1,16908312~1,16908290~1,16908291~1,16908292~1,16908293~1,16908294~1,16908295~1,16908296~1,16908297~1,16908298~1,16908299~1,16908300~1,16908301~1,16908302~1,16908303~1,16908304~1,16908305~1,16908306~1,16908307~1,16908308~1,16973837~1,16973848~1,16973849~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage-Docs\Table-de-Mixage\03-Offset_et_PBF\03-Offset_et_PBF.PcbDoc
-OutputType11=IPC2581
-OutputName11=IPC-2581 Files
+OutputType11=Final
+OutputName11=Final Artwork Prints
 OutputDocumentPath11=
 OutputVariantName11=[No Variations]
 OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType12=Gerber
 OutputName12=Gerber Files
 OutputDocumentPath12=
@@ -1463,78 +1397,6 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Schema.SchLib
-ComponentDesignItemID0=Cap_6.0*2.5*6mm
-ComponentSymbolReference0=Cap_6.0*2.5*6mm
-ComponentUpdate0=0
-ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Vault Name
-ComponentLibraryIdentifier1=Altium Content Vault
-ComponentDesignItemID1=CMP-00059-10485830-1
-ComponentSymbolReference1=2dcfd2547301a7d3209a5e99acfd772
-ComponentUpdate1=0
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Vault Name
-ComponentLibraryIdentifier2=Altium Content Vault
-ComponentDesignItemID2=CMP-0055-00158-5
-ComponentSymbolReference2=TI-AMP-D6-2-8_D
-ComponentUpdate2=0
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Vault Name
-ComponentLibraryIdentifier3=Altium Content Vault
-ComponentDesignItemID3=CMP-03913-53914174-1
-ComponentSymbolReference3=Capacitor_Polarized
-ComponentUpdate3=0
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Vault Name
-ComponentLibraryIdentifier4=Altium Content Vault
-ComponentDesignItemID4=CMP-04776-001047-1
-ComponentSymbolReference4=aee40dc8b284c03a16094555aa210be
-ComponentUpdate4=0
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Vault Name
-ComponentLibraryIdentifier5=Altium Content Vault
-ComponentDesignItemID5=CMP-07234-000037-1
-ComponentSymbolReference5=d453c781d4cc458b93eaf0f603e5529
-ComponentUpdate5=0
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Vault Name
-ComponentLibraryIdentifier6=Altium Content Vault
-ComponentDesignItemID6=CMP-1055-00037-1
-ComponentSymbolReference6=ONSC-D-K1A2-2_A
-ComponentUpdate6=0
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Vault Name
-ComponentLibraryIdentifier7=Altium Content Vault
-ComponentDesignItemID7=CMP-1665-00038-2
-ComponentSymbolReference7=CAP-P-2
-ComponentUpdate7=0
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Vault Name
-ComponentLibraryIdentifier8=Altium Content Vault
-ComponentDesignItemID8=CMP-209535-000002-1
-ComponentSymbolReference8=59ad430b93a2c51b3e6ee7c3b069677
-ComponentUpdate8=0
-ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Vault Name
-ComponentLibraryIdentifier9=asad muhammad
-ComponentDesignItemID9=Cap_6.0*2.5*6mm-000000-3
-ComponentSymbolReference9=Cap_6.0*2.5*6mm
-ComponentUpdate9=1
-ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Vault Name
-ComponentLibraryIdentifier10=asad muhammad
-ComponentDesignItemID10=Res_3.5x6.5mm_TH-000000-1
-ComponentSymbolReference10=Res_3.5x6.5mm_TH
-ComponentUpdate10=1
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Vault Name
-ComponentLibraryIdentifier11=asad muhammad
-ComponentDesignItemID11=Test_Point-000000-1
-ComponentSymbolReference11=Test_Point
-ComponentUpdate11=1
-ComponentIsDeviceSheet11=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1548,315 +1410,12 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Actuator Orientation
-ParameterUpdate0=1
-ParameterName1=Actuator Type
-ParameterUpdate1=1
-ParameterName2=Capacitance
-ParameterUpdate2=1
-ParameterName3=Capacitor Type
-ParameterUpdate3=1
-ParameterName4=Case/Package
-ParameterUpdate4=1
-ParameterName5=CMRR(Min)(dB)
-ParameterUpdate5=1
-ParameterName6=Code_JEDEC
-ParameterUpdate6=1
-ParameterName7=Color
-ParameterUpdate7=1
-ParameterName8=Comment
-ParameterUpdate8=1
-ParameterName9=Component Kind
-ParameterUpdate9=1
-ParameterName10=ComponentLink1Description
-ParameterUpdate10=1
-ParameterName11=ComponentLink1URL
-ParameterUpdate11=1
-ParameterName12=ComponentLink2Description
-ParameterUpdate12=1
-ParameterName13=ComponentLink2URL
-ParameterUpdate13=1
-ParameterName14=ComponentLink3Description
-ParameterUpdate14=1
-ParameterName15=ComponentLink3URL
-ParameterUpdate15=1
-ParameterName16=Composition
-ParameterUpdate16=1
-ParameterName17=Configuration
-ParameterUpdate17=1
-ParameterName18=Connector Type
-ParameterUpdate18=1
-ParameterName19=Contact Material
-ParameterUpdate19=1
-ParameterName20=Contact Mating Length
-ParameterUpdate20=1
-ParameterName21=Contact Plating
-ParameterUpdate21=1
-ParameterName22=Contact Resistance
-ParameterUpdate22=1
-ParameterName23=Contact Type
-ParameterUpdate23=1
-ParameterName24=Current Rating
-ParameterUpdate24=1
-ParameterName25=Datasheet URL
-ParameterUpdate25=1
-ParameterName26=Datasheet Version
-ParameterUpdate26=1
-ParameterName27=DatasheetVersion
-ParameterUpdate27=1
-ParameterName28=Depth
-ParameterUpdate28=1
-ParameterName29=Description
-ParameterUpdate29=1
-ParameterName30=Design Item ID
-ParameterUpdate30=1
-ParameterName31=Diameter
-ParameterUpdate31=1
-ParameterName32=Dielectric Material
-ParameterUpdate32=1
-ParameterName33=Dissipation Factor
-ParameterUpdate33=1
-ParameterName34=Eco-Plan
-ParameterUpdate34=1
-ParameterName35=GBW(Typ)(MHz)
-ParameterUpdate35=1
-ParameterName36=Gender
-ParameterUpdate36=1
-ParameterName37=Glow Wire Compliant
-ParameterUpdate37=1
-ParameterName38=Height
-ParameterUpdate38=1
-ParameterName39=Height - Seated (Max)
-ParameterUpdate39=1
-ParameterName40=Housing Color
-ParameterUpdate40=1
-ParameterName41=Housing Material
-ParameterUpdate41=1
-ParameterName42=IFSM Max (A)
-ParameterUpdate42=1
-ParameterName43=IIB(Max)(pA)
-ParameterUpdate43=1
-ParameterName44=Insulation Resistance
-ParameterUpdate44=1
-ParameterName45=Iq per channel(Max)(mA)
-ParameterUpdate45=1
-ParameterName46=Lead Diameter
-ParameterUpdate46=1
-ParameterName47=Lead Free
-ParameterUpdate47=1
-ParameterName48=Lead Pitch
-ParameterUpdate48=1
-ParameterName49=Lead/Base Style
-ParameterUpdate49=1
-ParameterName50=Leakage Current
-ParameterUpdate50=1
-ParameterName51=Length
-ParameterUpdate51=1
-ParameterName52=Library Reference
-ParameterUpdate52=1
-ParameterName53=Life (Hours)
-ParameterUpdate53=1
-ParameterName54=Manufacturer
-ParameterUpdate54=1
-ParameterName55=Manufacturer Series
-ParameterUpdate55=1
-ParameterName56=Manufacturer URL
-ParameterUpdate56=1
-ParameterName57=Material
-ParameterUpdate57=1
-ParameterName58=Max Operating Temperature
-ParameterUpdate58=1
-ParameterName59=Max Power Dissipation
-ParameterUpdate59=1
-ParameterName60=Military Standard
-ParameterUpdate60=1
-ParameterName61=Min Operating Temperature
-ParameterUpdate61=1
-ParameterName62=Mount
-ParameterUpdate62=1
-ParameterName63=Mounting Technology
-ParameterUpdate63=1
-ParameterName64=NexarPartId
-ParameterUpdate64=1
-ParameterName65=Number of Channels
-ParameterUpdate65=1
-ParameterName66=Number of Circuits
-ParameterUpdate66=1
-ParameterName67=Number of Contacts
-ParameterUpdate67=1
-ParameterName68=Number of Pins
-ParameterUpdate68=1
-ParameterName69=Number of Poles
-ParameterUpdate69=1
-ParameterName70=Number of Positions
-ParameterUpdate70=1
-ParameterName71=Number of Rows
-ParameterUpdate71=1
-ParameterName72=Number of Terminals/Pins
-ParameterUpdate72=1
-ParameterName73=Number of Turns
-ParameterUpdate73=1
-ParameterName74=Offset Drift(Typ)(uV/C)
-ParameterUpdate74=1
-ParameterName75=Orientation
-ParameterUpdate75=1
-ParameterName76=Package Description
-ParameterUpdate76=1
-ParameterName77=Package Quantity
-ParameterUpdate77=1
-ParameterName78=Package Reference
-ParameterUpdate78=1
-ParameterName79=PackageDescription
-ParameterUpdate79=1
-ParameterName80=PackageReference
-ParameterUpdate80=1
-ParameterName81=PackageVersion
-ParameterUpdate81=1
-ParameterName82=Packaging
-ParameterUpdate82=1
-ParameterName83=Packing
-ParameterUpdate83=1
-ParameterName84=PartNumber
-ParameterUpdate84=1
-ParameterName85=Pin Diameter
-ParameterUpdate85=1
-ParameterName86=Pins
-ParameterUpdate86=1
-ParameterName87=Pitch
-ParameterUpdate87=1
-ParameterName88=Polarity
-ParameterUpdate88=1
-ParameterName89=Power Rating
-ParameterUpdate89=1
-ParameterName90=Radiation Hardening
-ParameterUpdate90=1
-ParameterName91=Rating
-ParameterUpdate91=1
-ParameterName92=REACH SVHC
-ParameterUpdate92=1
-ParameterName93=Resistance
-ParameterUpdate93=1
-ParameterName94=Resistance Law
-ParameterUpdate94=1
-ParameterName95=Resistance Tolerance
-ParameterUpdate95=1
-ParameterName96=Resistor Type
-ParameterUpdate96=1
-ParameterName97=Ripple Current
-ParameterUpdate97=1
-ParameterName98=Ripple Current (AC)
-ParameterUpdate98=1
-ParameterName99=RoHS
-ParameterUpdate99=1
-ParameterName100=RoHS Compliant
-ParameterUpdate100=1
-ParameterName101=RoHSCompliant
-ParameterUpdate101=1
-ParameterName102=Schedule B
-ParameterUpdate102=1
-ParameterName103=Series
-ParameterUpdate103=1
-ParameterName104=Slew Rate(Typ)(V/us)
-ParameterUpdate104=1
-ParameterName105=Source
-ParameterUpdate105=1
-ParameterName106=Sub Family
-ParameterUpdate106=1
-ParameterName107=System
-ParameterUpdate107=1
-ParameterName108=Taper
-ParameterUpdate108=1
-ParameterName109=Technology
-ParameterUpdate109=1
-ParameterName110=Temperature Coefficient
-ParameterUpdate110=1
-ParameterName111=Terminal Finish
-ParameterUpdate111=1
-ParameterName112=Termination
-ParameterUpdate112=1
-ParameterName113=Thickness
-ParameterUpdate113=1
-ParameterName114=Tolerance
-ParameterUpdate114=1
-ParameterName115=Total Supply Voltage(Max)(+5V is 5, +/-5V is 10)
-ParameterUpdate115=1
-ParameterName116=Total Supply Voltage(Min)(+5V is 5, +/-5V is 10)
-ParameterUpdate116=1
-ParameterName117=Type
-ParameterUpdate117=1
-ParameterName118=Value
-ParameterUpdate118=1
-ParameterName119=Vio (25C)(Max)(mV)
-ParameterUpdate119=1
-ParameterName120=Vn at 1kHz(Typ)(nV/rtHz)
-ParameterUpdate120=1
-ParameterName121=Voltage
-ParameterUpdate121=1
-ParameterName122=Voltage Rating
-ParameterUpdate122=1
-ParameterName123=Voltage Rating (AC)
-ParameterUpdate123=1
-ParameterName124=Voltage Rating (DC)
-ParameterUpdate124=1
-ParameterName125=Weight
-ParameterUpdate125=1
-ParameterName126=Width
-ParameterUpdate126=1
-ParameterName127=Working Voltage
-ParameterUpdate127=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=Cap_6.0%2A2.5%2A6mm
-ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=CAPPR55-200-1100X500X1200
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=FP-3006P-1-104LF-MFG
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=FP-3362P-MFG
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=FP-90121-0770-MFG
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=FP-ams1117-IPC_A
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=FP-ams1117-IPC_B
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=FP-ams1117-IPC_C
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=ONSC-AXIAL_LEAD-2-59-10_P
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=P0008A
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=Res_Axial_3.5x6.5mm_TH
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=Test_Point_Hook
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=Test_Point_Surface
-ModelUpdate12=1
-ModelType13=PCBLIB
-ModelName13=WCAP-ATG5_D6.3H11
-ModelUpdate13=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-
-[NetInfos]
-Net1=NetName=GND|NetColor=$00FF6E6E
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
