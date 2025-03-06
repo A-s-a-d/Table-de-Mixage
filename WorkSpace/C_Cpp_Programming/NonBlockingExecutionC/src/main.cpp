@@ -15,10 +15,10 @@ int main() {
         // Get the current time
         clock_gettime(CLOCK_REALTIME, &current);
 
-        // Calculate the elapsed time for 1-second interval in nanoseconds
+        // elapsed time for 1-second interval in nanoseconds
         elapsed_ns_1s = (current.tv_sec - start_1s.tv_sec) * 1000000000L + (current.tv_nsec - start_1s.tv_nsec);
 
-        // Calculate the elapsed time for 0.5-second interval in nanoseconds
+        // elapsed time for 0.5-second interval in nanoseconds
         elapsed_ns_H_s = (current.tv_sec - start_H_s.tv_sec) * 1000000000L + (current.tv_nsec - start_H_s.tv_nsec);
 
         // Check if the elapsed time exceeds the 1-second interval
@@ -28,7 +28,7 @@ int main() {
             start_1s = current;
         }
 
-        // Check if the elapsed time exceeds the 0.5-second interval
+        // if  elapsed time exceeds the 0.5-second interval
         if (elapsed_ns_H_s >= interval_H_ns) {
             printf("Half Sec\n");
             // Reset the starting time for 0.5-second interval
