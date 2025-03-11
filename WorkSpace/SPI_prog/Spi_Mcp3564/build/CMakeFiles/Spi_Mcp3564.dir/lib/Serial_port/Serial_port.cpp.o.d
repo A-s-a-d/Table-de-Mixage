@@ -1,0 +1,3 @@
+CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o: \
+ /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/lib/Serial_port/Serial_port.cpp \
+ /usr/include/stdc-predef.h

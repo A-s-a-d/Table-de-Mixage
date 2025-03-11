@@ -1,0 +1,3 @@
+/home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/build/CMakeFiles/Spi_Mcp3564.dir
+/home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/build/CMakeFiles/edit_cache.dir
+/home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/build/CMakeFiles/rebuild_cache.dir
