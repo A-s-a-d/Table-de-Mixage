@@ -1,5 +1,5 @@
 
-#include "Half_sec"
+#include "Half_sec.h"
 
 void* print_half_sec(void* arg) {
     struct timespec req_H_s, rem_H_s;
