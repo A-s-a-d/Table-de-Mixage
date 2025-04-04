@@ -7,9 +7,10 @@
 #include <stdint.h>
 #include <string.h>
 
+
 #define SPI_DEVICE "/dev/spidev0.0"  // SPI0, CE0
 #define SPI_MODE SPI_MODE_0          // Mode SPI (CPOL = 0, CPHA = 0)
-#define SPI_SPEED 500000             // Fréquence en Hz (500 kHz)
+#define SPI_SPEED 10000000             // Fréquence en Hz
 #define SPI_BITS_PER_WORD 8          // 8 bits par mot
 
 // Adresses des registres du MCP3564

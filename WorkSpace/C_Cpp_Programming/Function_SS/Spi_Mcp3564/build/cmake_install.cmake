@@ -1,4 +1,4 @@
-# Install script for directory: /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564
+# Install script for directory: /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

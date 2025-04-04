@@ -1,5 +1,5 @@
 CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o: \
- /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/src/main.cpp \
+ /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

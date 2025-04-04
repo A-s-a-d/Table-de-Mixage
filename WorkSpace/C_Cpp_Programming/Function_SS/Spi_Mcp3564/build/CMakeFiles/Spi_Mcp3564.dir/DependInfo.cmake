@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/lib/Serial_port/Serial_port.cpp" "CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o" "gcc" "CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o.d"
-  "/home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/src/main.cpp" "CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o" "gcc" "CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o.d"
+  "/home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/lib/Serial_port/Serial_port.cpp" "CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o" "gcc" "CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o.d"
+  "/home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/src/main.cpp" "CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o" "gcc" "CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

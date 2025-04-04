@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564
+CMAKE_SOURCE_DIR = /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/build
+CMAKE_BINARY_DIR = /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Spi_Mcp3564.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/Spi_Mcp3564.dir/progress.make
 include CMakeFiles/Spi_Mcp3564.dir/flags.make
 
 CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o: CMakeFiles/Spi_Mcp3564.dir/flags.make
-CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o: /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/lib/Serial_port/Serial_port.cpp
+CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o: /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/lib/Serial_port/Serial_port.cpp
 CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o: CMakeFiles/Spi_Mcp3564.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o -MF CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o.d -o CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o -c /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/lib/Serial_port/Serial_port.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o -MF CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o.d -o CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o -c /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/lib/Serial_port/Serial_port.cpp
 
 CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/lib/Serial_port/Serial_port.cpp > CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/lib/Serial_port/Serial_port.cpp > CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.i
 
 CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/lib/Serial_port/Serial_port.cpp -o CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/lib/Serial_port/Serial_port.cpp -o CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.s
 
 CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o: CMakeFiles/Spi_Mcp3564.dir/flags.make
-CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o: /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/src/main.cpp
+CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o: /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/src/main.cpp
 CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o: CMakeFiles/Spi_Mcp3564.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o -MF CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o.d -o CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o -c /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o -MF CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o.d -o CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o -c /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/src/main.cpp
 
 CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/src/main.cpp > CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/src/main.cpp > CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.i
 
 CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/src/main.cpp -o CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/src/main.cpp -o CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.s
 
 # Object files for target Spi_Mcp3564
 Spi_Mcp3564_OBJECTS = \
@@ -110,7 +110,7 @@ Spi_Mcp3564: CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o
 Spi_Mcp3564: CMakeFiles/Spi_Mcp3564.dir/build.make
 Spi_Mcp3564: /usr/lib/libwiringPi.so
 Spi_Mcp3564: CMakeFiles/Spi_Mcp3564.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Spi_Mcp3564"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Spi_Mcp3564"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Spi_Mcp3564.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +122,6 @@ CMakeFiles/Spi_Mcp3564.dir/clean:
 .PHONY : CMakeFiles/Spi_Mcp3564.dir/clean
 
 CMakeFiles/Spi_Mcp3564.dir/depend:
-	cd /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564 /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564 /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/build /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/build /home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/build/CMakeFiles/Spi_Mcp3564.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564 /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564 /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build/CMakeFiles/Spi_Mcp3564.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Spi_Mcp3564.dir/depend
 

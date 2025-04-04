@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/docs -I/home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/exemples -I/home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/external -I/home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/lib -I/home/admin/Desktop/Table-de-Mixage/WorkSpace/SPI_prog/Spi_Mcp3564/src
+CXX_INCLUDES = -I/home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/docs -I/home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/exemples -I/home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/external -I/home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/lib -I/home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/src
 
 CXX_FLAGS = -std=gnu++17
 
