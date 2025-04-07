@@ -1,0 +1,2 @@
+# Empty dependencies file for Template_C_Cpp_WiringPi.
+# This may be replaced when dependencies are built.

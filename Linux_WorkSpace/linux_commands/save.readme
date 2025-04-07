@@ -1,0 +1,7 @@
+user_commands.sh : su, whoami, groups, id
+important_commands.sh : man, echo, apt, mv
+system_commands.sh : top, ps, df, free, uptime, reboot, shutdown
+package_management.sh : apt update, apt install, apt remove, apt upgrade
+network_commands.sh : ping, ifconfig, netstat, ssh, scp, curl, wget
+process_management.sh : kill, pkill, ps, top, htop, nice
+system_information.sh : uname, lsblk, df, free, lscpu, uptime
