@@ -51,7 +51,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=MCP3564_breakout.SchDoc
+DocumentPath=04-ADC_antialiasing.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -119,7 +119,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=MCP3564_breakout.PcbDoc
+DocumentPath=04-ADC_antialiasing.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -152,164 +152,59 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document7]
+DocumentPath=..\Library\PCB.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document8]
+DocumentPath=..\Library\Schema.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MNZXZISY
+
+[Document9]
+DocumentPath=04-ADC_antialiasing.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs\Design Rule Check - PCB1.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs\PCB1.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs\PCB1.REP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs\PCB1_Assembly_Notes.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs\PCB1_Board.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs\PCB1_Bottom_3D_Body.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs\PCB1_Bottom_Assembly.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs\PCB1_Bottom_Coating.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs\PCB1_Bottom_Component_Center.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs\PCB1_Bottom_Component_Outline.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs\PCB1_Bottom_Courtyard.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs\PCB1_Bottom_Designator.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs\PCB1_Bottom_Glue_Points.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs\PCB1_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs\PCB1_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs\PCB1_Dimensions.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs\PCB1_Drawing_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs\PCB1_Drillmap_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs\PCB1_Fab_Notes.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs\PCB1_Keep-out.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs\PCB1_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs\PCB1_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs\PCB1_NPTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs\PCB1_Pads_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs\PCB1_Pads_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs\PCB1_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs\PCB1_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs\PCB1_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs\PCB1_PTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs\PCB1_Route_Tool_Path.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs\PCB1_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs\PCB1_Soldermask_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs\PCB1_Top_3D_Body.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs\PCB1_Top_Assembly.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs\PCB1_Top_Coating.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs\PCB1_Top_Component_Center.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs\PCB1_Top_Component_Outline.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs\PCB1_Top_Courtyard.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs\PCB1_Top_Designator.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs\PCB1_Top_Glue_Points.gbr
+DocumentPath=Project Outputs\Design Rule Check - 04-ADC_antialiasing.html
 DItemRevisionGUID=
 
 [Parameter1]
@@ -440,6 +335,45 @@ ConfigurationType=Assembly
 
 [Generic_EDE]
 OutputDir=Project Outputs
+
+[Generic_SmartPDF]
+AutoOpenFile=-1
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=0
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=0
+TemplateFilename=Board Stack Report.XLT
+TemplateStoreRelative=-1
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-3
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+Wir_PrintColor=0
+Ldr_PrintColor=0
+Esd_PrintColor=0
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=[No Variations]
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=0
+SCH_ExpandPorts=0
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=-1
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -679,78 +613,74 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Board Stack Report
-OutputName1=Report Board Stack
+OutputType1=CompositeDrill
+OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=ODB
-OutputName2=ODB++ Files
+OutputType2=Drill
+OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=Plane
-OutputName3=Power-Plane Prints
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType3=Mask
+OutputName3=Solder/Paste Mask Prints
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType4=IPC2581
-OutputName4=IPC-2581 Files
+OutputType4=Final
+OutputName4=Final Artwork Prints
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=Gerber X2
-OutputName5=Gerber X2 Files
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType5=Test Points
+OutputName5=Test Point Report
 OutputDocumentPath5=
-OutputVariantName5=[No Variations]
+OutputVariantName5=
 OutputDefault5=0
-Configuration5_Name1=ForceUpdateSettings
-Configuration5_Item1=False
-Configuration5_Name2=OutputConfigurationParameter1
-Configuration5_Item2=BoardID=RJHOKYIJ|FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=False|GenerateReports=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=50|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OutputFormat=Single|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotCounterHolesPairs=False|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_Checked=True|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_FileName= |PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_Checked=True|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_FileName= |PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_Checked=True|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_FileName= |PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_Checked=True|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_FileName= |PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16908289~1,16908309~1,16908290~1,16908291~1,16908292~1,16908293~1,16908294~1,16908295~1,16908296~1,16908297~1,16908298~1,16908299~1,16908300~1,16908301~1,16908302~1,16908303~1,16908304~1,16908305~1,16908306~1,16908307~1,16908308~1,16973837~1,16973848~1,16973849~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage-Docs\Table-de-Mixage\TSPO20_breakout\TSOP20_breakout\PCB1.PcbDoc
 OutputType6=NC Drill
 OutputName6=NC Drill Files
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=Drill
-OutputName7=Drill Drawing/Guides
+OutputType7=ODB
+OutputName7=ODB++ Files
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType8=CompositeDrill
-OutputName8=Composite Drill Drawing
+OutputType8=Board Stack Report
+OutputName8=Report Board Stack
 OutputDocumentPath8=
-OutputVariantName8=[No Variations]
+OutputVariantName8=
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=Mask
-OutputName9=Solder/Paste Mask Prints
+OutputType9=Plane
+OutputName9=Power-Plane Prints
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType10=Test Points
-OutputName10=Test Point Report
+OutputType10=Gerber
+OutputName10=Gerber Files
 OutputDocumentPath10=
-OutputVariantName10=
+OutputVariantName10=[No Variations]
 OutputDefault10=0
-OutputType11=Final
-OutputName11=Final Artwork Prints
+Configuration10_Name1=OutputConfigurationParameter1
+Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16777220~1,16842753~1,16777218~1,16777219~1,16842754~1,16777221~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908290~1,16908291~1,16908293~1,16908301~1,16908302~1,16908303~1,16908311~1,16908312~1,16908315~1,16908316~1,16908317~1,16908318~1,16908319~1,16908320~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False
+OutputType11=Gerber X2
+OutputName11=Gerber X2 Files
 OutputDocumentPath11=
 OutputVariantName11=[No Variations]
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=Gerber
-OutputName12=Gerber Files
+OutputType12=IPC2581
+OutputName12=IPC-2581 Files
 OutputDocumentPath12=
 OutputVariantName12=[No Variations]
 OutputDefault12=0
-Configuration12_Name1=OutputConfigurationParameter1
-Configuration12_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16777220~1,16842753~1,16777218~1,16777219~1,16842754~1,16777221~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908290~1,16908291~1,16908293~1,16908301~1,16908302~1,16908303~1,16908311~1,16908312~1,16908315~1,16908316~1,16908317~1,16908318~1,16908319~1,16908320~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
@@ -1397,6 +1327,78 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Schema.SchLib
+ComponentDesignItemID0=Cap_6.0*2.5*6mm
+ComponentSymbolReference0=Cap_6.0*2.5*6mm
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Schema.SchLib
+ComponentDesignItemID1=Res_3.5x6.5mm_TH
+ComponentSymbolReference1=Res_3.5x6.5mm_TH
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Vault Name
+ComponentLibraryIdentifier2=Altium Content Vault
+ComponentDesignItemID2=CMP-00252-111742343-1
+ComponentSymbolReference2=0ac5b573d1d2d90c3815fbc455c1358
+ComponentUpdate2=0
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Vault Name
+ComponentLibraryIdentifier3=Altium Content Vault
+ComponentDesignItemID3=CMP-0187-00094-3
+ComponentSymbolReference3=AMP-OPA-MCP6022-IL8
+ComponentUpdate3=0
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Vault Name
+ComponentLibraryIdentifier4=Altium Content Vault
+ComponentDesignItemID4=CMP-02766-001399-1
+ComponentSymbolReference4=c88cc8f52996938c7d007d235ebe18b
+ComponentUpdate4=0
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Vault Name
+ComponentLibraryIdentifier5=Altium Content Vault
+ComponentDesignItemID5=CMP-03913-53914174-1
+ComponentSymbolReference5=Capacitor_Polarized
+ComponentUpdate5=0
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Vault Name
+ComponentLibraryIdentifier6=Altium Content Vault
+ComponentDesignItemID6=CMP-04776-001047-1
+ComponentSymbolReference6=aee40dc8b284c03a16094555aa210be
+ComponentUpdate6=0
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Vault Name
+ComponentLibraryIdentifier7=Altium Content Vault
+ComponentDesignItemID7=CMP-07234-000037-1
+ComponentSymbolReference7=d453c781d4cc458b93eaf0f603e5529
+ComponentUpdate7=0
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Vault Name
+ComponentLibraryIdentifier8=Altium Content Vault
+ComponentDesignItemID8=CMP-1055-00037-1
+ComponentSymbolReference8=ONSC-D-K1A2-2_A
+ComponentUpdate8=0
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Vault Name
+ComponentLibraryIdentifier9=Altium Content Vault
+ComponentDesignItemID9=CMP-15831-000105-1
+ComponentSymbolReference9=3bc925449376181038e59eaffc5286c
+ComponentUpdate9=0
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Vault Name
+ComponentLibraryIdentifier10=Altium Content Vault
+ComponentDesignItemID10=CMP-1665-00038-2
+ComponentSymbolReference10=CAP-P-2
+ComponentUpdate10=0
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Vault Name
+ComponentLibraryIdentifier11=Altium Content Vault
+ComponentDesignItemID11=CMP-209535-000002-1
+ComponentSymbolReference11=59ad430b93a2c51b3e6ee7c3b069677
+ComponentUpdate11=0
+ComponentIsDeviceSheet11=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1410,6 +1412,369 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Actuator Orientation
+ParameterUpdate0=1
+ParameterName1=Actuator Type
+ParameterUpdate1=1
+ParameterName2=Ambient Temperature Range High
+ParameterUpdate2=1
+ParameterName3=Amplifier Type
+ParameterUpdate3=1
+ParameterName4=Bandwidth
+ParameterUpdate4=1
+ParameterName5=Capacitance
+ParameterUpdate5=1
+ParameterName6=Capacitor Type
+ParameterUpdate6=1
+ParameterName7=Case/Package
+ParameterUpdate7=1
+ParameterName8=Color
+ParameterUpdate8=1
+ParameterName9=Comment
+ParameterUpdate9=1
+ParameterName10=Common Mode Rejection Ratio
+ParameterUpdate10=1
+ParameterName11=Component Kind
+ParameterUpdate11=1
+ParameterName12=ComponentLink1Description
+ParameterUpdate12=1
+ParameterName13=ComponentLink1URL
+ParameterUpdate13=1
+ParameterName14=ComponentLink2Description
+ParameterUpdate14=1
+ParameterName15=ComponentLink2URL
+ParameterUpdate15=1
+ParameterName16=ComponentLink3Description
+ParameterUpdate16=1
+ParameterName17=ComponentLink3URL
+ParameterUpdate17=1
+ParameterName18=Configuration
+ParameterUpdate18=1
+ParameterName19=Connector Type
+ParameterUpdate19=1
+ParameterName20=Contact Finish - Mating
+ParameterUpdate20=1
+ParameterName21=Contact Material
+ParameterUpdate21=1
+ParameterName22=Contact Mating Length
+ParameterUpdate22=1
+ParameterName23=Contact Plating
+ParameterUpdate23=1
+ParameterName24=Contact Resistance
+ParameterUpdate24=1
+ParameterName25=Contact Shape
+ParameterUpdate25=1
+ParameterName26=Contact Type
+ParameterUpdate26=1
+ParameterName27=Current
+ParameterUpdate27=1
+ParameterName28=Current Rating
+ParameterUpdate28=1
+ParameterName29=Datasheet URL
+ParameterUpdate29=1
+ParameterName30=Datasheet Version
+ParameterUpdate30=1
+ParameterName31=DatasheetVersion
+ParameterUpdate31=1
+ParameterName32=Depth
+ParameterUpdate32=1
+ParameterName33=Description
+ParameterUpdate33=1
+ParameterName34=Design Item ID
+ParameterUpdate34=1
+ParameterName35=Diameter
+ParameterUpdate35=1
+ParameterName36=Dielectric Material
+ParameterUpdate36=1
+ParameterName37=Dissipation Factor
+ParameterUpdate37=1
+ParameterName38=Fastening Type
+ParameterUpdate38=1
+ParameterName39=Flammability Rating
+ParameterUpdate39=1
+ParameterName40=Gain Bandwidth Product
+ParameterUpdate40=1
+ParameterName41=Gender
+ParameterUpdate41=1
+ParameterName42=Glow Wire Compliant
+ParameterUpdate42=1
+ParameterName43=Height
+ParameterUpdate43=1
+ParameterName44=Height - Seated (Max)
+ParameterUpdate44=1
+ParameterName45=Housing Color
+ParameterUpdate45=1
+ParameterName46=Housing Material
+ParameterUpdate46=1
+ParameterName47=IFSM Max (A)
+ParameterUpdate47=1
+ParameterName48=Input Bias Current
+ParameterUpdate48=1
+ParameterName49=Input Offset Voltage (Vos)
+ParameterUpdate49=1
+ParameterName50=Input Offset Voltage-Max
+ParameterUpdate50=1
+ParameterName51=Insulation Color
+ParameterUpdate51=1
+ParameterName52=Insulation Material
+ParameterUpdate52=1
+ParameterName53=Insulation Resistance
+ParameterUpdate53=1
+ParameterName54=Interface
+ParameterUpdate54=1
+ParameterName55=Lead Diameter
+ParameterUpdate55=1
+ParameterName56=Lead Free
+ParameterUpdate56=1
+ParameterName57=Lead Pitch
+ParameterUpdate57=1
+ParameterName58=Lead/Base Style
+ParameterUpdate58=1
+ParameterName59=Leakage Current
+ParameterUpdate59=1
+ParameterName60=Length
+ParameterUpdate60=1
+ParameterName61=Library Reference
+ParameterUpdate61=1
+ParameterName62=Life (Hours)
+ParameterUpdate62=1
+ParameterName63=Lifecycle Status
+ParameterUpdate63=1
+ParameterName64=Manufacturer
+ParameterUpdate64=1
+ParameterName65=Manufacturer Series
+ParameterUpdate65=1
+ParameterName66=Manufacturer URL
+ParameterUpdate66=1
+ParameterName67=Mated Stacking Heights
+ParameterUpdate67=1
+ParameterName68=Material
+ParameterUpdate68=1
+ParameterName69=Mating Cycles
+ParameterUpdate69=1
+ParameterName70=Max Current Rating
+ParameterUpdate70=1
+ParameterName71=Max Frequency
+ParameterUpdate71=1
+ParameterName72=Max Input Voltage
+ParameterUpdate72=1
+ParameterName73=Max Junction Temperature (Tj)
+ParameterUpdate73=1
+ParameterName74=Max Operating Temperature
+ParameterUpdate74=1
+ParameterName75=Max Output Current
+ParameterUpdate75=1
+ParameterName76=Max Power Dissipation
+ParameterUpdate76=1
+ParameterName77=Max Supply Current
+ParameterUpdate77=1
+ParameterName78=Max Supply Voltage
+ParameterUpdate78=1
+ParameterName79=Military Standard
+ParameterUpdate79=1
+ParameterName80=Min Input Voltage
+ParameterUpdate80=1
+ParameterName81=Min Operating Temperature
+ParameterUpdate81=1
+ParameterName82=Min Supply Voltage
+ParameterUpdate82=1
+ParameterName83=Mount
+ParameterUpdate83=1
+ParameterName84=Mounting Technology
+ParameterUpdate84=1
+ParameterName85=NexarPartId
+ParameterUpdate85=1
+ParameterName86=Nominal Supply Current
+ParameterUpdate86=1
+ParameterName87=Number of Amplifiers
+ParameterUpdate87=1
+ParameterName88=Number of Channels
+ParameterUpdate88=1
+ParameterName89=Number of Circuits
+ParameterUpdate89=1
+ParameterName90=Number of Contacts
+ParameterUpdate90=1
+ParameterName91=Number of Converters
+ParameterUpdate91=1
+ParameterName92=Number of Elements
+ParameterUpdate92=1
+ParameterName93=Number of Pins
+ParameterUpdate93=1
+ParameterName94=Number of Poles
+ParameterUpdate94=1
+ParameterName95=Number of Positions
+ParameterUpdate95=1
+ParameterName96=Number of Rows
+ParameterUpdate96=1
+ParameterName97=Number of Terminals/Pins
+ParameterUpdate97=1
+ParameterName98=Number of Turns
+ParameterUpdate98=1
+ParameterName99=Orientation
+ParameterUpdate99=1
+ParameterName100=Output Current
+ParameterUpdate100=1
+ParameterName101=Package Description
+ParameterUpdate101=1
+ParameterName102=Package Quantity
+ParameterUpdate102=1
+ParameterName103=Package Reference
+ParameterUpdate103=1
+ParameterName104=PackageDescription
+ParameterUpdate104=1
+ParameterName105=PackageReference
+ParameterUpdate105=1
+ParameterName106=PackageVersion
+ParameterUpdate106=1
+ParameterName107=Packaging
+ParameterUpdate107=1
+ParameterName108=Packing
+ParameterUpdate108=1
+ParameterName109=PartNumber
+ParameterUpdate109=1
+ParameterName110=Pin Diameter
+ParameterUpdate110=1
+ParameterName111=Pins
+ParameterUpdate111=1
+ParameterName112=Pitch
+ParameterUpdate112=1
+ParameterName113=Polarity
+ParameterUpdate113=1
+ParameterName114=Power Rating
+ParameterUpdate114=1
+ParameterName115=Power Supply Rejection Ratio (PSRR)
+ParameterUpdate115=1
+ParameterName116=Radiation Hardening
+ParameterUpdate116=1
+ParameterName117=REACH SVHC
+ParameterUpdate117=1
+ParameterName118=Reach SVHC Compliant
+ParameterUpdate118=1
+ParameterName119=Resistance
+ParameterUpdate119=1
+ParameterName120=Resistance Law
+ParameterUpdate120=1
+ParameterName121=Resistance Tolerance
+ParameterUpdate121=1
+ParameterName122=Resistor Type
+ParameterUpdate122=1
+ParameterName123=Ripple Current
+ParameterUpdate123=1
+ParameterName124=Ripple Current (AC)
+ParameterUpdate124=1
+ParameterName125=RoHS
+ParameterUpdate125=1
+ParameterName126=RoHS Compliant
+ParameterUpdate126=1
+ParameterName127=RoHSCompliant
+ParameterUpdate127=1
+ParameterName128=Row Spacing
+ParameterUpdate128=1
+ParameterName129=Sampling Rate
+ParameterUpdate129=1
+ParameterName130=Series
+ParameterUpdate130=1
+ParameterName131=Settling Time
+ParameterUpdate131=1
+ParameterName132=Slew Rate
+ParameterUpdate132=1
+ParameterName133=Slew Rate-Nom
+ParameterUpdate133=1
+ParameterName134=Source
+ParameterUpdate134=1
+ParameterName135=Supply Current
+ParameterUpdate135=1
+ParameterName136=System
+ParameterUpdate136=1
+ParameterName137=Taper
+ParameterUpdate137=1
+ParameterName138=Technology
+ParameterUpdate138=1
+ParameterName139=Temperature Coefficient
+ParameterUpdate139=1
+ParameterName140=Terminal Finish
+ParameterUpdate140=1
+ParameterName141=Termination
+ParameterUpdate141=1
+ParameterName142=Thickness
+ParameterUpdate142=1
+ParameterName143=Tolerance
+ParameterUpdate143=1
+ParameterName144=Type
+ParameterUpdate144=1
+ParameterName145=Unity Gain Bandwidth Product
+ParameterUpdate145=1
+ParameterName146=Value
+ParameterUpdate146=1
+ParameterName147=Voltage
+ParameterUpdate147=1
+ParameterName148=Voltage Gain
+ParameterUpdate148=1
+ParameterName149=Voltage Rating
+ParameterUpdate149=1
+ParameterName150=Voltage Rating (AC)
+ParameterUpdate150=1
+ParameterName151=Voltage Rating (DC)
+ParameterUpdate151=1
+ParameterName152=Weight
+ParameterUpdate152=1
+ParameterName153=Width
+ParameterUpdate153=1
+ParameterName154=Working Voltage
+ParameterUpdate154=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=Cap_6.0%2A2.5%2A6mm
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=CAPPR55-200-1100X500X1200
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=FP-3006P-1-104LF-MFG
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=FP-90121-0770-MFG
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=FP-ams1117-IPC_A
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=FP-ams1117-IPC_B
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=FP-ams1117-IPC_C
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=FP-C04-088-IPC_A
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=FP-C04-088-IPC_B
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=FP-C04-088-IPC_C
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=FP-C04-088-MFG
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=FP-M20-9990245-MFG
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=FP-SSQ-110-03-G-S-MFG
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=ONSC-AXIAL_LEAD-2-59-10_P
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=PDIP300-P8
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=Res_Axial_3.5x6.5mm_TH
+ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=WCAP-ATG5_D6.3H11
+ModelUpdate16=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

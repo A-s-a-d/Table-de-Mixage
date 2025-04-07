@@ -120,6 +120,8 @@ VaultGUID=
 ManagedProjectGUID=
 RevisionGUID=
 ProjectName=Carte_Mere.PrjPcb
+VaultURL=
+VaultName=
 
 [Document5]
 DocumentPath=..\01-Suiveur\01-Suiveur.PrjPcb
@@ -141,6 +143,8 @@ VaultGUID=
 ManagedProjectGUID=
 RevisionGUID=
 ProjectName=01-Suiveur.PrjPcb
+VaultURL=
+VaultName=
 
 [Document6]
 DocumentPath=..\02-Detection_et_Ampli\02-Ampli.PrjPcb
@@ -162,6 +166,8 @@ VaultGUID=
 ManagedProjectGUID=
 RevisionGUID=
 ProjectName=02-Ampli.PrjPcb
+VaultURL=
+VaultName=
 
 [Document7]
 DocumentPath=..\03-Offset_et_PBF\03-Offset_et_PBF.PrjPcb
@@ -183,6 +189,50 @@ VaultGUID=
 ManagedProjectGUID=
 RevisionGUID=
 ProjectName=03-Offset_et_PBF.PrjPcb
+VaultURL=
+VaultName=
+
+[Document8]
+DocumentPath=..\04-ADC+antiallaising\04-ADC_antialiasing.PrjPcb
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+VaultGUID=
+ManagedProjectGUID=
+RevisionGUID=
+ProjectName=04-ADC_antialiasing.PrjPcb
+
+[Document9]
+DocumentPath=..\MCP3564\MCP3564_breakout.PrjPcb
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+VaultGUID=
+ManagedProjectGUID=
+RevisionGUID=
+ProjectName=MCP3564_breakout.PrjPcb
 
 [OutputGroup1]
 Name=Netlist Outputs
