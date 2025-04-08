@@ -1,6 +1,9 @@
 CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o: \
- /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/stdio.h \
+ /home/admin/Desktop/Table-de-Mixage/Linux_WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/src/main.cpp \
+ /usr/include/stdc-predef.h \
+ /home/admin/Desktop/Table-de-Mixage/Linux_WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/src/../lib/MCP3564/MCP3564.h \
+ /home/admin/Desktop/Table-de-Mixage/Linux_WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/lib/./SPI/SPI.h \
+ /usr/include/stdio.h \
  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
@@ -87,4 +90,5 @@ CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o: \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/aarch64-linux-gnu/bits/wchar.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h /usr/include/string.h \
- /usr/include/strings.h
+ /usr/include/strings.h /usr/include/c++/12/cstring \
+ /usr/include/c++/12/cstdio

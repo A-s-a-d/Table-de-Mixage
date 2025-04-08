@@ -9,6 +9,8 @@
 #include <linux/spi/spidev.h>
 #include <stdint.h>
 #include <string.h>
+#include <cstring>     // pour memset
+#include <cstdio>      // pour perror
 
 #define SPI_DEVICE "/dev/spidev0.0"  // SPI0, CE0
 

@@ -1,4 +1,4 @@
-#include "MCP3564.h"
+#include "./MCP3564.h"
 #include <fcntl.h>
 #include <unistd.h>
 

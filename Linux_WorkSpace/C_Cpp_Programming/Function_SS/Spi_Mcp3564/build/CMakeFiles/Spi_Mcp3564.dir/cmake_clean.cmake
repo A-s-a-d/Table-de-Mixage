@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o"
-  "CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o.d"
+  "CMakeFiles/Spi_Mcp3564.dir/lib/MCP3564/MCP3564.cpp.o"
+  "CMakeFiles/Spi_Mcp3564.dir/lib/MCP3564/MCP3564.cpp.o.d"
+  "CMakeFiles/Spi_Mcp3564.dir/lib/SPI/SPI.cpp.o"
+  "CMakeFiles/Spi_Mcp3564.dir/lib/SPI/SPI.cpp.o.d"
   "CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o"
   "CMakeFiles/Spi_Mcp3564.dir/src/main.cpp.o.d"
   "Spi_Mcp3564"

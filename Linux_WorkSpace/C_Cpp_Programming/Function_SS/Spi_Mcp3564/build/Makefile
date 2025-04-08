@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564
+CMAKE_SOURCE_DIR = /home/admin/Desktop/Table-de-Mixage/Linux_WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build
+CMAKE_BINARY_DIR = /home/admin/Desktop/Table-de-Mixage/Linux_WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build/CMakeFiles /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin/Desktop/Table-de-Mixage/Linux_WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build/CMakeFiles /home/admin/Desktop/Table-de-Mixage/Linux_WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin/Desktop/Table-de-Mixage/WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin/Desktop/Table-de-Mixage/Linux_WorkSpace/C_Cpp_Programming/Function_SS/Spi_Mcp3564/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,53 @@ Spi_Mcp3564/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spi_Mcp3564.dir/build.make CMakeFiles/Spi_Mcp3564.dir/build
 .PHONY : Spi_Mcp3564/fast
 
-lib/Serial_port/Serial_port.o: lib/Serial_port/Serial_port.cpp.o
-.PHONY : lib/Serial_port/Serial_port.o
+lib/MCP3564/MCP3564.o: lib/MCP3564/MCP3564.cpp.o
+.PHONY : lib/MCP3564/MCP3564.o
 
 # target to build an object file
-lib/Serial_port/Serial_port.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spi_Mcp3564.dir/build.make CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.o
-.PHONY : lib/Serial_port/Serial_port.cpp.o
+lib/MCP3564/MCP3564.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spi_Mcp3564.dir/build.make CMakeFiles/Spi_Mcp3564.dir/lib/MCP3564/MCP3564.cpp.o
+.PHONY : lib/MCP3564/MCP3564.cpp.o
 
-lib/Serial_port/Serial_port.i: lib/Serial_port/Serial_port.cpp.i
-.PHONY : lib/Serial_port/Serial_port.i
+lib/MCP3564/MCP3564.i: lib/MCP3564/MCP3564.cpp.i
+.PHONY : lib/MCP3564/MCP3564.i
 
 # target to preprocess a source file
-lib/Serial_port/Serial_port.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spi_Mcp3564.dir/build.make CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.i
-.PHONY : lib/Serial_port/Serial_port.cpp.i
+lib/MCP3564/MCP3564.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spi_Mcp3564.dir/build.make CMakeFiles/Spi_Mcp3564.dir/lib/MCP3564/MCP3564.cpp.i
+.PHONY : lib/MCP3564/MCP3564.cpp.i
 
-lib/Serial_port/Serial_port.s: lib/Serial_port/Serial_port.cpp.s
-.PHONY : lib/Serial_port/Serial_port.s
+lib/MCP3564/MCP3564.s: lib/MCP3564/MCP3564.cpp.s
+.PHONY : lib/MCP3564/MCP3564.s
 
 # target to generate assembly for a file
-lib/Serial_port/Serial_port.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spi_Mcp3564.dir/build.make CMakeFiles/Spi_Mcp3564.dir/lib/Serial_port/Serial_port.cpp.s
-.PHONY : lib/Serial_port/Serial_port.cpp.s
+lib/MCP3564/MCP3564.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spi_Mcp3564.dir/build.make CMakeFiles/Spi_Mcp3564.dir/lib/MCP3564/MCP3564.cpp.s
+.PHONY : lib/MCP3564/MCP3564.cpp.s
+
+lib/SPI/SPI.o: lib/SPI/SPI.cpp.o
+.PHONY : lib/SPI/SPI.o
+
+# target to build an object file
+lib/SPI/SPI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spi_Mcp3564.dir/build.make CMakeFiles/Spi_Mcp3564.dir/lib/SPI/SPI.cpp.o
+.PHONY : lib/SPI/SPI.cpp.o
+
+lib/SPI/SPI.i: lib/SPI/SPI.cpp.i
+.PHONY : lib/SPI/SPI.i
+
+# target to preprocess a source file
+lib/SPI/SPI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spi_Mcp3564.dir/build.make CMakeFiles/Spi_Mcp3564.dir/lib/SPI/SPI.cpp.i
+.PHONY : lib/SPI/SPI.cpp.i
+
+lib/SPI/SPI.s: lib/SPI/SPI.cpp.s
+.PHONY : lib/SPI/SPI.s
+
+# target to generate assembly for a file
+lib/SPI/SPI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spi_Mcp3564.dir/build.make CMakeFiles/Spi_Mcp3564.dir/lib/SPI/SPI.cpp.s
+.PHONY : lib/SPI/SPI.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -186,9 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Spi_Mcp3564"
-	@echo "... lib/Serial_port/Serial_port.o"
-	@echo "... lib/Serial_port/Serial_port.i"
-	@echo "... lib/Serial_port/Serial_port.s"
+	@echo "... lib/MCP3564/MCP3564.o"
+	@echo "... lib/MCP3564/MCP3564.i"
+	@echo "... lib/MCP3564/MCP3564.s"
+	@echo "... lib/SPI/SPI.o"
+	@echo "... lib/SPI/SPI.i"
+	@echo "... lib/SPI/SPI.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

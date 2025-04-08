@@ -1,7 +1,7 @@
 #ifndef MCP3564_H
 #define MCP3564_H
 
-#include "SPI.h"
+#include "./SPI/SPI.h"
 #include <stdint.h>
 #include <stdio.h>
 

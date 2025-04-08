@@ -1,4 +1,4 @@
-#include "lib/MCP3564/MCP3564.h"
+#include "../lib/MCP3564/MCP3564.h"
 #include <stdio.h>
 
 int main() {
