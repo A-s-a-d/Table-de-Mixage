@@ -1,0 +1,13 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\asad1\OneDrive\Documents\BUT GEII\S5\SAE_ProjetTutoré\TECHNIQUE\SIGNAL_ANALOGIQUE\ELECTRONICS\SIMULATIONS\Clock clamping.asc
+Start Time: Wed Apr  2 20:29:43 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Limiting rise time of source v1 to 2.5e-09
+Limiting fall time of source v1 to 2.5e-09
+.OP point found by inspection.
+Total elapsed time: 0.051 seconds.
+

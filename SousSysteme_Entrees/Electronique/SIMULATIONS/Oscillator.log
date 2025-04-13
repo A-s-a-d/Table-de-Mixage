@@ -1,0 +1,15 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\asad1\OneDrive\Documents\BUT GEII\S5\SAE_ProjetTutoré\TECHNIQUE\SIGNAL_ANALOGIQUE\ELECTRONICS\SIMULATIONS\Oscillator.asc
+Start Time: Fri Mar 28 20:14:32 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Limiting rise time of source v2 to 0.0025
+Limiting fall time of source v2 to 0.0025
+WARNING: Less than two connections to node nc_01.  This node is used by q2.
+WARNING: Less than two connections to node n002.  This node is used by r2.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.069 seconds.
+

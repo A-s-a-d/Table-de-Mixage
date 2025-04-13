@@ -1,0 +1,16 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\asad1\OneDrive\Documents\BUT GEII\S5\SAE_ProjetTutoré\TECHNIQUE\SIGNAL_ANALOGIQUE\ELECTRONICS\SIMULATIONS\Draft2.asc
+Start Time: Sun Feb  2 21:11:22 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Limiting rise time of source v2 to 1e-07
+Limiting fall time of source v2 to 1e-07
+WARNING: Less than two connections to node n004.  This node is used by q2.
+WARNING: Less than two connections to node nc_01.  This node is used by q2.
+WARNING: Less than two connections to node n001.  This node is used by v2.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.051 seconds.
+

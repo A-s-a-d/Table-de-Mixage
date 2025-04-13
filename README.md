@@ -1,7 +1,17 @@
-# Documentation :  [lien](Documentation)
-# Workspace Linux pour Gestion GPIO : [lien](Linux_WorkSpace)
- 
 
+# Cahier de charge 
+[lien Cahier de charge](CDC.pdf)
 
+# Planification
+[lien Planification](DossierPlanification.pdf)
 
-![20250409_131533](https://github.com/user-attachments/assets/f8014daf-d531-4aac-854e-4f92577abd13)
+## Gantt
+[Lien Gantt](Gantt_V2.pdf)
+
+# Sous-Systeme Entrees Analogique et Numeriques
+[Lien Sous Systeme_Entrees](SousSysteme_Entrees/)
+# Sous-Systeme IHM et Effets
+
+# Sous-Systeme Amplification et Restitution
+
+# Sous-Systeme Alimentation et CAO 3D

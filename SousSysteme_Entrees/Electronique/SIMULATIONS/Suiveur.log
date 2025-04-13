@@ -1,0 +1,11 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\asad1\OneDrive\Documents\BUT GEII\S5\SAE_ProjetTutoré\TECHNIQUE\SIGNAL_ANALOGIQUE\ELECTRONICS\SIMULATIONS\Suiveur.asc
+Start Time: Tue Dec 31 12:03:13 2024
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.045 seconds.
+
