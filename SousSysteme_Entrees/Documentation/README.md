@@ -1,20 +1,28 @@
-# Table-de-Mixage Documents 
+# Documentation du Sous-Système Entrées
 
-## CDC 
-- ### CDC de Système globale : [lien](CDC/CDC_V3_0.pdf)
+## Dossiers
 
-## Planification 
-- ### Dossier de Planification : [lien](PLANIFICATION/DossierPlanificationV2.pdf)
-- ### GANTT : [lien](PLANIFICATION/Gantt_V2.pdf)
+### [PRESENTATION](PRESENTATION)
+Contient les supports de présentation liés au sous-système.
 
+### [SCHEMAS](SCHEMAS)
+Contient les schémas électroniques, blocs fonctionnels et autres représentations techniques.
 
-## Schemas
-  Les fichier peut être visualisés ou édités avec [Diagrams.net](https://app.diagrams.net/). Téléchargez-le depuis le dépôt : [Block_Diagram_FR.drawio](SCHEMAS/).
+---
 
-## Presentation
-- ### Soutenance Avant Projet : [lien](PRESENTATION/Soutenance_1_Avant_projet.pptx)
+## Documents
 
+### [Doc_Conception_SS_EA_et_N.pdf](Doc_Conception_SS_EA_et_N.pdf)
+Document de conception du sous-système Entrées Analogiques et Numériques.
 
-## Liste de Materiel 
+### [Doc_Fabrication__SS_EA_et_N.PDF](Doc_Fabrication__SS_EA_et_N.PDF)
+Document de fabrication, incluant les étapes d'assemblage et les choix techniques.
 
-[EXCEL de Liste de Materiel](https://a-s-a-d.github.io/Table-de-Mixage/FILES/EXCEL.html)
+### [Procedure_d'installation_et_de_mise_en_service_SS_EA_et_N.pdf](Procedure_d'installation_et_de_mise_en_service_SS_EA_et_N.pdf)
+Procédure d'installation et de mise en service du sous-système.
+
+### [Procedure_de_maintenance_preventive_SS_EA_et_N.pdf](Procedure_de_maintenance_preventive_SS_EA_et_N.pdf)
+Procédure de maintenance préventive pour assurer le bon fonctionnement dans le temps.
+
+### [Rapport_et_procedure_de_test__SS_EA_et_N.pdf](Rapport_et_procedure_de_test__SS_EA_et_N.pdf)
+Rapport de tests et procédures de vérification du sous-système.

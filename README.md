@@ -1,6 +1,6 @@
 
 # Cahier de charge 
-[lien Cahier de charge](CDC.pdf)
+[lien Cahier de charge global (par chef de projet)](CDC.pdf)
 
 # Planification
 [lien Planification](DossierPlanification.pdf)
@@ -11,7 +11,10 @@
 # Sous-Systeme Entrees Analogique et Numeriques
 [Lien Sous Systeme_Entrees](SousSysteme_Entrees/)
 # Sous-Systeme IHM et Effets
+[Lien Sous Systeme_Entrees](SousSysteme_IHM/)
 
 # Sous-Systeme Amplification et Restitution
+[Lien Sous Systeme_Entrees](SousSysteme_Ampli_Restitution/)
 
 # Sous-Systeme Alimentation et CAO 3D
+[Lien Sous Systeme_Entrees](SousSysteme_Alim/)
