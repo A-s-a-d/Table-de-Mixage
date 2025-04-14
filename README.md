@@ -9,7 +9,10 @@
 [Lien Gantt](Gantt_V2.pdf)
 
 # Sous-Systeme Entrees Analogique et Numeriques
+
 [Lien Sous Systeme_Entrees](SousSysteme_Entrees/)
+![Carte Mere avec des modules](<CarteMere_avec des_modules.jpg>)
+
 # Sous-Systeme IHM et Effets
 [Lien Sous Systeme_Entrees](SousSysteme_IHM/)
 
