@@ -1,0 +1,468 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\asad1\OneDrive\Documents\APPs_DATA\Altium\AD24\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">30/01/2025</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">19:18:58</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc" class="file"><acronym title="C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc">C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">32</td></tr>
+</table>
+</td>
+</table><a name="IDRERHGLB1KVN4MGPARRNBOXI3EBKCHVZYDX3JPPJBVRNTEXOEZ4FG"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKYX1KG1JK0PQI0A4IQL2323VBEQV2DUVJVASYQPT0XOBVQY4ZLMP">Clearance Constraint (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5XDBGAURXW1OBOUBABGNK0JWBHMZQB14OMYB1N55NBUSPIRQFXE">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMVYYYMSUDITVB3YZYS43SZV44IIHMCVQ3EJ3CIHQO34SRKAWCMRI">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJQNEVNDVKUDFCZO3XVDHFSZY1GJZ0TJNQ1QHJTE0V2CPRP0OHFFP">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMJW4YQGAZX5XEHLI4DK4J45O2FG1HGEGEGECR5MX0XZHFTUDQBPG">Width Constraint (Min=1mm) (Max=2mm) (Preferred=1mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGW0OE12CUUFN0P1AZF4SMMMMN4HJL2HE2YPBROA43VNB12WT23G">Routing Layers(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDG20YNE0IZR0QDLK51STQQRAS4OK2VPNU0H0KYGWHAQO43HPJE5K">Routing Via (MinHoleWidth=0.254mm) (MaxHoleWidth=0.254mm) (PreferredHoleWidth=0.254mm) (MinWidth=0.508mm) (MaxWidth=0.508mm) (PreferedWidth=0.508mm) (All)</a></td>
+<td class="column2">7</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDIQNCPTQ4WBNICKZ2K0PI1QGN3ENTHYOXRGBL0BEF0IXXS4VSG4OI">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.254mm) (Max=0.254mm) (Prefered=0.254mm)  and Width Constraints (Min=0.254mm) (Max=0.254mm) (Prefered=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4G1PC0N2NQL5OW3VJOLT2JFYCGLDALMZVRWQGEBCCQIWU3BAJPZP">SMD Neck-Down Constraint (Percent=100%) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0FVJDFRBRO1SH2BOSSK5ITG1MP5FEAXLEYW03D0MRU4NYNUNFZB">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSDIRITWMDFCVCWHX5HH2GKCTMCFQUMOKES1D1HLIHZPCQHOCWSCB">Minimum Annular Ring (Minimum=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDACI1MU5ANEYSI0IA3TAURK4ABGB44NFGJJFVRHI5CG503YFANZMI">Hole Size Constraint (Min=0.254mm) (Max=7.62mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGF0IIRVAG3ZED0HXM0MOU5IRBD2VEL5NYXTK2GPP1H3OFKLMZYNL">Pads and Vias to follow the Drill pairs settings</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHXYWSSRUCM3MEE0W1HEHLRTH4DADAOX5Q1SFY0HDAK0V4GDMC2B">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMXRSMKKL00BDCDRNSDBIXMYN5MMSPZKKEGJPZ5MKTYIDJQDY2RIJ">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVJT24E44QLQCCEZCBHDXIMOT2BQ1XKJ1XJGJ2CJIUPSREBN2QI2F">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</a></td>
+<td class="column2">12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCLO1YE2QHCVJNEAMFMR5EY1OYVH3CVNZYFG02JQZXKEOQDTZQZL">Silk to Silk (Clearance=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5NBMMOTC1GMBJA3PWENI5URPKLWFEYVTYW2PCSKIZ2CLOQNFL4J">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDM1G30ZAO4HKCI4XHCLROW2UZBCAM11PDNEGRG3IO123BSODS0FHL">Room Detection_et_Ampli (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Detection_et_Ampli'))</a></td>
+<td class="column2">10</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOF2ZKW3DT0HTNTOJPAZHE1USVKN32XNTWZTKKM0KE4VPPS552SI">Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.254mm ) (All),(All) </a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1SNKB1C0URLUKPEZADKCT4103M0PULY4QPJCREP1Q20V1E5H4NRI">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">32</td>
+</tr>
+</table><br><a name="IDMVYYYMSUDITVB3YZYS43SZV44IIHMCVQ3EJ3CIHQO34SRKAWCMRI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7492.544mil|Location2.X=7553.567mil|Location1.Y=5233.89mil|Location2.Y=5494.914mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7492.544mil|Location2.X=7553.567mil|Location1.Y=5233.89mil|Location2.Y=5494.914mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J1-5(1.5mm,21.27mm) on Multi-Layer And Pad J1-3(1.5mm,26.35mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7492.544mil|Location2.X=7553.567mil|Location1.Y=5033.89mil|Location2.Y=5294.914mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7492.544mil|Location2.X=7553.567mil|Location1.Y=5033.89mil|Location2.Y=5294.914mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J1-7(1.5mm,16.19mm) on Multi-Layer And Pad J1-5(1.5mm,21.27mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8158.808mil|Location2.X=8286.654mil|Location1.Y=5634.378mil|Location2.Y=5719.623mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8158.808mil|Location2.X=8286.654mil|Location1.Y=5634.378mil|Location2.Y=5719.623mil|Absolute=True">Un-Routed Net Constraint: Net NetR5_0 Between Pad R5-0(18.502mm,31.979mm) on Multi-Layer And Pad R7-1(20.041mm,31.521mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDG20YNE0IZR0QDLK51STQQRAS4OK2VPNU0H0KYGWHAQO43HPJE5K"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Routing Via (MinHoleWidth=0.254mm) (MaxHoleWidth=0.254mm) (PreferredHoleWidth=0.254mm) (MinWidth=0.508mm) (MaxWidth=0.508mm) (PreferedWidth=0.508mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7602.501mil|Location2.X=7661.501mil|Location1.Y=4834.501mil|Location2.Y=4893.501mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7602.501mil|Location2.X=7661.501mil|Location1.Y=4834.501mil|Location2.Y=4893.501mil|Absolute=True">Routing Via Style: Via (4.267mm,11.1mm) from Top Layer to Bottom Layer Actual Size : 1.27mm Actual Hole Size : 0.711mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7602.501mil|Location2.X=7661.501mil|Location1.Y=5029.717mil|Location2.Y=5088.717mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7602.501mil|Location2.X=7661.501mil|Location1.Y=5029.717mil|Location2.Y=5088.717mil|Absolute=True">Routing Via Style: Via (4.267mm,16.058mm) from Top Layer to Bottom Layer Actual Size : 1.27mm Actual Hole Size : 0.711mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7603.501mil|Location2.X=7662.501mil|Location1.Y=4642.185mil|Location2.Y=4701.185mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7603.501mil|Location2.X=7662.501mil|Location1.Y=4642.185mil|Location2.Y=4701.185mil|Absolute=True">Routing Via Style: Via (4.293mm,6.215mm) from Top Layer to Bottom Layer Actual Size : 1.27mm Actual Hole Size : 0.711mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7612.501mil|Location2.X=7671.501mil|Location1.Y=5530.132mil|Location2.Y=5589.132mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7612.501mil|Location2.X=7671.501mil|Location1.Y=5530.132mil|Location2.Y=5589.132mil|Absolute=True">Routing Via Style: Via (4.521mm,28.769mm) from Top Layer to Bottom Layer Actual Size : 1.27mm Actual Hole Size : 0.711mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7614.886mil|Location2.X=7673.886mil|Location1.Y=5126.991mil|Location2.Y=5185.991mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7614.886mil|Location2.X=7673.886mil|Location1.Y=5126.991mil|Location2.Y=5185.991mil|Absolute=True">Routing Via Style: Via (4.582mm,18.529mm) from Top Layer to Bottom Layer Actual Size : 1.27mm Actual Hole Size : 0.711mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7685.806mil|Location2.X=7744.806mil|Location1.Y=5197.916mil|Location2.Y=5256.916mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7685.806mil|Location2.X=7744.806mil|Location1.Y=5197.916mil|Location2.Y=5256.916mil|Absolute=True">Routing Via Style: Via (6.383mm,20.331mm) from Top Layer to Bottom Layer Actual Size : 1.27mm Actual Hole Size : 0.711mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7706.501mil|Location2.X=7765.501mil|Location1.Y=5632.304mil|Location2.Y=5691.304mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7706.501mil|Location2.X=7765.501mil|Location1.Y=5632.304mil|Location2.Y=5691.304mil|Absolute=True">Routing Via Style: Via (6.909mm,31.364mm) from Top Layer to Bottom Layer Actual Size : 1.27mm Actual Hole Size : 0.711mm</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDVJT24E44QLQCCEZCBHDXIMOT2BQ1XKJ1XJGJ2CJIUPSREBN2QI2F"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8036.828mil|Location2.X=8048.078mil|Location1.Y=4800.29mil|Location2.Y=4811.54mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8036.828mil|Location2.X=8048.078mil|Location1.Y=4800.29mil|Location2.Y=4811.54mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.123mm &lt; 0.254mm) Between Pad R1-0(15.354mm,9.624mm) on Multi-Layer And Track (14.504mm,8.574mm)(14.504mm,10.574mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.123mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7773.965mil|Location2.X=7785.215mil|Location1.Y=4800.29mil|Location2.Y=4811.54mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7773.965mil|Location2.X=7785.215mil|Location1.Y=4800.29mil|Location2.Y=4811.54mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.123mm &lt; 0.254mm) Between Pad R1-1(7.354mm,9.624mm) on Multi-Layer And Track (8.204mm,8.574mm)(8.204mm,10.574mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.123mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8569.783mil|Location2.X=8581.033mil|Location1.Y=4803.6mil|Location2.Y=4814.85mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8569.783mil|Location2.X=8581.033mil|Location1.Y=4803.6mil|Location2.Y=4814.85mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.123mm &lt; 0.254mm) Between Pad R3-0(28.891mm,9.709mm) on Multi-Layer And Track (28.041mm,8.659mm)(28.041mm,10.659mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.123mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8306.92mil|Location2.X=8318.17mil|Location1.Y=4803.6mil|Location2.Y=4814.85mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8306.92mil|Location2.X=8318.17mil|Location1.Y=4803.6mil|Location2.Y=4814.85mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.123mm &lt; 0.254mm) Between Pad R3-1(20.891mm,9.709mm) on Multi-Layer And Track (21.741mm,8.659mm)(21.741mm,10.659mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.123mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7773.965mil|Location2.X=7785.215mil|Location1.Y=4929.319mil|Location2.Y=4940.569mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7773.965mil|Location2.X=7785.215mil|Location1.Y=4929.319mil|Location2.Y=4940.569mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.123mm &lt; 0.254mm) Between Pad R4-0(7.354mm,12.902mm) on Multi-Layer And Track (8.204mm,11.952mm)(8.204mm,13.952mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.123mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8036.828mil|Location2.X=8048.078mil|Location1.Y=4929.319mil|Location2.Y=4940.569mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8036.828mil|Location2.X=8048.078mil|Location1.Y=4929.319mil|Location2.Y=4940.569mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.123mm &lt; 0.254mm) Between Pad R4-1(15.354mm,12.902mm) on Multi-Layer And Track (14.504mm,11.952mm)(14.504mm,13.952mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.123mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8160.757mil|Location2.X=8172.007mil|Location1.Y=5680.376mil|Location2.Y=5691.626mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8160.757mil|Location2.X=8172.007mil|Location1.Y=5680.376mil|Location2.Y=5691.626mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.123mm &lt; 0.254mm) Between Pad R5-0(18.502mm,31.979mm) on Multi-Layer And Track (17.652mm,30.929mm)(17.652mm,32.929mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.123mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7897.893mil|Location2.X=7909.143mil|Location1.Y=5680.376mil|Location2.Y=5691.626mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7897.893mil|Location2.X=7909.143mil|Location1.Y=5680.376mil|Location2.Y=5691.626mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.123mm &lt; 0.254mm) Between Pad R5-1(10.502mm,31.979mm) on Multi-Layer And Track (11.352mm,30.929mm)(11.352mm,32.929mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.123mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8536.319mil|Location2.X=8547.569mil|Location1.Y=5662.376mil|Location2.Y=5673.626mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8536.319mil|Location2.X=8547.569mil|Location1.Y=5662.376mil|Location2.Y=5673.626mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.123mm &lt; 0.254mm) Between Pad R7-0(28.041mm,31.521mm) on Multi-Layer And Track (27.191mm,30.471mm)(27.191mm,32.471mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.123mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8273.456mil|Location2.X=8284.706mil|Location1.Y=5662.376mil|Location2.Y=5673.626mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8273.456mil|Location2.X=8284.706mil|Location1.Y=5662.376mil|Location2.Y=5673.626mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.123mm &lt; 0.254mm) Between Pad R7-1(20.041mm,31.521mm) on Multi-Layer And Track (20.891mm,30.471mm)(20.891mm,32.471mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.123mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7810.365mil|Location2.X=7821.615mil|Location1.Y=5469.376mil|Location2.Y=5480.626mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7810.365mil|Location2.X=7821.615mil|Location1.Y=5469.376mil|Location2.Y=5480.626mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.123mm &lt; 0.254mm) Between Pad R8-0(8.279mm,26.619mm) on Multi-Layer And Track (9.129mm,25.669mm)(9.129mm,27.669mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.123mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8073.228mil|Location2.X=8084.478mil|Location1.Y=5469.376mil|Location2.Y=5480.626mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8073.228mil|Location2.X=8084.478mil|Location1.Y=5469.376mil|Location2.Y=5480.626mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.123mm &lt; 0.254mm) Between Pad R8-1(16.279mm,26.619mm) on Multi-Layer And Track (15.429mm,25.669mm)(15.429mm,27.669mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.123mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDM1G30ZAO4HKCI4XHCLROW2UZBCAM11PDNEGRG3IO123BSODS0FHL"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room Detection_et_Ampli (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Detection_et_Ampli'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=8571.284mil|Location1.Y=0mil|Location2.Y=5406.331mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=8571.284mil|Location1.Y=0mil|Location2.Y=5406.331mil|Absolute=True">Room Definition: Between DIP Component U1-TL084CN (18mm,20mm) on Top Layer And Room Detection_et_Ampli (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Detection_et_Ampli')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=7586.048mil|Location1.Y=0mil|Location2.Y=5726.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=7586.048mil|Location1.Y=0mil|Location2.Y=5726.213mil|Absolute=True">Room Definition: Between Room Detection_et_Ampli (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Detection_et_Ampli')) And SIP Component J1-90121-0770 (-1.5mm,20mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=9037.819mil|Location1.Y=0mil|Location2.Y=5050.032mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=9037.819mil|Location1.Y=0mil|Location2.Y=5050.032mil|Absolute=True">Room Definition: Between Room Detection_et_Ampli (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Detection_et_Ampli')) And Small Component J_Pot1-691102710002 (36mm,10mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=9037.819mil|Location1.Y=0mil|Location2.Y=5837.434mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=9037.819mil|Location1.Y=0mil|Location2.Y=5837.434mil|Absolute=True">Room Definition: Between Room Detection_et_Ampli (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Detection_et_Ampli')) And Small Component J_Pot2-691102710002 (36mm,30mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=8102.124mil|Location1.Y=0mil|Location2.Y=4848.316mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=8102.124mil|Location1.Y=0mil|Location2.Y=4848.316mil|Absolute=True">Room Definition: Between Room Detection_et_Ampli (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Detection_et_Ampli')) And Small Component R1-Res_3.5x6.5mm_TH (15.354mm,9.624mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=8635.079mil|Location1.Y=0mil|Location2.Y=4851.627mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=8635.079mil|Location1.Y=0mil|Location2.Y=4851.627mil|Absolute=True">Room Definition: Between Room Detection_et_Ampli (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Detection_et_Ampli')) And Small Component R3-Res_3.5x6.5mm_TH (28.891mm,9.709mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=8102.124mil|Location1.Y=0mil|Location2.Y=4981.282mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=8102.124mil|Location1.Y=0mil|Location2.Y=4981.282mil|Absolute=True">Room Definition: Between Room Detection_et_Ampli (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Detection_et_Ampli')) And Small Component R4-Res_3.5x6.5mm_TH (7.354mm,12.902mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=8226.052mil|Location1.Y=0mil|Location2.Y=5728.402mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=8226.052mil|Location1.Y=0mil|Location2.Y=5728.402mil|Absolute=True">Room Definition: Between Room Detection_et_Ampli (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Detection_et_Ampli')) And Small Component R5-Res_3.5x6.5mm_TH (18.502mm,31.979mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=8601.615mil|Location1.Y=0mil|Location2.Y=5710.402mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=8601.615mil|Location1.Y=0mil|Location2.Y=5710.402mil|Absolute=True">Room Definition: Between Room Detection_et_Ampli (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Detection_et_Ampli')) And Small Component R7-Res_3.5x6.5mm_TH (28.041mm,31.521mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=8138.524mil|Location1.Y=0mil|Location2.Y=5521.339mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\Table-de-Mixage\02-Detection_et_Ampli\Detection_et_Amplification.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=8138.524mil|Location1.Y=0mil|Location2.Y=5521.339mil|Absolute=True">Room Definition: Between Room Detection_et_Ampli (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Detection_et_Ampli')) And Small Component R8-Res_3.5x6.5mm_TH (8.279mm,26.619mm) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

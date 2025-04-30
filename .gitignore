@@ -1,0 +1,8 @@
+# Ignore all History directories
+**/History/
+**/__Previews/
+**/Project Outputs/
+**/Project\ Outputs/
+/01-Suiveur/History
+*.drc
+/03-Offset_et_PBF/Project Outputs
