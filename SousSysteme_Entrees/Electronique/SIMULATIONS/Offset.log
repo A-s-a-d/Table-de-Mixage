@@ -1,0 +1,11 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\asad1\OneDrive\Documents\BUT GEII\S5\SAE_ProjetTutoré\TECHNIQUE\SIGNAL_ANALOGIQUE\ELECTRONICS\SIMULATIONS\Offset.asc
+Start Time: Fri Feb  7 17:21:47 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.080 seconds.
+

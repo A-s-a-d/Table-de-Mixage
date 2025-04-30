@@ -1,0 +1,14 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\asad1\OneDrive\Documents\BUT GEII\S5\SAE_ProjetTutoré\TECHNIQUE\SIGNAL_ANALOGIQUE\ELECTRONICS\SIMULATIONS\MIDI_opto.asc
+Start Time: Fri Mar 28 18:24:01 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Limiting rise time of source v1 to 5e-07
+Limiting fall time of source v1 to 5e-07
+WARNING: Less than two connections to node sig_mid_outi_fast.  This node is used by r9.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.267 seconds.
+

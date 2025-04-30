@@ -1,0 +1,413 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\asad1\OneDrive\Documents\BUT GEII\S5\SAE_ProjetTutoré\TECHNIQUE\SIGNAL_ANALOGIQUE\ELECTRONICS\SIMULATIONS\Draft1.asc
+Start Time: Mon Mar 24 09:33:18 2025
+Warning: Multiple definitions of model "bc547c" Type: BJT
+solver = Normal
+Maximum thread count: 8
+
+
+
+Direct Newton iteration for .op point succeeded.
+.step re2=1
+
+
+
+.step re2=101
+
+
+
+.step re2=201
+
+
+
+.step re2=301
+
+
+
+.step re2=401
+
+
+
+.step re2=501
+
+
+
+.step re2=601
+
+
+
+.step re2=701
+
+
+
+.step re2=801
+
+
+
+.step re2=901
+
+
+
+.step re2=1001
+
+
+
+.step re2=1101
+
+
+
+.step re2=1201
+
+
+
+.step re2=1301
+
+
+
+.step re2=1401
+
+
+
+.step re2=1501
+
+
+
+.step re2=1601
+
+
+
+.step re2=1701
+
+
+
+.step re2=1801
+
+
+
+.step re2=1901
+
+
+
+.step re2=2001
+
+
+
+.step re2=2101
+
+
+
+.step re2=2201
+
+
+
+.step re2=2301
+
+
+
+.step re2=2401
+
+
+
+.step re2=2501
+
+
+
+.step re2=2601
+
+
+
+.step re2=2701
+
+
+
+.step re2=2801
+
+
+
+.step re2=2901
+
+
+
+.step re2=3001
+
+
+
+.step re2=3101
+
+
+
+.step re2=3201
+
+
+
+.step re2=3301
+
+
+
+.step re2=3401
+
+
+
+.step re2=3501
+
+
+
+.step re2=3601
+
+
+
+.step re2=3701
+
+
+
+.step re2=3801
+
+
+
+.step re2=3901
+
+
+
+.step re2=4001
+
+
+
+.step re2=4101
+
+
+
+.step re2=4201
+
+
+
+.step re2=4301
+
+
+
+.step re2=4401
+
+
+
+.step re2=4501
+
+
+
+.step re2=4601
+
+
+
+.step re2=4701
+
+
+
+.step re2=4801
+
+
+
+.step re2=4901
+
+
+
+.step re2=5001
+
+
+
+.step re2=5101
+
+
+
+.step re2=5201
+
+
+
+.step re2=5301
+
+
+
+.step re2=5401
+
+
+
+.step re2=5501
+
+
+
+.step re2=5601
+
+
+
+.step re2=5701
+
+
+
+.step re2=5801
+
+
+
+.step re2=5901
+
+
+
+.step re2=6001
+
+
+
+.step re2=6101
+
+
+
+.step re2=6201
+
+
+
+.step re2=6301
+
+
+
+.step re2=6401
+
+
+
+.step re2=6501
+
+
+
+.step re2=6601
+
+
+
+.step re2=6701
+
+
+
+.step re2=6801
+
+
+
+.step re2=6901
+
+
+
+.step re2=7001
+
+
+
+.step re2=7101
+
+
+
+.step re2=7201
+
+
+
+.step re2=7301
+
+
+
+.step re2=7401
+
+
+
+.step re2=7501
+
+
+
+.step re2=7601
+
+
+
+.step re2=7701
+
+
+
+.step re2=7801
+
+
+
+.step re2=7901
+
+
+
+.step re2=8001
+
+
+
+.step re2=8101
+
+
+
+.step re2=8201
+
+
+
+.step re2=8301
+
+
+
+.step re2=8401
+
+
+
+.step re2=8501
+
+
+
+.step re2=8601
+
+
+
+.step re2=8701
+
+
+
+.step re2=8801
+
+
+
+.step re2=8901
+
+
+
+.step re2=9001
+
+
+
+.step re2=9101
+
+
+
+.step re2=9201
+
+
+
+.step re2=9301
+
+
+
+.step re2=9401
+
+
+
+.step re2=9501
+
+
+
+.step re2=9601
+
+
+
+.step re2=9701
+
+
+
+.step re2=9801
+
+
+
+.step re2=9901
+tnom = 27
+temp = 27
+method = modified trap
+.step re2=10000
+Total elapsed time: 7.315 seconds.
+
