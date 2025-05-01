@@ -6,7 +6,7 @@
 Contient les supports de présentation liés au sous-système.
 
 ### [SCHEMAS](SCHEMAS)
-Contient les schémas électroniques, blocs fonctionnels et autres représentations techniques.
+Contient les schémas, blocs fonctionnels et autres représentations techniques.
 
 ---
 
