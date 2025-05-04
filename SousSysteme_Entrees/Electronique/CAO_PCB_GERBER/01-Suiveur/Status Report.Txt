@@ -1,0 +1,48 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [01-Suiveur.PrjPcb]
+   Generated File[Suiveur_Copper_Signal_Top.gbr]
+   Generated File[Suiveur_Copper_Signal_Bot.gbr]
+   Generated File[Suiveur_Pads_Bot.gbr]
+   Generated File[Suiveur_Pads_Top.gbr]
+   Generated File[Suiveur_Legend_Top.gbr]
+   Generated File[Suiveur_Legend_Bot.gbr]
+   Generated File[Suiveur_Soldermask_Top.gbr]
+   Generated File[Suiveur_Soldermask_Bot.gbr]
+   Generated File[Suiveur_Paste_Top.gbr]
+   Generated File[Suiveur_Paste_Bot.gbr]
+   Generated File[Suiveur_Keep-out.gbr]
+   Generated File[Suiveur_Board.gbr]
+   Generated File[Suiveur_Bottom_Designator.gbr]
+   Generated File[Suiveur_Route_Tool_Path.gbr]
+   Generated File[Suiveur_Dimensions.gbr]
+   Generated File[Suiveur_Top_3D_Body.gbr]
+   Generated File[Suiveur_Bottom_3D_Body.gbr]
+   Generated File[Suiveur_Top_Component_Outline.gbr]
+   Generated File[Suiveur_Bottom_Component_Outline.gbr]
+   Generated File[Suiveur_Top_Designator.gbr]
+   Generated File[Suiveur_Top_Glue_Points.gbr]
+   Generated File[Suiveur_Bottom_Glue_Points.gbr]
+   Generated File[Suiveur_Top_Coating.gbr]
+   Generated File[Suiveur_Bottom_Coating.gbr]
+   Generated File[Suiveur_Top_Assembly.gbr]
+   Generated File[Suiveur_Bottom_Assembly.gbr]
+   Generated File[Suiveur_Top_Courtyard.gbr]
+   Generated File[Suiveur_Bottom_Courtyard.gbr]
+   Generated File[Suiveur_Top_Component_Center.gbr]
+   Generated File[Suiveur_Bottom_Component_Center.gbr]
+   Generated File[Suiveur_Fab_Notes.gbr]
+   Generated File[Suiveur_Assembly_Notes.gbr]
+   Generated File[Suiveur_Profile.gbr]
+   Generated File[Suiveur_NPTH_Drill.gbr]
+   Generated File[Suiveur_PTH_Drill.gbr]
+   Generated File[Suiveur_Drawing_1.gbr]
+   Generated File[Suiveur_Drillmap_1.gbr]
+   Generated File[Suiveur.EXTREP]
+   Generated File[Suiveur.REP]
+
+
+Files Generated   : 39
+Documents Printed : 0
+
+Finished Output Generation At 20:05:08 On 04/05/2025

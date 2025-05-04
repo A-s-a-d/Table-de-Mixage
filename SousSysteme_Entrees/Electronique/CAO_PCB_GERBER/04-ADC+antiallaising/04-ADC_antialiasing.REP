@@ -1,0 +1,531 @@
+*************************************************************
+FileName = 04-ADC_antialiasing.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Layer
+      File : 04-ADC_antialiasing_Copper_Signal_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : 04-ADC_antialiasing_Copper_Signal_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : 04-ADC_antialiasing_Pads_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D25
+    D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : 04-ADC_antialiasing_Pads_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : 04-ADC_antialiasing_Legend_Top.gbr
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D30
+    D31
+    D32
+    D33
+    D34
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : 04-ADC_antialiasing_Legend_Bot.gbr
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D30
+    D31
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : 04-ADC_antialiasing_Soldermask_Top.gbr
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D16
+    D17
+    D21
+    D24
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : 04-ADC_antialiasing_Soldermask_Bot.gbr
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D16
+    D17
+    D21
+    D24
+    D25
+    D26
+    D27
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : 04-ADC_antialiasing_Paste_Top.gbr
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : 04-ADC_antialiasing_Paste_Bot.gbr
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D25
+    D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : 04-ADC_antialiasing_Keep-out.gbr
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Board
+      File : 04-ADC_antialiasing_Board.gbr
+
+    Adding Layer      : Board
+
+
+Used DCodes :
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Bottom Designator
+      File : 04-ADC_antialiasing_Bottom_Designator.gbr
+
+    Adding Layer      : Bottom Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Route Tool Path
+      File : 04-ADC_antialiasing_Route_Tool_Path.gbr
+
+    Adding Layer      : Route Tool Path
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dimensions
+      File : 04-ADC_antialiasing_Dimensions.gbr
+
+    Adding Layer      : Dimensions
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : 04-ADC_antialiasing_Top_3D_Body.gbr
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : 04-ADC_antialiasing_Bottom_3D_Body.gbr
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Top Component Outline
+      File : 04-ADC_antialiasing_Top_Component_Outline.gbr
+
+    Adding Layer      : Top Component Outline
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Outline
+      File : 04-ADC_antialiasing_Bottom_Component_Outline.gbr
+
+    Adding Layer      : Bottom Component Outline
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : 04-ADC_antialiasing_Top_Designator.gbr
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Glue Points
+      File : 04-ADC_antialiasing_Top_Glue_Points.gbr
+
+    Adding Layer      : Top Glue Points
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Glue Points
+      File : 04-ADC_antialiasing_Bottom_Glue_Points.gbr
+
+    Adding Layer      : Bottom Glue Points
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Coating
+      File : 04-ADC_antialiasing_Top_Coating.gbr
+
+    Adding Layer      : Top Coating
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Coating
+      File : 04-ADC_antialiasing_Bottom_Coating.gbr
+
+    Adding Layer      : Bottom Coating
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : 04-ADC_antialiasing_Top_Assembly.gbr
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D32
+    D44
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : 04-ADC_antialiasing_Bottom_Assembly.gbr
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : 04-ADC_antialiasing_Top_Courtyard.gbr
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D32
+    D44
+    D45
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : 04-ADC_antialiasing_Bottom_Courtyard.gbr
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : 04-ADC_antialiasing_Top_Component_Center.gbr
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D44
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : 04-ADC_antialiasing_Bottom_Component_Center.gbr
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+    D44
+*************************************************************
+
+*************************************************************
+Generating : Fab Notes
+      File : 04-ADC_antialiasing_Fab_Notes.gbr
+
+    Adding Layer      : Fab Notes
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Assembly Notes
+      File : 04-ADC_antialiasing_Assembly_Notes.gbr
+
+    Adding Layer      : Assembly Notes
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : 04-ADC_antialiasing_Profile.gbr
+
+
+Used DCodes :
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Non-plated through-hole drill file
+      File : 04-ADC_antialiasing_NPTH_Drill.gbr
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Plated through-hole drill file
+      File : 04-ADC_antialiasing_PTH_Drill.gbr
+
+
+Used DCodes :
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : 04-ADC_antialiasing_Drawing_1.gbr
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D58
+    D60
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : 04-ADC_antialiasing_Drillmap_1.gbr
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D60
+*************************************************************
+

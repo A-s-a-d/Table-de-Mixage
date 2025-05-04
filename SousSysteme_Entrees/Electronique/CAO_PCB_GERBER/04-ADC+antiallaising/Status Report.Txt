@@ -1,0 +1,48 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [04-ADC_antialiasing.PrjPcb]
+   Generated File[04-ADC_antialiasing_Copper_Signal_Top.gbr]
+   Generated File[04-ADC_antialiasing_Copper_Signal_Bot.gbr]
+   Generated File[04-ADC_antialiasing_Pads_Bot.gbr]
+   Generated File[04-ADC_antialiasing_Pads_Top.gbr]
+   Generated File[04-ADC_antialiasing_Legend_Top.gbr]
+   Generated File[04-ADC_antialiasing_Legend_Bot.gbr]
+   Generated File[04-ADC_antialiasing_Soldermask_Top.gbr]
+   Generated File[04-ADC_antialiasing_Soldermask_Bot.gbr]
+   Generated File[04-ADC_antialiasing_Paste_Top.gbr]
+   Generated File[04-ADC_antialiasing_Paste_Bot.gbr]
+   Generated File[04-ADC_antialiasing_Keep-out.gbr]
+   Generated File[04-ADC_antialiasing_Board.gbr]
+   Generated File[04-ADC_antialiasing_Bottom_Designator.gbr]
+   Generated File[04-ADC_antialiasing_Route_Tool_Path.gbr]
+   Generated File[04-ADC_antialiasing_Dimensions.gbr]
+   Generated File[04-ADC_antialiasing_Top_3D_Body.gbr]
+   Generated File[04-ADC_antialiasing_Bottom_3D_Body.gbr]
+   Generated File[04-ADC_antialiasing_Top_Component_Outline.gbr]
+   Generated File[04-ADC_antialiasing_Bottom_Component_Outline.gbr]
+   Generated File[04-ADC_antialiasing_Top_Designator.gbr]
+   Generated File[04-ADC_antialiasing_Top_Glue_Points.gbr]
+   Generated File[04-ADC_antialiasing_Bottom_Glue_Points.gbr]
+   Generated File[04-ADC_antialiasing_Top_Coating.gbr]
+   Generated File[04-ADC_antialiasing_Bottom_Coating.gbr]
+   Generated File[04-ADC_antialiasing_Top_Assembly.gbr]
+   Generated File[04-ADC_antialiasing_Bottom_Assembly.gbr]
+   Generated File[04-ADC_antialiasing_Top_Courtyard.gbr]
+   Generated File[04-ADC_antialiasing_Bottom_Courtyard.gbr]
+   Generated File[04-ADC_antialiasing_Top_Component_Center.gbr]
+   Generated File[04-ADC_antialiasing_Bottom_Component_Center.gbr]
+   Generated File[04-ADC_antialiasing_Fab_Notes.gbr]
+   Generated File[04-ADC_antialiasing_Assembly_Notes.gbr]
+   Generated File[04-ADC_antialiasing_Profile.gbr]
+   Generated File[04-ADC_antialiasing_NPTH_Drill.gbr]
+   Generated File[04-ADC_antialiasing_PTH_Drill.gbr]
+   Generated File[04-ADC_antialiasing_Drawing_1.gbr]
+   Generated File[04-ADC_antialiasing_Drillmap_1.gbr]
+   Generated File[04-ADC_antialiasing.EXTREP]
+   Generated File[04-ADC_antialiasing.REP]
+
+
+Files Generated   : 39
+Documents Printed : 0
+
+Finished Output Generation At 21:18:40 On 04/05/2025

@@ -1,0 +1,46 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: Amplification.GBR   04/05/2025  20:09:13
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.gbr                Top Layer                               
+.gbr                Bottom Layer                            
+.gbr                Bottom Pad Master                       
+.gbr                Top Pad Master                          
+.gbr                Top Overlay                             
+.gbr                Bottom Overlay                          
+.gbr                Top Solder                              
+.gbr                Bottom Solder                           
+.gbr                Top Paste                               
+.gbr                Bottom Paste                            
+.gbr                Keep-Out Layer                          
+.gbr                Board                                   
+.gbr                Bottom Component Center                 
+.gbr                Route Tool Path                         
+.gbr                Dimensions                              
+.gbr                Top 3D Body                             
+.gbr                Bottom 3D Body                          
+.gbr                Top Component Center                    
+.gbr                Top Component Outline                   
+.gbr                Bottom Component Outline                
+.gbr                Top Glue Points                         
+.gbr                Bottom Glue Points                      
+.gbr                Top Coating                             
+.gbr                Bottom Coating                          
+.gbr                Top Assembly                            
+.gbr                Bottom Assembly                         
+.gbr                Top Courtyard                           
+.gbr                Bottom Courtyard                        
+.gbr                Top Designator                          
+.gbr                Bottom Designator                       
+.gbr                Fab Notes                               
+.gbr                Assembly Notes                          
+.gbr                Profile                                 
+.gbr                Non-plated through-hole drill file      
+.gbr                Plated through-hole drill file          
+.gbr                Drill Drawing                           
+.gbr                Drill Guide                             
+------------------------------------------------------------------------------------------

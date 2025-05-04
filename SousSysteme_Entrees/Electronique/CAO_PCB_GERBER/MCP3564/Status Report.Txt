@@ -1,0 +1,48 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [MCP3564_breakout.PrjPcb]
+   Generated File[MCP3564_breakout_Copper_Signal_Top.gbr]
+   Generated File[MCP3564_breakout_Copper_Signal_Bot.gbr]
+   Generated File[MCP3564_breakout_Pads_Bot.gbr]
+   Generated File[MCP3564_breakout_Pads_Top.gbr]
+   Generated File[MCP3564_breakout_Legend_Top.gbr]
+   Generated File[MCP3564_breakout_Legend_Bot.gbr]
+   Generated File[MCP3564_breakout_Soldermask_Top.gbr]
+   Generated File[MCP3564_breakout_Soldermask_Bot.gbr]
+   Generated File[MCP3564_breakout_Paste_Top.gbr]
+   Generated File[MCP3564_breakout_Paste_Bot.gbr]
+   Generated File[MCP3564_breakout_Keep-out.gbr]
+   Generated File[MCP3564_breakout_Board.gbr]
+   Generated File[MCP3564_breakout_Bottom_Designator.gbr]
+   Generated File[MCP3564_breakout_Route_Tool_Path.gbr]
+   Generated File[MCP3564_breakout_Dimensions.gbr]
+   Generated File[MCP3564_breakout_Top_3D_Body.gbr]
+   Generated File[MCP3564_breakout_Bottom_3D_Body.gbr]
+   Generated File[MCP3564_breakout_Top_Component_Outline.gbr]
+   Generated File[MCP3564_breakout_Bottom_Component_Outline.gbr]
+   Generated File[MCP3564_breakout_Top_Designator.gbr]
+   Generated File[MCP3564_breakout_Top_Glue_Points.gbr]
+   Generated File[MCP3564_breakout_Bottom_Glue_Points.gbr]
+   Generated File[MCP3564_breakout_Top_Coating.gbr]
+   Generated File[MCP3564_breakout_Bottom_Coating.gbr]
+   Generated File[MCP3564_breakout_Top_Assembly.gbr]
+   Generated File[MCP3564_breakout_Bottom_Assembly.gbr]
+   Generated File[MCP3564_breakout_Top_Courtyard.gbr]
+   Generated File[MCP3564_breakout_Bottom_Courtyard.gbr]
+   Generated File[MCP3564_breakout_Top_Component_Center.gbr]
+   Generated File[MCP3564_breakout_Bottom_Component_Center.gbr]
+   Generated File[MCP3564_breakout_Fab_Notes.gbr]
+   Generated File[MCP3564_breakout_Assembly_Notes.gbr]
+   Generated File[MCP3564_breakout_Profile.gbr]
+   Generated File[MCP3564_breakout_NPTH_Drill.gbr]
+   Generated File[MCP3564_breakout_PTH_Drill.gbr]
+   Generated File[MCP3564_breakout_Drawing_1.gbr]
+   Generated File[MCP3564_breakout_Drillmap_1.gbr]
+   Generated File[MCP3564_breakout.EXTREP]
+   Generated File[MCP3564_breakout.REP]
+
+
+Files Generated   : 39
+Documents Printed : 0
+
+Finished Output Generation At 20:15:50 On 04/05/2025

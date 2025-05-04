@@ -1,0 +1,430 @@
+*************************************************************
+FileName = MCP3564_breakout.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Layer
+      File : MCP3564_breakout_Copper_Signal_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : MCP3564_breakout_Copper_Signal_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : MCP3564_breakout_Pads_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : MCP3564_breakout_Pads_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : MCP3564_breakout_Legend_Top.gbr
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : MCP3564_breakout_Legend_Bot.gbr
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : MCP3564_breakout_Soldermask_Top.gbr
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : MCP3564_breakout_Soldermask_Bot.gbr
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : MCP3564_breakout_Paste_Top.gbr
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : MCP3564_breakout_Paste_Bot.gbr
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : MCP3564_breakout_Keep-out.gbr
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Board
+      File : MCP3564_breakout_Board.gbr
+
+    Adding Layer      : Board
+
+
+Used DCodes :
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Bottom Designator
+      File : MCP3564_breakout_Bottom_Designator.gbr
+
+    Adding Layer      : Bottom Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Route Tool Path
+      File : MCP3564_breakout_Route_Tool_Path.gbr
+
+    Adding Layer      : Route Tool Path
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dimensions
+      File : MCP3564_breakout_Dimensions.gbr
+
+    Adding Layer      : Dimensions
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : MCP3564_breakout_Top_3D_Body.gbr
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : MCP3564_breakout_Bottom_3D_Body.gbr
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Component Outline
+      File : MCP3564_breakout_Top_Component_Outline.gbr
+
+    Adding Layer      : Top Component Outline
+
+
+Used DCodes :
+    D19
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Outline
+      File : MCP3564_breakout_Bottom_Component_Outline.gbr
+
+    Adding Layer      : Bottom Component Outline
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : MCP3564_breakout_Top_Designator.gbr
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Top Glue Points
+      File : MCP3564_breakout_Top_Glue_Points.gbr
+
+    Adding Layer      : Top Glue Points
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Glue Points
+      File : MCP3564_breakout_Bottom_Glue_Points.gbr
+
+    Adding Layer      : Bottom Glue Points
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Coating
+      File : MCP3564_breakout_Top_Coating.gbr
+
+    Adding Layer      : Top Coating
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Coating
+      File : MCP3564_breakout_Bottom_Coating.gbr
+
+    Adding Layer      : Bottom Coating
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : MCP3564_breakout_Top_Assembly.gbr
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : MCP3564_breakout_Bottom_Assembly.gbr
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : MCP3564_breakout_Top_Courtyard.gbr
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : MCP3564_breakout_Bottom_Courtyard.gbr
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : MCP3564_breakout_Top_Component_Center.gbr
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : MCP3564_breakout_Bottom_Component_Center.gbr
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+    D19
+*************************************************************
+
+*************************************************************
+Generating : Fab Notes
+      File : MCP3564_breakout_Fab_Notes.gbr
+
+    Adding Layer      : Fab Notes
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Assembly Notes
+      File : MCP3564_breakout_Assembly_Notes.gbr
+
+    Adding Layer      : Assembly Notes
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : MCP3564_breakout_Profile.gbr
+
+
+Used DCodes :
+    D22
+*************************************************************
+
+*************************************************************
+Generating : Non-plated through-hole drill file
+      File : MCP3564_breakout_NPTH_Drill.gbr
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Plated through-hole drill file
+      File : MCP3564_breakout_PTH_Drill.gbr
+
+
+Used DCodes :
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : MCP3564_breakout_Drawing_1.gbr
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : MCP3564_breakout_Drillmap_1.gbr
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D25
+*************************************************************
+

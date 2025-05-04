@@ -1,0 +1,48 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [03-Offset_et_PBF.PrjPcb]
+   Generated File[03-Offset_et_PBF_Copper_Signal_Top.gbr]
+   Generated File[03-Offset_et_PBF_Copper_Signal_Bot.gbr]
+   Generated File[03-Offset_et_PBF_Pads_Bot.gbr]
+   Generated File[03-Offset_et_PBF_Pads_Top.gbr]
+   Generated File[03-Offset_et_PBF_Legend_Top.gbr]
+   Generated File[03-Offset_et_PBF_Legend_Bot.gbr]
+   Generated File[03-Offset_et_PBF_Soldermask_Top.gbr]
+   Generated File[03-Offset_et_PBF_Soldermask_Bot.gbr]
+   Generated File[03-Offset_et_PBF_Paste_Top.gbr]
+   Generated File[03-Offset_et_PBF_Paste_Bot.gbr]
+   Generated File[03-Offset_et_PBF_Keep-out.gbr]
+   Generated File[03-Offset_et_PBF_Board.gbr]
+   Generated File[03-Offset_et_PBF_Bottom_Component_Center.gbr]
+   Generated File[03-Offset_et_PBF_Route_Tool_Path.gbr]
+   Generated File[03-Offset_et_PBF_Dimensions.gbr]
+   Generated File[03-Offset_et_PBF_Top_3D_Body.gbr]
+   Generated File[03-Offset_et_PBF_Bottom_3D_Body.gbr]
+   Generated File[03-Offset_et_PBF_Top_Component_Center.gbr]
+   Generated File[03-Offset_et_PBF_Top_Component_Outline.gbr]
+   Generated File[03-Offset_et_PBF_Bottom_Component_Outline.gbr]
+   Generated File[03-Offset_et_PBF_Top_Glue_Points.gbr]
+   Generated File[03-Offset_et_PBF_Bottom_Glue_Points.gbr]
+   Generated File[03-Offset_et_PBF_Top_Coating.gbr]
+   Generated File[03-Offset_et_PBF_Bottom_Coating.gbr]
+   Generated File[03-Offset_et_PBF_Top_Assembly.gbr]
+   Generated File[03-Offset_et_PBF_Bottom_Assembly.gbr]
+   Generated File[03-Offset_et_PBF_Top_Courtyard.gbr]
+   Generated File[03-Offset_et_PBF_Bottom_Courtyard.gbr]
+   Generated File[03-Offset_et_PBF_Top_Designator.gbr]
+   Generated File[03-Offset_et_PBF_Bottom_Designator.gbr]
+   Generated File[03-Offset_et_PBF_Fab_Notes.gbr]
+   Generated File[03-Offset_et_PBF_Assembly_Notes.gbr]
+   Generated File[03-Offset_et_PBF_Profile.gbr]
+   Generated File[03-Offset_et_PBF_NPTH_Drill.gbr]
+   Generated File[03-Offset_et_PBF_PTH_Drill.gbr]
+   Generated File[03-Offset_et_PBF_Drawing_1.gbr]
+   Generated File[03-Offset_et_PBF_Drillmap_1.gbr]
+   Generated File[03-Offset_et_PBF.EXTREP]
+   Generated File[03-Offset_et_PBF.REP]
+
+
+Files Generated   : 39
+Documents Printed : 0
+
+Finished Output Generation At 20:10:08 On 04/05/2025

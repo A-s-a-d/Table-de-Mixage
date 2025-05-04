@@ -1,0 +1,48 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [Carte_Mere.PrjPcb]
+   Generated File[CarteMere_Copper_Signal_Top.gbr]
+   Generated File[CarteMere_Copper_Signal_Bot.gbr]
+   Generated File[CarteMere_Pads_Bot.gbr]
+   Generated File[CarteMere_Pads_Top.gbr]
+   Generated File[CarteMere_Legend_Top.gbr]
+   Generated File[CarteMere_Legend_Bot.gbr]
+   Generated File[CarteMere_Soldermask_Top.gbr]
+   Generated File[CarteMere_Soldermask_Bot.gbr]
+   Generated File[CarteMere_Paste_Top.gbr]
+   Generated File[CarteMere_Paste_Bot.gbr]
+   Generated File[CarteMere_Keep-out.gbr]
+   Generated File[CarteMere_Board.gbr]
+   Generated File[CarteMere_Bottom_Component_Center.gbr]
+   Generated File[CarteMere_Route_Tool_Path.gbr]
+   Generated File[CarteMere_Dimensions.gbr]
+   Generated File[CarteMere_Top_3D_Body.gbr]
+   Generated File[CarteMere_Bottom_3D_Body.gbr]
+   Generated File[CarteMere_Top_Component_Center.gbr]
+   Generated File[CarteMere_Top_Component_Outline.gbr]
+   Generated File[CarteMere_Bottom_Component_Outline.gbr]
+   Generated File[CarteMere_Top_Glue_Points.gbr]
+   Generated File[CarteMere_Bottom_Glue_Points.gbr]
+   Generated File[CarteMere_Top_Coating.gbr]
+   Generated File[CarteMere_Bottom_Coating.gbr]
+   Generated File[CarteMere_Top_Assembly.gbr]
+   Generated File[CarteMere_Bottom_Assembly.gbr]
+   Generated File[CarteMere_Top_Courtyard.gbr]
+   Generated File[CarteMere_Bottom_Courtyard.gbr]
+   Generated File[CarteMere_Top_Designator.gbr]
+   Generated File[CarteMere_Bottom_Designator.gbr]
+   Generated File[CarteMere_Fab_Notes.gbr]
+   Generated File[CarteMere_Assembly_Notes.gbr]
+   Generated File[CarteMere_Profile.gbr]
+   Generated File[CarteMere_NPTH_Drill.gbr]
+   Generated File[CarteMere_PTH_Drill.gbr]
+   Generated File[CarteMere_Drawing_1.gbr]
+   Generated File[CarteMere_Drillmap_1.gbr]
+   Generated File[CarteMere.EXTREP]
+   Generated File[CarteMere.REP]
+
+
+Files Generated   : 39
+Documents Printed : 0
+
+Finished Output Generation At 20:14:21 On 04/05/2025

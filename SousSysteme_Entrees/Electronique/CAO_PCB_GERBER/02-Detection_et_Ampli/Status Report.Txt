@@ -1,0 +1,48 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [02-Ampli.PrjPcb]
+   Generated File[Amplification_Copper_Signal_Top.gbr]
+   Generated File[Amplification_Copper_Signal_Bot.gbr]
+   Generated File[Amplification_Pads_Bot.gbr]
+   Generated File[Amplification_Pads_Top.gbr]
+   Generated File[Amplification_Legend_Top.gbr]
+   Generated File[Amplification_Legend_Bot.gbr]
+   Generated File[Amplification_Soldermask_Top.gbr]
+   Generated File[Amplification_Soldermask_Bot.gbr]
+   Generated File[Amplification_Paste_Top.gbr]
+   Generated File[Amplification_Paste_Bot.gbr]
+   Generated File[Amplification_Keep-out.gbr]
+   Generated File[Amplification_Board.gbr]
+   Generated File[Amplification_Bottom_Component_Center.gbr]
+   Generated File[Amplification_Route_Tool_Path.gbr]
+   Generated File[Amplification_Dimensions.gbr]
+   Generated File[Amplification_Top_3D_Body.gbr]
+   Generated File[Amplification_Bottom_3D_Body.gbr]
+   Generated File[Amplification_Top_Component_Center.gbr]
+   Generated File[Amplification_Top_Component_Outline.gbr]
+   Generated File[Amplification_Bottom_Component_Outline.gbr]
+   Generated File[Amplification_Top_Glue_Points.gbr]
+   Generated File[Amplification_Bottom_Glue_Points.gbr]
+   Generated File[Amplification_Top_Coating.gbr]
+   Generated File[Amplification_Bottom_Coating.gbr]
+   Generated File[Amplification_Top_Assembly.gbr]
+   Generated File[Amplification_Bottom_Assembly.gbr]
+   Generated File[Amplification_Top_Courtyard.gbr]
+   Generated File[Amplification_Bottom_Courtyard.gbr]
+   Generated File[Amplification_Top_Designator.gbr]
+   Generated File[Amplification_Bottom_Designator.gbr]
+   Generated File[Amplification_Fab_Notes.gbr]
+   Generated File[Amplification_Assembly_Notes.gbr]
+   Generated File[Amplification_Profile.gbr]
+   Generated File[Amplification_NPTH_Drill.gbr]
+   Generated File[Amplification_PTH_Drill.gbr]
+   Generated File[Amplification_Drawing_1.gbr]
+   Generated File[Amplification_Drillmap_1.gbr]
+   Generated File[Amplification.EXTREP]
+   Generated File[Amplification.REP]
+
+
+Files Generated   : 39
+Documents Printed : 0
+
+Finished Output Generation At 20:09:19 On 04/05/2025
