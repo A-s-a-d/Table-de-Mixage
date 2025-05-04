@@ -31,8 +31,9 @@ Il documente toute la partie matérielle et les circuits analogiques/numériques
 Ce dossier contient :
 - Les **programmes de traitement des entrées** développés sous Linux
 - Les **scripts d’acquisition**
-- La configuration de l’environnement Linux pour le sous-système (drivers, services, dépendances, etc.)  
-C’est ici que se fait le lien entre le matériel d’acquisition et le **traitement logiciel temps réel**.
+- La configuration de l’environnement Linux pour le sous-système (drivers, services, dépendances, etc.)
+- 
+C’est ici que se fait le lien entre le matériel d’acquisition et le **traitement logiciel**.
 
 ---
 
