@@ -2,7 +2,7 @@
 
 Ce sous-système est dédié à la **gestion des signaux d'entrée**, qu’ils soient **analogiques (ex. : micro, instruments)** ou **numériques (ex. : MIDI, USB)**.  
 Il assure la **numérisation, le pré-traitement**, et le **transfert des données** vers le cœur logiciel de la Raspberry Pi.  
-Ce sous-système est crucial pour garantir une **acquisition précise** et **temps réel** des signaux.
+Ce sous-système est crucial pour acquisition des signaux.
 
 ---
 
